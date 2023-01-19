@@ -1,0 +1,4 @@
+{
+    "deepscan.enable": true,
+    "css.lint.unknownAtRules": "ignore"
+}
