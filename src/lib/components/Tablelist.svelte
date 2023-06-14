@@ -27,9 +27,13 @@
             }
         ]
     */
-	import entriesImmutable from '$lib/nasuverse/entries.json';
+	import entriesImmutable from '$lib/nasuverse/vertices.json';
+	// import entriesImmutable from '$lib/nasuverse/entries-old.json';
 	// Object of checked rows
 	import completed from '$lib/completed';
+
+    import EntryModal from './EntryModal.svelte';
+    let showModal = false;
 
 	// Copy entries to a new array so we can sort it
 	let entries = [...entriesImmutable];
@@ -195,10 +199,6 @@
 				: 'desc'
 			: false
 	};
-	$: {
-		console.log(currentSort);
-		console.log(sortList);
-	}
 
 	// Others
 	const columnLabels: Array<{
@@ -233,7 +233,7 @@
 		{#each columnLabels as { key, label }}
 			<th on:click={() => sortEntries(key)}>
 				{label}
-				<div class="relative mb-2 mr-2 -ml-0.5 inline-block">
+				<div class="relative -ml-0.5 mb-2 mr-2 inline-block">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -276,9 +276,10 @@
 			<!-- stopPropagation to prevent parent on:click. -->
 			<!-- TODO: Show modal -->
 			<td
-				><a
-					href="https://google.com"
-					on:click|stopPropagation
+				>
+                <!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
+                <a
+					on:click|stopPropagation={() => (showModal = true)}
 					class="text-sky-500 hover:text-sky-600 hover:underline">{entry.title}</a
 				></td
 			>
@@ -288,6 +289,16 @@
 		</tr>
 	{/each}
 </table>
+
+<EntryModal bind:showModal>
+    <h2 slot="header">
+        modal
+    </h2>
+
+    <ol>
+        awooga
+    </ol>
+</EntryModal>
 
 <style>
 	th {
