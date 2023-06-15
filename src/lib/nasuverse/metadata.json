@@ -1,0 +1,19 @@
+{
+    "0": {
+        "official": {
+            "Amazon": "https://www.amazon.co.jp/-/en/%E5%A5%88%E9%A0%88-%E3%81%8D%E3%81%AE%E3%81%93/dp/406275892X"
+        },
+        "download": {
+            "Volume 1": "https://legacy.colorman.me/ekstra/nasu-hub/collection/kara-no-kyoukai/empty-boundaries-volume-1.pdf",
+            "Volume 2": "https://legacy.colorman.me/ekstra/nasu-hub/collection/kara-no-kyoukai/empty-boundaries-volume-2.pdf",
+            "Volume 3": "https://legacy.colorman.me/ekstra/nasu-hub/collection/kara-no-kyoukai/empty-boundaries-volume-3.pdf",
+            "Mirai Fukuin - Future Gospel": "#35",
+            "Shūmatsu Rokuon - Final Record": "#84"
+        },
+        "source": {
+            "Book translation": "https://emptyboundaries.wordpress.com/2011/07/25/kara-no-kyokai-translations-2/"
+        },
+        "credit": "Translated by Empty Boundaries",
+        "cover": "kara-no-kyoukai-cover.jpg"
+    }
+}
