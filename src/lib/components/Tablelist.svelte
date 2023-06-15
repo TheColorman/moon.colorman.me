@@ -203,8 +203,11 @@
 			width: '8.456'
 		}
 	];
-	const accordionRefs = Object.fromEntries(
+	const accordionLinks = Object.fromEntries(
 		entries.map((entry) => [entry.id, null as HTMLElement | null])
+	);
+	const accordionRefs = Object.fromEntries(
+		entries.map((entry) => [entry.id, null as AccordionRow | null])
 	);
 </script>
 
@@ -257,7 +260,7 @@
 			<td>
 				{#if metadata[entry.id]}
 					<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
-					<a bind:this={accordionRefs[entry.id]} on:click|stopPropagation>{entry.title}</a>
+					<a bind:this={accordionLinks[entry.id]} on:click|stopPropagation>{entry.title}</a>
 				{:else}
 					<p>{entry.title}</p>
 				{/if}
@@ -269,8 +272,9 @@
 		{#if metadata[entry.id]}
 			<AccordionRow
 				colspan={columnLabels.length}
-				trigger={accordionRefs[entry.id]}
+				trigger={accordionLinks[entry.id]}
 				class={`border-t bg-gray-100`}
+                bind:this={accordionRefs[entry.id]}
 			>
 				<div class="m-2 mx-3 flex max-w-full">
 					{#if metadata[entry.id].cover}
@@ -347,7 +351,10 @@
 												<a
 													href={value}
 													on:click={(event) => {
-														accordionRefs[value.slice(1)]?.click();
+                                                        const target = accordionRefs[value.slice(1)];
+                                                        if (target?.getOpenState()) {
+                                                            target?.toggle();
+                                                        }
 													}}>{key}</a
 												>
 											{:else}
