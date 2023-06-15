@@ -175,32 +175,32 @@
 	const columnLabels: Array<{
 		key: SortKey;
 		label: string;
-        width: string;
+		width: string;
 	}> = [
 		{
 			key: 'completed',
 			label: '',
-            width: '0.914'
+			width: '0.914'
 		},
 		{
 			key: 'title',
 			label: 'Title',
-            width: '36.44'
+			width: '36.44'
 		},
 		{
 			key: 'released',
 			label: 'Released',
-            width: '6.704'
+			width: '6.704'
 		},
 		{
 			key: 'ended',
 			label: 'Ended',
-            width: '5.858'
+			width: '5.858'
 		},
 		{
 			key: 'medium',
 			label: 'Medium',
-            width: '8.456'
+			width: '8.456'
 		}
 	];
 	const accordionRefs = Object.fromEntries(
@@ -208,7 +208,7 @@
 	);
 </script>
 
-<table class="max-w-5xl w-[64rem]">
+<table class="w-[64rem] max-w-5xl">
 	<tr class="text-left hover:bg-gray-100">
 		{#each columnLabels as { key, label, width }}
 			<th on:click={() => sortEntries(key)} style={`width: ${width}rem`}>
@@ -277,29 +277,59 @@
 							class="mr-4 inline w-44 rounded-md"
 						/>
 					{/if}
-					<div class="grid w-full grid-cols-2 gap-4 relative">
-                        {#if metadata[entry.id].external}
-                        <div class="absolute flex gap-2 right-1 top-1">
-                            {#if metadata[entry.id].external.anilist}
-                            <a href={metadata[entry.id].external.anilist} target="_blank" rel="noopener noreferrer" title="Go to AniList entry">
-                                <img src="/images/anilist.ico" alt="AniList" class="w-4"/>
-                            </a>
-                            {/if}
-                            {#if metadata[entry.id].external.myanimelist}
-                                <a href={metadata[entry.id].external.myanimelist} target="_blank" rel="noopener noreferrer" title="Go to MyAnimeList entry" >
-                                    <img src="/images/myanimelist.ico" alt="MyAnimeList" class="w-4"/>
-                                </a>
-                            {/if}
-                            {#if metadata[entry.id].external.wiki}
-                                <a href={metadata[entry.id].external.wiki} target="_blank" rel="noopener noreferrer" title="Go to Type-Moon wiki entry">
-                                    <img src="/images/wiki.ico" alt="Wiki" class="w-4"/>
-                                </a>
-                            {/if}
-
-                        </div>
-                        {/if}
+					<div class="relative grid w-full grid-cols-2 gap-4">
+						{#if metadata[entry.id].external}
+							<div class="absolute right-1 top-1 flex gap-2">
+								{#if metadata[entry.id].external.anilist}
+									<a
+										href={metadata[entry.id].external.anilist}
+										target="_blank"
+										rel="noopener noreferrer"
+										title="Go to AniList entry"
+									>
+										<img src="/images/anilist.ico" alt="AniList" class="w-4" />
+									</a>
+								{/if}
+								{#if metadata[entry.id].external.myanimelist}
+									<a
+										href={metadata[entry.id].external.myanimelist}
+										target="_blank"
+										rel="noopener noreferrer"
+										title="Go to MyAnimeList entry"
+									>
+										<img src="/images/myanimelist.ico" alt="MyAnimeList" class="w-4" />
+									</a>
+								{/if}
+								{#if metadata[entry.id].external.wiki}
+									<a
+										href={metadata[entry.id].external.wiki}
+										target="_blank"
+										rel="noopener noreferrer"
+										title="Go to Type-Moon wiki entry"
+									>
+										<img src="/images/wiki.ico" alt="Wiki" class="w-4" />
+									</a>
+								{/if}
+							</div>
+						{/if}
 						<div class="w-full">
 							{metadata[entry.id].description || 'No description available.'}
+							{#if metadata[entry.id].source}
+								<h1 class="text-xl font-thin mt-4">Download source</h1>
+								<ul>
+									{#each Object.entries(metadata[entry.id].source) as [key, value]}
+										<li>
+											<a href={value} target="_blank" rel="noopener noreferrer">{key}</a>
+										</li>
+									{/each}
+								</ul>
+							{/if}
+							{#if metadata[entry.id].credit}
+								<h2 class="text-lg font-thin mt-2">Download credit:</h2>
+								<p>
+                                    {metadata[entry.id].credit}
+                                </p>
+							{/if}
 						</div>
 
 						<div class="w-full">
@@ -325,7 +355,7 @@
 								{/if}
 							</ul>
 
-							<h1 class="text-xl font-thin mt-4">Official links</h1>
+							<h1 class="mt-4 text-xl font-thin">Official links</h1>
 							<ul>
 								{#if metadata[entry.id].official === undefined}
 									<li>Nothing here!</li>
