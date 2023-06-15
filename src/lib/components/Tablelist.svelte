@@ -274,7 +274,7 @@
 						<img
 							src={`/images/items/${metadata[entry.id].cover}`}
 							alt="Kara no Kyoukai cover"
-							class="mr-4 inline w-44 rounded-md"
+							class="mr-4 inline w-44 rounded-md h-full"
 						/>
 					{/if}
 					<div class="relative grid w-full grid-cols-2 gap-4">
@@ -313,9 +313,11 @@
 							</div>
 						{/if}
 						<div class="w-full">
-							{metadata[entry.id].description || 'No description available.'}
+							<p class="whitespace-pre-line">
+								{@html metadata[entry.id].description || 'No description available.'}
+							</p>
 							{#if metadata[entry.id].source}
-								<h1 class="text-xl font-thin mt-4">Download source</h1>
+								<h1 class="mt-4 text-xl font-thin">Download source</h1>
 								<ul>
 									{#each Object.entries(metadata[entry.id].source) as [key, value]}
 										<li>
@@ -325,19 +327,17 @@
 								</ul>
 							{/if}
 							{#if metadata[entry.id].credit}
-								<h2 class="text-lg font-thin mt-2">Download credit:</h2>
-								<p>
-                                    {metadata[entry.id].credit}
-                                </p>
+								<h2 class="mt-2 text-lg font-thin">Download credit:</h2>
+								<p class="whitespace-pre-line">
+									{@html metadata[entry.id].credit}
+								</p>
 							{/if}
 						</div>
 
 						<div class="w-full">
 							<h1 class="text-xl font-thin">Downloads</h1>
 							<ul>
-								{#if metadata[entry.id].download === undefined}
-									<li>Nothing here!</li>
-								{:else}
+								{#if Object.keys(metadata[entry.id].download).length}
 									{#each Object.entries(metadata[entry.id].download) as [key, value]}
 										<li>
 											{#if value.startsWith('#')}
@@ -352,19 +352,21 @@
 											{/if}
 										</li>
 									{/each}
+								{:else}
+									<li>Nothing here!</li>
 								{/if}
 							</ul>
 
 							<h1 class="mt-4 text-xl font-thin">Official links</h1>
 							<ul>
-								{#if metadata[entry.id].official === undefined}
-									<li>Nothing here!</li>
-								{:else}
+								{#if Object.keys(metadata[entry.id].official).length}
 									{#each Object.entries(metadata[entry.id].official) as [key, value]}
 										<li>
 											<a href={value} target="_blank" rel="noopener noreferrer">{key}</a>
 										</li>
 									{/each}
+								{:else}
+									<li>Nothing here!</li>
 								{/if}
 							</ul>
 						</div>
