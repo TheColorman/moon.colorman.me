@@ -352,7 +352,8 @@
 													href={value}
 													on:click={(event) => {
                                                         const target = accordionRefs[value.slice(1)];
-                                                        if (target?.getOpenState()) {
+                                                        console.log(target?.getOpenState());
+                                                        if (!target?.getOpenState()) {
                                                             target?.toggle();
                                                         }
 													}}>{key}</a
