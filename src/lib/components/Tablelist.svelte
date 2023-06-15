@@ -1,42 +1,13 @@
 <script lang="ts">
-	/*
-        JSON format is:
-        [
-            {
-                "id": number, // Internal work ID
-                "title": string, // Work title
-                "released": Date string, // Release/start date
-                "ended": Date string, // End date (or empty string if not applicable)
-                "medium": string, // Work medium (e.g. "Visual Novel", "Anime", "Light Novel", etc.)
-                "timelines": [ // List of timelines in the work. Most only have 1.
-                    [ // A timeline. List of sub-works. E.g. sections in a book.
-                        {
-                            "id": number, // Internal sub-work ID
-                            "title": string, // Sub-work title
-                            "story_start": Date string, // When the story takes place
-                            "story_end": Date string, // When the story ends
-                            "prequels": number[], // List of work IDs that are prequels to this one. May also be a string like 1.2 where 1 is the work ID and 2 is the sub-work ID.
-                            "sequels": number[], // List of work IDs that are sequels to this one. May also be a string like 1.2 where 1 is the work ID and 2 is the sub-work ID.
-                            "alternatives": number[], // List of work IDs that are alternative versions of this one
-                        }
-                    ]
-                ],
-                "prequels": number[], // List of work IDs that are prequels to this one
-                "sequels": number[], // List of work IDs that are sequels to this one
-                "alternatives": number[], // List of work IDs that are alternative versions of this one. May also be a string like 1.2 where 1 is the work ID and 2 is the sub-work ID.
-            }
-        ]
-    */
+	import type { EntriesMetadata } from '$lib/types';
+	import AccordionRow from './AccordionRow.svelte';
 	import entriesImmutable from '$lib/nasuverse/vertices.json';
-	// import entriesImmutable from '$lib/nasuverse/entries-old.json';
-	// Object of checked rows
+	import metadataImmuatable from '$lib/nasuverse/metadata.json';
 	import completed from '$lib/completed';
-
-    import EntryModal from './EntryModal.svelte';
-    let showModal = false;
 
 	// Copy entries to a new array so we can sort it
 	let entries = [...entriesImmutable];
+	const metadata = metadataImmuatable as EntriesMetadata;
 
 	// Toggle checkbox and save to local storage
 	function toggleRow(
@@ -226,6 +197,7 @@
 			label: 'Medium'
 		}
 	];
+	const accordionRefs = new Array().fill(null, 0, entries.length);
 </script>
 
 <table>
@@ -258,12 +230,13 @@
 			</th>
 		{/each}
 	</tr>
-	{#each entries as entry}
+	{#each entries as entry, i}
 		<tr
 			class="border-t {$completed[entry.id]
 				? 'bg-gray-200 text-gray-500 hover:bg-gray-300'
 				: 'hover:bg-gray-100'}"
 			on:click={(event) => toggleRow(event, entry.id)}
+			id={`${entry.id}`}
 		>
 			<td class="py-1">
 				<input
@@ -273,32 +246,47 @@
 					on:click={(event) => toggleRow(event, entry.id)}
 				/>
 			</td>
-			<!-- stopPropagation to prevent parent on:click. -->
-			<!-- TODO: Show modal -->
-			<td
-				>
-                <!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
-                <a
-					on:click|stopPropagation={() => (showModal = true)}
-					class="text-sky-500 hover:text-sky-600 hover:underline">{entry.title}</a
-				></td
+			<td>
+				<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
+				<a bind:this={accordionRefs[i]} on:click|stopPropagation>{entry.title}</a></td
 			>
 			<td>{entry.released}</td>
 			<td>{entry.ended}</td>
 			<td>{entry.medium}</td>
 		</tr>
+		{#if metadata[entry.id]}
+			<AccordionRow
+				colspan={columnLabels.length + 1}
+				trigger={accordionRefs[i]}
+				class={`border-t ${$completed[entry.id] ? 'bg-gray-100' : 'bg-gray-100'}`}
+				isOpen={true}
+			>
+				{#if metadata[entry.id].cover}
+					<img src={`/images/items/${metadata[entry.id].cover}`} alt="Kara no Kyoukai cover" />
+				{/if}
+				<div class="m-1 mx-2 columns-2">
+					<div>
+						<h1 class="text-xl font-thin">Official links</h1>
+						<ul>
+							{#if metadata[entry.id].official === undefined}
+								<li>Nothing here!</li>
+							{:else}
+								{#each Object.entries(metadata[entry.id].official) as [key, value]}
+									<li>
+										<a href={value} target="_blank" rel="noopener noreferrer">{key}</a>
+									</li>
+								{/each}
+							{/if}
+						</ul>
+					</div>
+					<div>
+						<h1 class="text-xl font-thin">Downloads</h1>
+					</div>
+				</div>
+			</AccordionRow>
+		{/if}
 	{/each}
 </table>
-
-<EntryModal bind:showModal>
-    <h2 slot="header">
-        modal
-    </h2>
-
-    <ol>
-        awooga
-    </ol>
-</EntryModal>
 
 <style>
 	th {
@@ -306,5 +294,9 @@
 	}
 	td {
 		@apply px-2;
+	}
+
+	a {
+		@apply text-sky-500 hover:cursor-pointer hover:text-sky-600 hover:underline;
 	}
 </style>
