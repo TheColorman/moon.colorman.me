@@ -19,7 +19,7 @@
 		class="h-60 w-60"
 	/>
 	<a
-		href="/timeline"
+		href="https://thecolorman.github.io/Fate-Timeline/"
 		target="_blank"
 		rel="noopener noreferrer"
 		class="relative ml-16 flex h-52 w-52 items-center justify-center bg-gray-300 text-gray-800 transition-all hover:bg-gray-500 hover:text-white"
