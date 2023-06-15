@@ -2,7 +2,7 @@
 	import { slide } from 'svelte/transition';
 	export let isOpen = false;
 	export let colspan = 1;
-	export let trigger: HTMLElement;
+	export let trigger: HTMLElement | null = null;
 
 	let rowClass = isOpen ? '' : 'hidden';
 	let timeout: NodeJS.Timeout | undefined;
