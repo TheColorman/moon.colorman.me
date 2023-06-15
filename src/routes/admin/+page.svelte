@@ -20,6 +20,8 @@
 </script>
 
 <div class="flex flex-col items-center">
+    <h1>WELCOME TO THE ADMIN PANEL</h1>
+    <p>This page only works when running development mode, so the page you see doesn't do anything. Good job finding it though!</p>
 	<h1>Add entry</h1>
 	<form
 		action="/admin?/addVertex"
