@@ -197,7 +197,9 @@
 			label: 'Medium'
 		}
 	];
-	const accordionRefs = new Array().fill(null, 0, entries.length);
+	const accordionRefs = Object.fromEntries(
+		entries.map((entry) => [entry.id, null as HTMLElement | null])
+	);
 </script>
 
 <table>
@@ -248,7 +250,7 @@
 			</td>
 			<td>
 				<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
-				<a bind:this={accordionRefs[i]} on:click|stopPropagation>{entry.title}</a></td
+				<a bind:this={accordionRefs[entry.id]} on:click|stopPropagation>{entry.title}</a></td
 			>
 			<td>{entry.released}</td>
 			<td>{entry.ended}</td>
@@ -257,30 +259,79 @@
 		{#if metadata[entry.id]}
 			<AccordionRow
 				colspan={columnLabels.length + 1}
-				trigger={accordionRefs[i]}
+				trigger={accordionRefs[entry.id]}
 				class={`border-t ${$completed[entry.id] ? 'bg-gray-100' : 'bg-gray-100'}`}
 				isOpen={true}
 			>
-				{#if metadata[entry.id].cover}
-					<img src={`/images/items/${metadata[entry.id].cover}`} alt="Kara no Kyoukai cover" />
-				{/if}
-				<div class="m-1 mx-2 columns-2">
-					<div>
-						<h1 class="text-xl font-thin">Official links</h1>
-						<ul>
-							{#if metadata[entry.id].official === undefined}
-								<li>Nothing here!</li>
-							{:else}
-								{#each Object.entries(metadata[entry.id].official) as [key, value]}
-									<li>
-										<a href={value} target="_blank" rel="noopener noreferrer">{key}</a>
-									</li>
-								{/each}
-							{/if}
-						</ul>
-					</div>
-					<div>
-						<h1 class="text-xl font-thin">Downloads</h1>
+				<div class="m-2 mx-3 flex">
+					{#if metadata[entry.id].cover}
+						<img
+							src={`/images/items/${metadata[entry.id].cover}`}
+							alt="Kara no Kyoukai cover"
+							class="mr-4 inline w-44 rounded-md"
+						/>
+					{/if}
+					<div class="grid w-full grid-cols-2 gap-4 relative">
+                        {#if metadata[entry.id].external}
+                        <div class="absolute flex gap-2 right-1 top-1">
+                            {#if metadata[entry.id].external.anilist}
+                            <a href={metadata[entry.id].external.anilist} target="_blank" rel="noopener noreferrer" title="Go to AniList entry">
+                                <img src="/images/anilist.ico" alt="AniList" class="w-4"/>
+                            </a>
+                            {/if}
+                            {#if metadata[entry.id].external.myanimelist}
+                                <a href={metadata[entry.id].external.myanimelist} target="_blank" rel="noopener noreferrer" title="Go to MyAnimeList entry" >
+                                    <img src="/images/myanimelist.ico" alt="MyAnimeList" class="w-4"/>
+                                </a>
+                            {/if}
+                            {#if metadata[entry.id].external.wiki}
+                                <a href={metadata[entry.id].external.wiki} target="_blank" rel="noopener noreferrer" title="Go to Type-Moon wiki entry">
+                                    <img src="/images/wiki.ico" alt="Wiki" class="w-4"/>
+                                </a>
+                            {/if}
+
+                        </div>
+                        {/if}
+						<div class="w-full">
+							{metadata[entry.id].description || 'No description available.'}
+						</div>
+
+						<div class="w-full">
+							<h1 class="text-xl font-thin">Downloads</h1>
+							<ul>
+								{#if metadata[entry.id].download === undefined}
+									<li>Nothing here!</li>
+								{:else}
+									{#each Object.entries(metadata[entry.id].download) as [key, value]}
+										<li>
+											{#if value.startsWith('#')}
+												<a
+													href={value}
+													on:click={(event) => {
+														accordionRefs[value.slice(1)]?.click();
+													}}>{key}</a
+												>
+											{:else}
+												<a href={value} target="_blank" rel="noopener noreferrer">{key}</a>
+											{/if}
+										</li>
+									{/each}
+								{/if}
+							</ul>
+
+							<h1 class="text-xl font-thin mt-4">Official links</h1>
+							<ul>
+								{#if metadata[entry.id].official === undefined}
+									<li>Nothing here!</li>
+								{:else}
+									{#each Object.entries(metadata[entry.id].official) as [key, value]}
+										<li>
+											<a href={value} target="_blank" rel="noopener noreferrer">{key}</a>
+										</li>
+									{/each}
+								{/if}
+							</ul>
+						</div>
 					</div>
 				</div>
 			</AccordionRow>

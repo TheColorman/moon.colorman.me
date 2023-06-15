@@ -14,6 +14,11 @@
             "Book translation": "https://emptyboundaries.wordpress.com/2011/07/25/kara-no-kyokai-translations-2/"
         },
         "credit": "Translated by Empty Boundaries",
-        "cover": "kara-no-kyoukai-cover.jpg"
+        "cover": "kara-no-kyoukai-cover.jpg",
+        "description": "One of the earliest works in the Nasuverse. Mirai Fukuin and Shūmatsu Rokuon are short stories written after Kara no Kyoukai.",
+        "external": {
+            "myanimelist": "https://myanimelist.net/manga/2062/",
+            "wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai"
+        }
     }
 }
