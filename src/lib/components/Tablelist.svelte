@@ -175,26 +175,32 @@
 	const columnLabels: Array<{
 		key: SortKey;
 		label: string;
+        width: string;
 	}> = [
 		{
 			key: 'completed',
-			label: ''
+			label: '',
+            width: '0.914'
 		},
 		{
 			key: 'title',
-			label: 'Title'
+			label: 'Title',
+            width: '36.44'
 		},
 		{
 			key: 'released',
-			label: 'Released'
+			label: 'Released',
+            width: '6.704'
 		},
 		{
 			key: 'ended',
-			label: 'Ended'
+			label: 'Ended',
+            width: '5.858'
 		},
 		{
 			key: 'medium',
-			label: 'Medium'
+			label: 'Medium',
+            width: '8.456'
 		}
 	];
 	const accordionRefs = Object.fromEntries(
@@ -202,10 +208,10 @@
 	);
 </script>
 
-<table>
+<table class="max-w-5xl w-[64rem]">
 	<tr class="text-left hover:bg-gray-100">
-		{#each columnLabels as { key, label }}
-			<th on:click={() => sortEntries(key)}>
+		{#each columnLabels as { key, label, width }}
+			<th on:click={() => sortEntries(key)} style={`width: ${width}rem`}>
 				{label}
 				<div class="relative -ml-0.5 mb-2 mr-2 inline-block">
 					<svg
@@ -258,12 +264,12 @@
 		</tr>
 		{#if metadata[entry.id]}
 			<AccordionRow
-				colspan={columnLabels.length + 1}
+				colspan={columnLabels.length}
 				trigger={accordionRefs[entry.id]}
-				class={`border-t ${$completed[entry.id] ? 'bg-gray-100' : 'bg-gray-100'}`}
+				class={`border-t bg-gray-100`}
 				isOpen={true}
 			>
-				<div class="m-2 mx-3 flex">
+				<div class="m-2 mx-3 flex max-w-full">
 					{#if metadata[entry.id].cover}
 						<img
 							src={`/images/items/${metadata[entry.id].cover}`}
