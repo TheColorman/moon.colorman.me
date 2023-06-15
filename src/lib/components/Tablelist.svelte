@@ -284,7 +284,7 @@
 							class="mr-4 inline h-full w-44 rounded-md"
 						/>
 					{/if}
-					<div class="relative grid w-full grid-cols-2 gap-4">
+					<div class="relative grid w-full grid-cols-3 gap-4">
 						{#if metadata[entry.id].external}
 							<div class="absolute right-1 top-1 flex gap-2">
 								{#if metadata[entry.id].external.anilist}
@@ -319,7 +319,7 @@
 								{/if}
 							</div>
 						{/if}
-						<div class="w-full">
+						<div class="w-full col-span-2">
 							<p class="whitespace-pre-line">
 								{@html metadata[entry.id].description || 'No description available.'}
 							</p>
