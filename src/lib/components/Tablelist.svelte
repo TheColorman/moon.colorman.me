@@ -255,9 +255,13 @@
 				/>
 			</td>
 			<td>
-				<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
-				<a bind:this={accordionRefs[entry.id]} on:click|stopPropagation>{entry.title}</a></td
-			>
+				{#if metadata[entry.id]}
+					<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
+					<a bind:this={accordionRefs[entry.id]} on:click|stopPropagation>{entry.title}</a>
+				{:else}
+					<p>{entry.title}</p>
+				{/if}
+			</td>
 			<td>{entry.released}</td>
 			<td>{entry.ended}</td>
 			<td>{entry.medium}</td>
@@ -267,14 +271,13 @@
 				colspan={columnLabels.length}
 				trigger={accordionRefs[entry.id]}
 				class={`border-t bg-gray-100`}
-				isOpen={true}
 			>
 				<div class="m-2 mx-3 flex max-w-full">
 					{#if metadata[entry.id].cover}
 						<img
 							src={`/images/items/${metadata[entry.id].cover}`}
-							alt="Kara no Kyoukai cover"
-							class="mr-4 inline w-44 rounded-md h-full"
+							alt={`${entry.title} cover`}
+							class="mr-4 inline h-full w-44 rounded-md"
 						/>
 					{/if}
 					<div class="relative grid w-full grid-cols-2 gap-4">
@@ -383,9 +386,5 @@
 	}
 	td {
 		@apply px-2;
-	}
-
-	a {
-		@apply text-sky-500 hover:cursor-pointer hover:text-sky-600 hover:underline;
 	}
 </style>
