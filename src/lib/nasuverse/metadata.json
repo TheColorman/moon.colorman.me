@@ -212,6 +212,23 @@
         "description": "A Kara no Kyoukai side story.",
         "credit": "Preface translated by YHK of Beast's Laire.\nRest translated by <a href='https://canonrap.wordpress.com/' target='_blank' rel='noopener noreferrer'>Quality ★ Mistranslations</a>."
     },
+    "38": {
+        "official": {},
+        "download": {
+            "EPUB, PDF and Web": "#22"
+        },
+        "source": {
+            "Just Light Novels": "https://www.justlightnovels.com/2018/06/fate-zero/"
+        },
+        "external": {
+            "myanimelist": "https://myanimelist.net/manga/36803/Heart_of_Freaks",
+            "anilist": "https://anilist.co/manga/66803/Heart-of-Freaks/",
+            "wiki": "https://typemoon.fandom.com/wiki/Fate/Zero_Another_Story:_Heart_of_Freaks"
+        },
+        "cover": "heart-of-freaks.webp",
+        "description": "A short side-story to Fate/Zero. It's included in the download for Fate/Zero above.",
+        "credit": "Translated by <a href='https://www.baka-tsuki.org/project/?title=Main_Page' target='_blank' rel='noopener noreferrer'>Baka-Tsuki</a>."
+    },
     "44": {
         "official": {
             "Steam": "https://store.steampowered.com/app/411370/"
