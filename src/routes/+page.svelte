@@ -4,7 +4,7 @@
 
 <div class="ml-8 mt-2 flex">
 	<div>
-		<h1 class="text-2xl ">All Nasuverse works, in release order</h1>
+		<h1 class="text-2xl">All Nasuverse works, in release order</h1>
 		<h2 class="text-xl text-gray-500">(Not all works are currently present)</h2>
 		<br />
 		<p class="max-w-md">
@@ -12,6 +12,7 @@
 			the column headers, and mark rows as complete by clicking on the checkbox. The table is saved
 			to your browser's local storage, so you can come back to it later.
 		</p>
+		<p class="ml-2 mt-2 text-sm text-gray-500">Tip: Ctrl+click on a link to toggle open all rows.</p>
 	</div>
 	<img
 		src="/images/clueless.png"
@@ -42,5 +43,5 @@
 	</a>
 </div>
 <div class="flex justify-center">
-    <Tablelist />
+	<Tablelist />
 </div>
