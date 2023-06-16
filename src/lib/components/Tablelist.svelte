@@ -209,6 +209,39 @@
 	const accordionRefs = Object.fromEntries(
 		entries.map((entry) => [entry.id, null as AccordionRow | null])
 	);
+	/**
+	 * Expand all accordions when ctrl+clicking on one
+	 */
+	function expandAll(
+		event: MouseEvent & {
+			currentTarget: EventTarget & HTMLAnchorElement;
+		},
+		targetId: number
+	) {
+		if (!event.ctrlKey) {
+			return;
+		}
+		event.preventDefault();
+		const targetState = accordionRefs[targetId]?.getOpenState() ? false : true;
+		Object.entries(accordionRefs).forEach(([id, accordion]) => {
+			if (id === targetId.toString()) {
+				return;
+			}
+			if (accordion?.getOpenState() !== targetState) {
+				accordion?.toggle();
+			}
+		});
+	}
+	/**
+	 * Preload cover images when hovering over accordion
+	 */
+	function preload(image: string | null) {
+		if (!image) {
+			return;
+		}
+		const img = new Image();
+		img.src = image;
+	}
 </script>
 
 <table class="w-[64rem] max-w-5xl">
@@ -260,7 +293,12 @@
 			<td>
 				{#if metadata[entry.id]}
 					<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
-					<a bind:this={accordionLinks[entry.id]} on:click|stopPropagation>{entry.title}</a>
+					<a
+						bind:this={accordionLinks[entry.id]}
+						on:click|stopPropagation={(event) => expandAll(event, entry.id)}
+						on:mouseover={() => preload(`/images/items/${metadata[entry.id].cover}`)}
+						on:focus={() => preload(`/images/items/${metadata[entry.id].cover}`)}>{entry.title}</a
+					>
 				{:else}
 					<p>{entry.title}</p>
 				{/if}
@@ -274,7 +312,7 @@
 				colspan={columnLabels.length}
 				trigger={accordionLinks[entry.id]}
 				class={`border-t bg-gray-100`}
-                bind:this={accordionRefs[entry.id]}
+				bind:this={accordionRefs[entry.id]}
 			>
 				<div class="m-2 mx-3 flex max-w-full">
 					{#if metadata[entry.id].cover}
@@ -319,7 +357,7 @@
 								{/if}
 							</div>
 						{/if}
-						<div class="w-full col-span-2">
+						<div class="col-span-2 w-full">
 							<p class="whitespace-pre-line">
 								{@html metadata[entry.id].description || 'No description available.'}
 							</p>
@@ -351,11 +389,11 @@
 												<a
 													href={value}
 													on:click={(event) => {
-                                                        const target = accordionRefs[value.slice(1)];
-                                                        console.log(target?.getOpenState());
-                                                        if (!target?.getOpenState()) {
-                                                            target?.toggle();
-                                                        }
+														const target = accordionRefs[value.slice(1)];
+														console.log(target?.getOpenState());
+														if (!target?.getOpenState()) {
+															target?.toggle();
+														}
 													}}>{key}</a
 												>
 											{:else}
