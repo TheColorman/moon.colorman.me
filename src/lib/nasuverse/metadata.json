@@ -178,6 +178,23 @@
         "description": "The original Fate/Zero novel written by Gen Urobuchi. Download also contains a side story called Another Story -Heart of Freaks.",
         "credit": "Translated by <a href='https://www.baka-tsuki.org/project/?title=Main_Page' target='_blank' rel='noopener noreferrer'>Baka-Tsuki</a>."
     },
+    "23": {
+        "official": {
+            "Mac App Store": "https://apps.apple.com/app/id967898020"
+        },
+        "download": {
+            "Custom patch": "#9"
+        },
+        "source": {
+            "Nyaa": "https://nyaa.si/view/1587539"
+        },
+        "external": {
+            "wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night?so=search#R%C3%A9alta_Nua"
+        },
+        "cover": "realta-nua.jpg",
+        "description": "The \"family-friendly\" re-release of Fate/stay night. This version adds voice acting, replaces the sex scenes and tones down other explicit content. It's included in the download for Fate/stay night above.",
+        "credit": ""
+    },
     "35": {
         "official": {
             "Kodansha": "https://bookclub.kodansha.co.jp/product?item=0000025592"
