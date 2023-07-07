@@ -2,11 +2,16 @@
 	import Tablelist from '$lib/components/Tablelist.svelte';
 </script>
 
-<div class="ml-8 mt-2 flex">
+<div class="ml-8 mt-2 flex flex-col md:flex-row">
 	<div>
 		<h1 class="text-2xl">All Nasuverse works, in release order</h1>
 		<h2 class="text-xl text-gray-500">(Not all works are currently present)</h2>
 		<br />
+		<img
+			src="/images/clueless.png"
+			alt="hmm today i will download the entirety of the nasuverse seßries and freely distribute it diregarding any and all copyright law. *clueless*"
+			class="h-60 w-60 md:hidden"
+		/>
 		<p class="max-w-md">
 			This page consists of a table of all Nasuverse works. You can sort the table by clicking on
 			the column headers, and mark rows as complete by clicking on the checkbox. The table is saved
@@ -19,7 +24,7 @@
 	<img
 		src="/images/clueless.png"
 		alt="hmm today i will download the entirety of the nasuverse series and freely distribute it diregarding any and all copyright law. *clueless*"
-		class="h-60 w-60"
+		class="hidden h-60 w-60 md:block"
 	/>
 	<a
 		href="https://thecolorman.github.io/Fate-Timeline/"
@@ -51,6 +56,6 @@
 		</div>
 	</a>
 </div>
-<div class="flex justify-center">
+<div class="flex w-full justify-center overflow-x-scroll">
 	<Tablelist />
 </div>

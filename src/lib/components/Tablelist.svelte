@@ -244,7 +244,7 @@
 	}
 </script>
 
-<table class="w-[64rem] max-w-5xl">
+<table class="ml-16 w-[64rem] max-w-5xl md:ml-0">
 	<tr class="text-left hover:bg-gray-100">
 		{#each columnLabels as { key, label, width }}
 			<th on:click={() => sortEntries(key)} style={`width: ${width}rem`}>
@@ -380,7 +380,7 @@
 						</div>
 
 						<div class="w-full">
-							<h1 class="text-xl font-thin">Downloads</h1>
+							<h1 class="mt-6 text-xl font-thin md:mt-0">Downloads</h1>
 							<ul>
 								{#if Object.keys(metadata[entry.id].download).length}
 									{#each Object.entries(metadata[entry.id].download) as [key, value]}
