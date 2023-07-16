@@ -114,6 +114,26 @@
         "description": "Melty Blood is a fighting game based on Tsukihime. This download contains Melty Blood, Melty Blood Re-ACT, Melty Blood Act Cadenza and Melty Blood Actress Again. Installation instructions can be found <a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/installation.html' target='_blank' rel='noopener noreferrer'>here</a>. Other useful links:\n<a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/netplay.html' target='_blank' rel='noopener noreferrer'>Netplay</a>\n<a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/links.html' target='_blank' rel='noopener noreferrer'>Useful game links</a>\n<a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/community.html' target='_blank' rel='noopener noreferrer'>Community</a>\nThe game has a very active community in their Discord server. Finally, check out <a href='https://meltyblood.club/' target='_blank' rel='noopener noreferrer'>meltyblood.club</a> for more information.",
         "credit": ""
     },
+    "7": {
+        "official": {
+            "HiDive": "https://www.hidive.com/tv/lunar-legend-tsukihime"
+        },
+        "download": {
+            "Stream on 9anime": "https://9anime.to/watch/lunar-legend-tsukihime.l0m",
+            "Video files": "http://www.mediafire.com/file/omuthbo0jj0g13x/Shingetsutan_Tsukihime.zip"
+        },
+        "source": {
+            "Nyaa": "https://nyaa.si/view/1487827"
+        },
+        "external": {
+            "wiki": "https://typemoon.fandom.com/wiki/Lunar_Legend_Tsukihime_(anime)",
+            "myanimelist": "https://myanimelist.net/anime/169",
+            "anilist": "https://anilist.co/anime/169/"
+        },
+        "cover": "shingutsutan-tsukihime.jpg",
+        "description": "Shingetsutan Tsukihime (en. Lunar Legend Tsukihime) is an anime based on the original Tsukihime visual novel. The anime is generally considered god-awful and butchers its source material to the point that fans of Tsukihime refuse to acknowledge its existence, so you should really only watch this if you really want to marathon the whole series and are prepared for the experience.",
+        "credit": ""
+    },
     "9": {
         "official": {},
         "download": {
