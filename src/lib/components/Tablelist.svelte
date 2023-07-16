@@ -245,7 +245,7 @@
 </script>
 
 <table class="ml-16 w-[64rem] max-w-5xl md:ml-0">
-	<tr class="text-left hover:bg-gray-100">
+	<tr class="text-left hover:bg-gray-100 dark:hover:bg-[#293548]">
 		{#each columnLabels as { key, label, width }}
 			<th on:click={() => sortEntries(key)} style={`width: ${width}rem`}>
 				{label}
@@ -276,9 +276,9 @@
 	</tr>
 	{#each entries as entry, i}
 		<tr
-			class="border-t {$completed[entry.id]
-				? 'bg-gray-200 text-gray-500 hover:bg-gray-300'
-				: 'hover:bg-gray-100'}"
+			class="border-t dark:border-[#2e3c52] {$completed[entry.id]
+				? 'bg-gray-200 text-gray-500 hover:bg-gray-300 dark:bg-[#293548] dark:text-gray-400 dark:hover:bg-[#2e3c52]'
+				: 'hover:bg-gray-100 dark:hover:bg-[#293548]'}"
 			on:click={(event) => toggleRow(event, entry.id)}
 			id={`${entry.id}`}
 		>
@@ -311,7 +311,7 @@
 			<AccordionRow
 				colspan={columnLabels.length}
 				trigger={accordionLinks[entry.id]}
-				class={`border-t bg-gray-100`}
+				class={`border-t bg-gray-100 dark:bg-[#293548] dark:text-gray-200`}
 				bind:this={accordionRefs[entry.id]}
 			>
 				<div class="m-2 mx-3 flex max-w-full">
