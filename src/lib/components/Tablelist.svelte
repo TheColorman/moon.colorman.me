@@ -4,6 +4,8 @@
 	import entriesImmutable from '$lib/nasuverse/vertices.json';
 	import metadataImmuatable from '$lib/nasuverse/metadata.json';
 	import completed from '$lib/completed';
+	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
 
 	// Copy entries to a new array so we can sort it
 	let entries = [...entriesImmutable];
@@ -242,7 +244,68 @@
 		const img = new Image();
 		img.src = image;
 	}
+
+	/**
+	 * Get info on an entry from its id
+	 */
+	function getEntry(id: number | string) {
+		if (typeof id === 'string') {
+			id = parseInt(id);
+		}
+		const entry = entries.find((entry) => entry.id === id);
+		return entry;
+	}
+	$: entry = getEntry($page.params.slug);
+	const baseMeta = `<meta name="title" content="Entirety of Nasuverse, by Colorman" />
+                      <title>All Nasuverse works, in release order</title>
+                      <meta
+                          name="description"
+                          content="Read, watch, play and track your progress in everything from the Nasuverse, for free"
+                      />
+                      <!-- Open Graph / Facebook -->
+                      <meta property="og:type" content="website" />
+                      <meta property="og:url" content="https://nasu.colorman.me/" />
+                      <meta property="og:title" content="Entirety of Nasuverse, by Colorman" />
+                      <meta
+                          property="og:description"
+                          content="Read, watch, play and track your progress in everything from the Nasuverse, for free"
+                      />
+                      <meta property="og:image" content="https://nasu.colorman.me/images/header.webp" />
+                      <!-- Twitter -->
+                      <meta property="twitter:card" content="summary_large_image" />
+                      <meta property="twitter:url" content="https://nasu.colorman.me/" />
+                      <meta property="twitter:title" content="Entirety of Nasuverse, by Colorman" />
+                      <meta
+                          property="twitter:description"
+                          content="Read, watch, play and track your progress in everything from the Nasuverse, for free"
+                      />
+                      <meta property="twitter:image" content="https://nasu.colorman.me/images/header.webp" />`;
 </script>
+
+<!-- Check if page url contains # -->
+<svelte:head>
+	{#if entry && metadata[entry.id]}
+		{@html `<!-- Dynamic head meta -->
+            <title>Download ${entry.title}</title>
+			<meta name="title" content="Download ${entry.title}" />
+			<meta property="og:url" content="https://nasu.colorman.me/${entry.id}#${entry.id}" />
+			<meta property="og:title" content="Download ${entry.title}" />
+			<meta property="twitter:card" content="summary_large_image" />
+			<meta property="twitter:url" content="https://nasu.colorman.me/${entry.id}#${entry.id}" />
+			<meta property="twitter:title" content="Download ${entry.title}" />
+			<meta name="description" content="${metadata[entry.id].description}" />
+			<meta property="og:description" content="${metadata[entry.id].description}" />
+            <meta property="twitter:description" content="${metadata[entry.id].description}" />
+			<meta property="og:image" content="https://nasu.colorman.me/images/items/${
+				metadata[entry.id].cover
+			}" />
+			<meta property="twitter:image" content="https://nasu.colorman.me/images/items/${
+				metadata[entry.id].cover
+			}" />`}
+	{:else}
+		{@html baseMeta}
+	{/if}
+</svelte:head>
 
 <table class="ml-16 w-[64rem] max-w-5xl md:ml-0">
 	<tr class="text-left hover:bg-gray-100 dark:hover:bg-[#293548]">
@@ -302,12 +365,14 @@
 				{:else}
 					<p class="inline-block">{entry.title}</p>
 				{/if}
+				<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
 				<a
 					class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400"
 					title="Copy permalink"
-					href={`/#${entry.id}`}
-					on:click|stopPropagation={(event) =>
-						navigator.clipboard.writeText(`https://nasu.colorman.me/#${entry.id}`)}
+					on:click|stopPropagation={(event) => {
+						goto(`/${entry.id}#${entry.id}`);
+						navigator.clipboard.writeText(`https://nasu.colorman.me/${entry.id}#${entry.id}`);
+					}}
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
