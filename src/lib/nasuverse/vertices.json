@@ -964,5 +964,26 @@
         "released": "TBA",
         "ended": "",
         "medium": "Visual Novel"
+    },
+    {
+        "id": 138,
+        "title": "Fate/strange Fake -Whispers of Dawn-",
+        "released": "2023-07",
+        "ended": "",
+        "medium": "Anime Special"
+    },
+    {
+        "id": 139,
+        "title": "Fate/strange Fake",
+        "released": "TBA",
+        "ended": "",
+        "medium": "Anime"
+    },
+    {
+        "id": 140,
+        "title": "Fate/Samurai Remnant",
+        "released": "2023-09",
+        "ended": "",
+        "medium": "Video Game"
     }
 ]
