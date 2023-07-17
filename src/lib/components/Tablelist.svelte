@@ -276,7 +276,7 @@
 	</tr>
 	{#each entries as entry, i}
 		<tr
-			class="border-t dark:border-[#2e3c52] {$completed[entry.id]
+			class="group border-t dark:border-[#2e3c52] {$completed[entry.id]
 				? 'bg-gray-200 text-gray-500 hover:bg-gray-300 dark:bg-[#293548] dark:text-gray-400 dark:hover:bg-[#2e3c52]'
 				: 'hover:bg-gray-100 dark:hover:bg-[#293548]'}"
 			on:click={(event) => toggleRow(event, entry.id)}
@@ -290,7 +290,7 @@
 					on:click={(event) => toggleRow(event, entry.id)}
 				/>
 			</td>
-			<td>
+			<td class="relative">
 				{#if metadata[entry.id]}
 					<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
 					<a
@@ -300,8 +300,30 @@
 						on:focus={() => preload(`/images/items/${metadata[entry.id].cover}`)}>{entry.title}</a
 					>
 				{:else}
-					<p>{entry.title}</p>
+					<p class="inline-block">{entry.title}</p>
 				{/if}
+				<a
+					class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400"
+					title="Copy permalink"
+					href={`/#${entry.id}`}
+					on:click|stopPropagation={(event) =>
+						navigator.clipboard.writeText(`https://nasu.colorman.me/#${entry.id}`)}
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="h-4 w-4 translate-y-0.5"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+						/>
+					</svg>
+				</a>
 			</td>
 			<td>{entry.released}</td>
 			<td>{entry.ended}</td>
