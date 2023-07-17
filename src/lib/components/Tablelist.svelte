@@ -362,34 +362,58 @@
 						on:mouseover={() => preload(`/images/items/${metadata[entry.id].cover}`)}
 						on:focus={() => preload(`/images/items/${metadata[entry.id].cover}`)}>{entry.title}</a
 					>
+					<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
+					<a
+						class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400"
+						title="Copy permalink"
+						href="/{entry.id}#{entry.id}"
+						on:click|stopPropagation|preventDefault={(event) => {
+							goto(`${entry.id}/#${entry.id}`);
+							navigator.clipboard.writeText(`https://nasu.colorman.me/${entry.id}#${entry.id}`);
+						}}
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="h-4 w-4 translate-y-0.5"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+							/>
+						</svg>
+					</a>
 				{:else}
 					<p class="inline-block">{entry.title}</p>
-				{/if}
-				<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
-				<a
-					class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400"
-					title="Copy permalink"
-					href="/{entry.id}#{entry.id}"
-					on:click|stopPropagation|preventDefault={(event) => {
-						goto(`/#${entry.id}`);
-						navigator.clipboard.writeText(`https://nasu.colorman.me/${entry.id}#${entry.id}`);
-					}}
-				>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke-width="1.5"
-						stroke="currentColor"
-						class="h-4 w-4 translate-y-0.5"
+					<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
+					<p
+						class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400"
+						title="Copy permalink"
+						on:click|stopPropagation|preventDefault={(event) => {
+							goto(`/#${entry.id}`);
+							navigator.clipboard.writeText(`https://nasu.colorman.me/#${entry.id}`);
+						}}
 					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
-						/>
-					</svg>
-				</a>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="h-4 w-4 translate-y-0.5"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+							/>
+						</svg>
+					</p>
+				{/if}
 			</td>
 			<td>{entry.released}</td>
 			<td>{entry.ended}</td>

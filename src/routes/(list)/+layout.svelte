@@ -58,4 +58,5 @@
 </div>
 <div class="flex w-full justify-center overflow-x-scroll">
 	<Tablelist />
+    <slot />
 </div>
