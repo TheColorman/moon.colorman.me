@@ -369,8 +369,9 @@
 				<a
 					class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400"
 					title="Copy permalink"
-					on:click|stopPropagation={(event) => {
-						goto(`/${entry.id}#${entry.id}`);
+					href="/{entry.id}#{entry.id}"
+					on:click|stopPropagation|preventDefault={(event) => {
+						goto(`/#${entry.id}`);
 						navigator.clipboard.writeText(`https://nasu.colorman.me/${entry.id}#${entry.id}`);
 					}}
 				>
