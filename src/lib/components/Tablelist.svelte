@@ -364,7 +364,7 @@
 					>
 					<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
 					<a
-						class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400"
+						class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400 dark:hover:!text-gray-300 dark:group-hover:text-gray-600"
 						title="Copy permalink"
 						href="/{entry.id}#{entry.id}"
 						on:click|stopPropagation|preventDefault={(event) => {
@@ -391,7 +391,7 @@
 					<p class="inline-block">{entry.title}</p>
 					<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
 					<p
-						class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400"
+						class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400 dark:hover:!text-gray-300 dark:group-hover:text-gray-600"
 						title="Copy permalink"
 						on:click|stopPropagation|preventDefault={(event) => {
 							goto(`/#${entry.id}`);
@@ -423,7 +423,7 @@
 			<AccordionRow
 				colspan={columnLabels.length}
 				trigger={accordionLinks[entry.id]}
-				class={`border-t bg-gray-100 dark:bg-[#293548] dark:text-gray-200`}
+				class={`border-t bg-gray-100 dark:border-[#2e3c52] dark:bg-[#293548] dark:text-gray-200`}
 				bind:this={accordionRefs[entry.id]}
 			>
 				<div class="m-2 mx-3 flex max-w-full">
