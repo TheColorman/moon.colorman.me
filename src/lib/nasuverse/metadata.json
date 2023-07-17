@@ -179,6 +179,24 @@
         "description": "Third game in the Melty Blood series. It's included in the download for Melty Blood above.",
         "credit": ""
     },
+    "17": {
+        "official": {
+            "Amazon": "https://www.amazon.com/Fate-Hollow-Ataraxia-Japanese/dp/B000ANETRM"
+        },
+        "download": {
+            "Game": "https://drive.google.com/file/d/1GBXPN6-96J7JS-g3UUMM-sblJcI1mKkb/view",
+            "7zip": "https://www.7-zip.org/"
+        },
+        "source": {
+            "Reddit": "https://www.reddit.com/r/fatestaynight/comments/a2fiuo/comment/javkidi/?utm_source=share&utm_medium=web2x&context=3"
+        },
+        "external": {
+            "wiki": "https://typemoon.fandom.com/wiki/Fate/hollow_ataraxia"
+        },
+        "cover": "hollow-ataraxia.jpg",
+        "description": "Fate/Hollow Ataraxia is the sequel to Fate/stay night. It's a visual novel with a lot of gameplay elements. The download includes the game with an English patch.\n<strong>Note: </strong>The download is in a 7zip archive. You will need a program like <a href='https://www.7-zip.org/' target='_blank' rel='noopener noreferrer'>7zip</a> to extract it.",
+        "credit": ""
+    },
     "22": {
         "official": {},
         "download": {
