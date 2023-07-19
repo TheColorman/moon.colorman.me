@@ -6,6 +6,7 @@
 	import completed from '$lib/completed';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
 
 	// Copy entries to a new array so we can sort it
 	let entries = [...entriesImmutable];
@@ -280,9 +281,23 @@
                           content="Read, watch, play and track your progress in everything from the Nasuverse, for free"
                       />
                       <meta property="twitter:image" content="https://nasu.colorman.me/images/header.webp" />`;
+
+    // Open accordion if url contains permalink to entry
+    onMount(() => {
+        if (window.location.hash) {
+            const id = window.location.hash.slice(1);
+            const target = accordionRefs[id];
+
+            if (target?.getOpenState() === false) {
+                setTimeout(() => {
+                    target?.toggle();
+                }, 300)
+            }
+        }
+    })
 </script>
 
-<!-- Check if page url contains # -->
+<!-- Set head if url contains permalink to entry -->
 <svelte:head>
 	{#if entry && metadata[entry.id]}
 		{@html `<!-- Dynamic head meta -->
