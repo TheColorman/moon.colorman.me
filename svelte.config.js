@@ -10,13 +10,16 @@ const config = {
 		vitePreprocess(),
 		preprocess({
 			postcss: true
-		}),
+		})
 	],
 	kit: {
 		adapter: adapter({
-            fallback: 'index.html'
-        }),
-	},
+			fallback: 'index.html'
+		}),
+		prerender: {
+			entries: ['/']
+		}
+	}
 };
 
 export default config;
