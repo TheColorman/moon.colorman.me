@@ -323,5 +323,24 @@
         "cover": "tsukihime_blue_glass.webp",
         "description": "Remake of the original Tsukihime, released in 2 parts: -A piece of blue glass moon-, which contain the Near Side routes (Arcueid and Ciel), and -The other side of red garden-, which will contain the Far Side routes (Akiha, Hisui and Kohaku (and maybe Sacchin?)).\n\n<strong>Disclaimer</strong>\n<i>Note: It is highly recommended that you buy the game on your own Switch, and then either extract the game to an emulator or apply the english patch to your switch. Emulation and patching is legal, piracy is not. These instructions are for those who do not own a Nintendo Switch (you can still buy the game even if you do not own a Switch, at least you will be offsetting the piracy.)</i>\nFor more information, see the guides from <a href='https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide' target='_blank' rel='noopener noreferrer'>Ryujinx</a> and <a href='https://tsukihimates.com/patch/' target='_blank' rel='noopener noreferrer'>Tsukihimates</a>.\nThe installation will most likely also work on Yuzu, though I have not tested it there.\n\n<strong>Installation instructions</strong>\n<ol style='list-style: decimal'><li>Download and extract the Ryujinx emulator.</li><li>Download the Prod Key and Firmware. Choose the newest version of both and make sure they match. Extract the Prod Key zip file (not the firmware one).</li><li>Follow the <a href='https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#initial-setup---placement-of-prodkeys' target='_blank' rel='noopener noreferrer'>key setup</a> for Ryujinx. Place both the <code>title.keys</code> and <code>prod.keys</code> files from the Prod Keys zip into the specified Ryujinx system folder.</li><li>Open up Ryujinx, go to Tools -> Install Firmware -> From XCI or ZIP. Navigate to and choose the Firmware zip you previously downloaded. It should display a success message after installation.</li><li>Download the Tsukihime NSP file. I recommend using MegaUp, as it's the fastest, but it will still take a while. (No need to download the v1.0.2 update.)\nThe website will download it in 5 parts. Once all 5 are downloaded, extract them to a folder (Note that some parts may be named incorrectly. If any of them ends in something like <code>part2_3</code>, remove the _3 part).\nIn Ryujinx, go to Options -> Settings. Here you need to add the path of the folder with the NSP file. See the <a href='https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#adding-your-games-to-ryujinx' target='_blank' rel='noopener noreferrer'>Ryujinx guide</a> for more information. The Tsukihime game should now show up in the emulator.</li><li>Finally, download the English Patch by Tsukihimates. Instructions to apply it are on the download page.</li><li>You can now double-click the game to play it.</li></ol>",
         "credit": "Translated by <a href='https://tsukihimates.com/' target='_blank' rel='noopener noreferrer'>Tsukihimates</a>."
+    },
+    "141": {
+        "official": {
+            "TYPE-MOON Web Ace (untranslated)": "https://web-ace.jp/tmca/contents/2000060/"
+        },
+        "download": {
+            "Chapter 1 zip (untranslated)": "http://cdn.colorman.me/fate/prototype/fragments_of_sky_silver/fragments_of_sky_silver_chapter_1.zip",
+            "Read on Mangadex": "https://mangadex.org/title/37b7061e-7d5a-43fc-91d6-fba60f8519e0/fate-prototype-sougin-no-fragments"
+        },
+        "source": {
+            "TYPE-MOON Web Ace": "https://web-ace.jp/tmca/"
+        },
+        "external": {
+            "anilist": "https://anilist.co/manga/167469",
+            "wiki": "https://typemoon.fandom.com/wiki/Fate/Prototype:_Fragments_of_Sky_Silver_(manga)"
+        },
+        "cover": "sky_silver_manga.jpg",
+        "description": "Manga adaptation of the <a href='#77'>light novel</a> by the same name. It's a prequel to Fate/Prototype.",
+        "credit": ""
     }
 }
