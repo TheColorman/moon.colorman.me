@@ -1,8 +1,8 @@
 <script lang="ts">
 	import type { EntriesMetadata } from '$lib/types';
 	import AccordionRow from './AccordionRow.svelte';
-	import entriesImmutable from '$lib/nasuverse/vertices.json';
-	import metadataImmuatable from '$lib/nasuverse/metadata.json';
+	import entriesImmutable from '$lib/nasuverse/list/entries.json';
+	import metadataImmuatable from '$lib/nasuverse/list/metadata.json';
 	import completed from '$lib/completed';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
