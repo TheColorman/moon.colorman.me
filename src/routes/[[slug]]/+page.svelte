@@ -27,7 +27,7 @@
 		class="hidden h-60 w-60 md:block"
 	/>
 	<a
-		href="https://thecolorman.github.io/Fate-Timeline/"
+		href="/timeline"
 		target="_blank"
 		rel="noopener noreferrer"
 		class="relative ml-16 flex h-52 w-52"
