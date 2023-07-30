@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Fate/Zero",
+        "year": 1994
+    },
+    {
+        "id": 2,
+        "name": "Fate/stay night",
+        "year": 2004
+    },
+    {
+        "id": 3,
+        "name": "Fate/stay night: Unlimited Blade Works",
+        "year": 2004
+    },
+    {
+        "id": 4,
+        "name": "Fate/stay night: Heaven's Feel",
+        "year": 2004
+    },
+	{
+		"id": 5,
+		"name": "Fate/Hollow Ataraxia",
+		"year": 2005
+	}
+]
