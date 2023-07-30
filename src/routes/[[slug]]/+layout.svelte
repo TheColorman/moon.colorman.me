@@ -1,7 +1,3 @@
-<script lang="ts">
-	import '../../app.postcss';
-</script>
-
 <main
 	class="static flex min-h-screen flex-col items-center bg-indigo-300 dark:bg-[#0f172a] dark:text-gray-200"
 >
