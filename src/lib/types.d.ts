@@ -13,3 +13,15 @@ type EntryMetadata = {
 }
 
 export type EntriesMetadata = { [key: number]: EntryMetadata }
+
+type VertexId = number
+export type VertexMeta = {
+    id: VertexId,
+    name: string,
+    year: number,
+}
+
+export type EdgeMeta = {
+    from: VertexId,
+    to: VertexId,
+}
