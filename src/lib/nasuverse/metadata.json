@@ -161,7 +161,7 @@
             "wiki": "https://typemoon.fandom.com/wiki/Melty_Blood_Re-ACT"
         },
         "cover": "melty-blood-react.webp",
-        "description": "The second game in the Melty Blood series, acting as an expansion of the original Melty Blood. It's included in the download for Melty Blood above.",
+        "description": "The second game in the Melty Blood series, acting as an expansion of the original Melty Blood. It's included in the download for Melty Blood above.\n\n<b>Note</b>: Re-ACT requires that you have already installed the original Melty Blood. After installing Re-ACT, the folder will have a file named <code>_Path.dat</code>. Open this file in a text editor and change the path to the Melty Blood folder.",
         "credit": ""
     },
     "15": {
