@@ -134,6 +134,28 @@
         "description": "Shingetsutan Tsukihime (en. Lunar Legend Tsukihime) is an anime based on the original Tsukihime visual novel. The anime is generally considered god-awful and butchers its source material to the point that fans of Tsukihime refuse to acknowledge its existence, so you should really only watch this if you really want to marathon the whole series and are prepared for the experience.",
         "credit": ""
     },
+    "8": {
+        "official": {
+            "Amazon": "https://www.amazon.com/dp/1597960756",
+            "TYPE-MOON Comic Ace (japaenese)": "https://web-ace.jp/tmca/contents/2000013/"
+        },
+        "download": {
+            "Read on Mangadex": "https://mangadex.org/title/477800d5-bae8-4adb-b422-23e6cfa7ec87/shingetsutan-tsukihime",
+            "Zipped (Nyaa)": "https://drive.google.com/uc?export=download&id=1g6gBz6GLUXxNisUybeQ1kFmj3W_s2wWk"
+        },
+        "source": {
+            "TYPE-MOON Comic Ace": "https://web-ace.jp/tmca/",
+            "Nyaa": "https://nyaa.si/view/612721"
+        },
+        "external": {
+            "anilist": "https://anilist.co/manga/30705/Lunar-Legend-Tsukihime/",
+            "myanimelist": "https://myanimelist.net/manga/705/Shingetsutan_Tsukihime",
+            "wiki": "https://typemoon.fandom.com/wiki/Lunar_Legend_Tsukihime_(manga)"
+        },
+        "cover": "lunar-legend-tsukihime.jpg",
+        "description": "Manga adaptation of the <a href='#2'>visual novel</a> by the same name. It follows Arcueid's route, with a few elements mixed in from other routes, but it is generally considered to be a very good adaptation. It is still recommended te play the VN to get all the routes.",
+        "credit": "Various translators and groups.<br/><details><summary style='cursor: pointer'>Click to expand</summary><p><b>Mangadex:</b><br/>Beast's Lair, Scarlet Moon, Project Bite Me! Scanlations, Stifler, xyz199655, impulsive37, nokiasaintdotrar.<br/><b>Nyaa:</b><br/>Drmaster, Scarlet Moon Scans, Twilight Dream Scans + others.</p></details>NyaaTorrents for making the Nyaa release."
+    },
     "9": {
         "official": {},
         "download": {
