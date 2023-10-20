@@ -392,6 +392,13 @@
         "medium": "Short Story"
     },
     {
+        "id": 143,
+        "title": "Tsuki no Sango",
+        "released": "2010-12",
+        "ended": "",
+        "medium": "Short Film"
+    },
+    {
         "id": 56,
         "title": "Mahou Tsukai no Hako ~Nerawareta Ahnenerbe~",
         "released": "2011-01",
@@ -466,6 +473,13 @@
         "title": "Fate/kaleid liner PRISMA☆ILLYA 3drei!!",
         "released": "2012-05",
         "ended": "Ongoing",
+        "medium": "Manga"
+    },
+    {
+        "id": 142,
+        "title": "Tsuki no Sango",
+        "released": "2012-07",
+        "ended": "2019-01",
         "medium": "Manga"
     },
     {
