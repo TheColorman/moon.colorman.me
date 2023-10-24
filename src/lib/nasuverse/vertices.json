@@ -707,13 +707,6 @@
         "medium": "Short Story"
     },
     {
-        "id": 99,
-        "title": "Fate/Crossover: Butterfly Effect",
-        "released": "2015-08",
-        "ended": "",
-        "medium": "Drama CD"
-    },
-    {
         "id": 100,
         "title": "Fate/kaleid liner PRISMA☆ILLYA 2wei! Herz",
         "released": "2015-07",
@@ -726,6 +719,13 @@
         "released": "2015-07",
         "ended": "Ongoing",
         "medium": "Mobile Game"
+    },
+    {
+        "id": 99,
+        "title": "Fate/Crossover: Butterfly Effect",
+        "released": "2015-08",
+        "ended": "",
+        "medium": "Drama CD"
     },
     {
         "id": 102,
