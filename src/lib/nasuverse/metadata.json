@@ -186,6 +186,26 @@
         "description": "The second game in the Melty Blood series, acting as an expansion of the original Melty Blood. It's included in the download for Melty Blood above.\n\n<b>Note</b>: Re-ACT requires that you have already installed the original Melty Blood. After installing Re-ACT, the folder will have a file named <code>_Path.dat</code>. Open this file in a text editor and change the path to the Melty Blood folder.",
         "credit": ""
     },
+    "11": {
+        "official": {
+            "Amazon": "https://www.amazon.co.jp/gp/product/475806282X",
+            "Ichijinsha (publisher)": "https://www.ichijinsha.co.jp/special/takemoon_sp/"
+        },
+        "download": {
+            "Read on Mangadex (Warning: missing chapters)": "https://mangadex.org/title/c728b682-514e-4490-b099-a43eb9077b40/take-moon"
+        },
+        "source": {
+            "Mangadex": "https://mangadex.org"
+        },
+        "external": {
+            "anilist": "https://anilist.co/manga/30780/Take-Moon/",
+            "myanimelist": "https://myanimelist.net/manga/780/Take_Moon",
+            "wiki": "https://typemoon.fandom.com/wiki/TAKE_MOON"
+        },
+        "cover": "take-moon.jpg",
+        "description": "Gag manga that is a comedic adaptation of elements from Tsukihime, Melty Blood and Fate/stay night. Parts of Take Moon would later be adapted into the <a href='#60'>Carnival Phantasm</a> anime.",
+        "credit": "<b>Mangadex:</b><br/>vimiani, Lymus."
+    },
     "15": {
         "official": {},
         "download": {
