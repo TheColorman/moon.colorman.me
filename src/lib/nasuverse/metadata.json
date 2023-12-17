@@ -326,6 +326,24 @@
         "description": "Fourth game in the Melty Blood series. It's included in the download for Melty Blood above.",
         "credit": ""
     },
+    "55": {
+        "official": {},
+        "download": {
+            "PDF": "https://drive.google.com/uc?export=download&id=158RpWKefIeMuLZP1bKr_G1gTN5MGdoU0"
+        },
+        "source": {
+            "PDF": "http://www.vn-meido.com/k1/index.php?topic=1204.0",
+            "PDF (archive)": "https://web.archive.org/web/20180223092010/http://www.vn-meido.com/k1/index.php?topic=1204.0"
+        },
+        "external": {
+            "anilist": "https://anilist.co/manga/64329/Tsuki-no-Sango/",
+            "myanimelist": "https://myanimelist.net/manga/34329/Tsuki_no_Sango",
+            "wiki": "https://typemoon.fandom.com/wiki/Tsuki_no_Sango"
+        },
+        "cover": "tsuki-no-sango.webp",
+        "description": "A short story about the a future earth around the year 3000 where the events of <a href='#2'>Tsukihime</a> never happened and civilization is losing its will to keep living after passing its peak.",
+        "credit": "Translated by Alumine on the <a href='http://www.vn-meido.com/k1/index.php?topic=1204.0' target='_blank' rel='noopener noreferrer'>Kureha One</a> forum."
+    },
     "84": {
         "official": {},
         "download": {
