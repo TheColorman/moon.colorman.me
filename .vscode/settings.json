@@ -1,4 +1,6 @@
 {
     "deepscan.enable": true,
-    "css.lint.unknownAtRules": "ignore"
+    "css.lint.unknownAtRules": "ignore",
+    "editor.insertSpaces": false,
+    "editor.tabSize": 2,
 }
