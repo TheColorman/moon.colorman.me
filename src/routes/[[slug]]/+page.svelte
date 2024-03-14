@@ -17,6 +17,9 @@
 			the column headers, and mark rows as complete by clicking on the checkbox. The table is saved
 			to your browser's local storage, so you can come back to it later.
 		</p>
+		<p class="max-w-md">
+			If you spot a missing entry or any errors, don't hesitate to contact me on <a href="mailto:nasuverse@colorman.me">nasuverse@colorman.me</a>.
+		</p>
 		<p class="ml-2 mt-2 text-sm text-gray-500 dark:text-gray-400">
 			Tip: Ctrl+click on a link to toggle open all rows.
 		</p>
