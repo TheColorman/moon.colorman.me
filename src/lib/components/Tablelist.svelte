@@ -295,13 +295,38 @@
             }
         }
     })
+
+    function getConsumeKeyword(medium: string) {
+        switch (medium) {
+            case 'Web Novel':
+            case 'Short Story':
+            case 'Manga':
+            case 'Light Novel':
+            case 'Novel':
+                return 'Read';
+            case 'Drama CD':
+            case 'OVA':
+            case 'Anime':
+            case 'Anime Film':
+            case 'ONA Series':
+            case 'Anime Special':
+                return 'Watch';
+            case 'Visual Novel':
+            case 'Video Game':
+            case 'April Fools Story':
+            case 'Mobile Game':
+            case 'Arcade Game':
+            default:
+                return 'Download';
+        }
+    }
 </script>
 
 <!-- Set head if url contains permalink to entry -->
 <svelte:head>
 	{#if entry && metadata[entry.id]}
 		{@html `<!-- Dynamic head meta -->
-            <title>Download ${entry.title}</title>
+            <title>${getConsumeKeyword(entry.medium)} ${entry.title}</title>
 			<meta name="title" content="Download ${entry.title}" />
 			<meta property="og:url" content="https://nasu.colorman.me/${entry.id}#${entry.id}" />
 			<meta property="og:title" content="Download ${entry.title}" />
