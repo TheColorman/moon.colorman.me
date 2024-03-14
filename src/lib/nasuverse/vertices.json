@@ -92,9 +92,9 @@
     },
     {
         "id": 12,
-        "title": "Fate stay night Comic Battle - Gekitotsu-hen",
+        "title": "Fate/stay night Comic Battle",
         "released": "2004-08",
-        "ended": "",
+        "ended": "2004-12",
         "medium": "Manga"
     },
     {
@@ -103,13 +103,6 @@
         "released": "2004-10",
         "ended": "",
         "medium": "Short Story"
-    },
-    {
-        "id": 14,
-        "title": "Fate stay night Comic Battle - Kessen-hen",
-        "released": "2004-12",
-        "ended": "",
-        "medium": "Manga"
     },
     {
         "id": 15,
