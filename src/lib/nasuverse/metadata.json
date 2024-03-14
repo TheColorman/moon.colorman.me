@@ -1,423 +1,423 @@
 {
-    "0": {
-        "official": {
-            "Amazon": "https://www.amazon.co.jp/-/en/%E5%A5%88%E9%A0%88-%E3%81%8D%E3%81%AE%E3%81%93/dp/406275892X"
-        },
-        "download": {
-            "Volume 1": "https://legacy.colorman.me/ekstra/nasu-hub/collection/kara-no-kyoukai/empty-boundaries-volume-1.pdf",
-            "Volume 2": "https://legacy.colorman.me/ekstra/nasu-hub/collection/kara-no-kyoukai/empty-boundaries-volume-2.pdf",
-            "Volume 3": "https://legacy.colorman.me/ekstra/nasu-hub/collection/kara-no-kyoukai/empty-boundaries-volume-3.pdf",
-            "Mirai Fukuin - Future Gospel": "#35",
-            "Shūmatsu Rokuon - Final Record": "#84"
-        },
-        "source": {
-            "Book translation": "https://emptyboundaries.wordpress.com/2011/07/25/kara-no-kyokai-translations-2/"
-        },
-        "credit": "Translated by Empty Boundaries.",
-        "cover": "kara-no-kyoukai-cover.jpg",
-        "description": "One of the earliest works in the Nasuverse. Mirai Fukuin and Shūmatsu Rokuon are short stories written after Kara no Kyoukai.",
-        "external": {
-            "myanimelist": "https://myanimelist.net/manga/2062/",
-            "wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai"
-        }
-    },
-    "1": {
-        "official": {},
-        "download": {
-            "Images (recommended)": "https://legacy.colorman.me/ekstra/nasu-hub/collection/notes/Angel_Notes.zip",
-            "Raw text": "https://legacy.colorman.me/ekstra/nasu-hub/collection/notes/angel-notes"
-        },
-        "source": {
-            "Translation": "https://forums.nrvnqsr.com/showthread.php/73-Angel-Notes-Translation-by-Evospace"
-        },
-        "credit": "Translated by Evospace.",
-        "external": {
-            "myanimelist": "https://myanimelist.net/manga/4594/",
-            "wiki": "https://typemoon.fandom.com/wiki/Notes."
-        },
-        "cover": "angel-notes-cover.jpg",
-        "description": "Excerpt from an anthology called Angel Voice. Takashi Takeuchi, original illustrator for Nasu, also published a one-shot manga in this anthology by the name of \"clowick canaan-vail\".\n\nNotes. includes a dictionary with terms used throughout the story. Consult the dictionary whenever a term appears, as it contains spoilers."
-    },
-    "2": {
-        "official": {},
-        "download": {
-            "Tsukihime English patch": "https://www.mediafire.com/file/l0iogvgg19jh2s8/Tsukihime.zip/file"
-        },
-        "source": {
-            "Nyaa": "https://sukebei.nyaa.si/view/3439039"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Tsukihime"
-        },
-        "cover": "tsukihime-cover.jpg",
-        "credit": "Translated by Mirror Moon. They don't condone piracy, but you literally can't get the game anywhere so... ¯\\_(ツ)_/¯",
-        "description": "The first visual novel by Nasu. If you want to know more about Tsukihime, I can recommend going to <a href='https://readtsukihi.me/' target='_blank' rel='noopener noreferrer'>readtsukihi.me</a>.\n\nThis download also includes <a href='#3'>PLUS-DISC</a> and <a href='#4'>Kagetsu Tohya</a>."
-    },
-    "3": {
-        "official": {},
-        "download": {
-            "Tsukihime": "#2"
-        },
-        "source": {
-            "Nyaa": "https://sukebei.nyaa.si/view/3439039"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Tsukihime_PLUS-DISC"
-        },
-        "cover": "plus-disc-cover.jpg",
-        "credit": "Translated by Mirror Moon.",
-        "description": "PLUS-DISC is sort of an OVA visual novel for Tsukihime. It contains some side stories to the original Tsukihime. It's included in the download for Tsukihime above."
-    },
-    "4": {
-        "official": {},
-        "download": {
-            "Tsukihime": "#2"
-        },
-        "source": {
-            "Nyaa": "https://sukebei.nyaa.si/view/3439039"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Kagetsu_Tohya"
-        },
-        "cover": "kagetsu-tohya.webp",
-        "description": "This is the sequel to Tsukihime. It's included in the download for Tsukihime above.",
-        "credit": ""
-    },
-    "5": {
-        "official": {},
-        "download": {
-            "Watch on YouTube": "https://www.youtube.com/watch?v=2aID7GwFSzc",
-            "MP3 file": "https://www.mediafire.com/file/f6h35lf2vmyyi30/Kara_no_Kyoukai__Ryougi_Shiki_Drama_CD__Fukan_Fuukei.mp3/file"
-        },
-        "source": {
-            "YouTube": "https://www.youtube.com/watch?v=2aID7GwFSzc"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai#Development"
-        },
-        "cover": "fukan-fuukei.jpg",
-        "description": "Drama CD based on the Overlooking View chapter. To my knowledge it has not yet been translated.",
-        "credit": "Video uploaded by Gaji Sunwoo."
-    },
-    "6": {
-        "official": {},
-        "download": {
-            "PC collection": "https://www.mediafire.com/file/23qrvl33jauopr7/MELTY_BLOOD_PC_Collection_2018-05-30_%2528Original_%252B_ReACT_%252B_Act_Cadenza_%252B_Actress_Again_Current_Code%2529.zip/file"
-        },
-        "source": {
-            "Nyaa": "https://nyaa.si/view/1042489"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Melty_Blood"
-        },
-        "cover": "melty-blood.jpg",
-        "description": "Melty Blood is a fighting game based on Tsukihime. This download contains Melty Blood, Melty Blood Re-ACT, Melty Blood Act Cadenza and Melty Blood Actress Again. Installation instructions can be found <a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/installation.html' target='_blank' rel='noopener noreferrer'>here</a>. Other useful links:\n<a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/netplay.html' target='_blank' rel='noopener noreferrer'>Netplay</a>\n<a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/links.html' target='_blank' rel='noopener noreferrer'>Useful game links</a>\n<a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/community.html' target='_blank' rel='noopener noreferrer'>Community</a>\nThe game has a very active community in their Discord server. Finally, check out <a href='https://meltyblood.club/' target='_blank' rel='noopener noreferrer'>meltyblood.club</a> for more information.",
-        "credit": ""
-    },
-    "7": {
-        "official": {
-            "HiDive": "https://www.hidive.com/tv/lunar-legend-tsukihime"
-        },
-        "download": {
-            "Stream on aniwave": "https://aniwave.to/watch/lunar-legend-tsukihime.l0m",
-            "Video files": "http://www.mediafire.com/file/omuthbo0jj0g13x/Shingetsutan_Tsukihime.zip"
-        },
-        "source": {
-            "Nyaa": "https://nyaa.si/view/1487827"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Lunar_Legend_Tsukihime_(anime)",
-            "myanimelist": "https://myanimelist.net/anime/169",
-            "anilist": "https://anilist.co/anime/169/"
-        },
-        "cover": "shingutsutan-tsukihime.jpg",
-        "description": "Shingetsutan Tsukihime (en. Lunar Legend Tsukihime) is an anime based on the original Tsukihime visual novel. The anime is generally considered god-awful and butchers its source material to the point that fans of Tsukihime refuse to acknowledge its existence, so you should really only watch this if you really want to marathon the whole series and are prepared for the experience.",
-        "credit": ""
-    },
-    "8": {
-        "official": {
-            "Amazon": "https://www.amazon.com/dp/1597960756",
-            "TYPE-MOON Comic Ace (japaenese)": "https://web-ace.jp/tmca/contents/2000013/"
-        },
-        "download": {
-            "Read on Mangadex": "https://mangadex.org/title/477800d5-bae8-4adb-b422-23e6cfa7ec87/shingetsutan-tsukihime",
-            "Zipped (Nyaa)": "https://drive.google.com/uc?export=download&id=1g6gBz6GLUXxNisUybeQ1kFmj3W_s2wWk"
-        },
-        "source": {
-            "TYPE-MOON Comic Ace": "https://web-ace.jp/tmca/",
-            "Nyaa": "https://nyaa.si/view/612721"
-        },
-        "external": {
-            "anilist": "https://anilist.co/manga/30705/Lunar-Legend-Tsukihime/",
-            "myanimelist": "https://myanimelist.net/manga/705/Shingetsutan_Tsukihime",
-            "wiki": "https://typemoon.fandom.com/wiki/Lunar_Legend_Tsukihime_(manga)"
-        },
-        "cover": "lunar-legend-tsukihime.jpg",
-        "description": "Manga adaptation of the <a href='#2'>visual novel</a> by the same name. It follows Arcueid's route, with a few elements mixed in from other routes, but it is generally considered to be a very good adaptation. It is still recommended te play the VN to get all the routes.",
-        "credit": "Various translators and groups.<br/><details><summary style='cursor: pointer'>Click to expand</summary><p><b>Mangadex:</b><br/>Beast's Lair, Scarlet Moon, Project Bite Me! Scanlations, Stifler, xyz199655, impulsive37, nokiasaintdotrar.<br/><b>Nyaa:</b><br/>Drmaster, Scarlet Moon Scans, Twilight Dream Scans + others.</p></details>NyaaTorrents for making the Nyaa release."
-    },
-    "9": {
-        "official": {},
-        "download": {
-            "Custom patch": "https://drive.google.com/file/d/1eHjQsDFjtFbK0M3APfCvkNGvd51eIoQz/view?usp=sharing"
-        },
-        "source": {
-            "Nyaa": "https://nyaa.si/view/1587539"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night"
-        },
-        "cover": "fate-stay-night.jpg",
-        "description": "The famous Fate/stay night visual novel. There are two releases of Fate/stay night. The original, and Réalta Nua. Réalta Nua is a family-friendly re-release with voice acting and cut out h-scenes. This patch merges the best of both worlds, so you get h-scenes and voice acting, all configurable in options.",
-        "credit": ""
-    },
-    "10": {
-        "official": {},
-        "download": {
-            "PC collection": "#6"
-        },
-        "source": {
-            "Nyaa": "https://nyaa.si/view/1042489"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Melty_Blood_Re-ACT"
-        },
-        "cover": "melty-blood-react.webp",
-        "description": "The second game in the Melty Blood series, acting as an expansion of the original Melty Blood. It's included in the download for Melty Blood above.\n\n<b>Note</b>: Re-ACT requires that you have already installed the original Melty Blood. After installing Re-ACT, the folder will have a file named <code>_Path.dat</code>. Open this file in a text editor and change the path to the Melty Blood folder.",
-        "credit": ""
-    },
-    "11": {
-        "official": {
-            "Amazon": "https://www.amazon.co.jp/gp/product/475806282X",
-            "Ichijinsha (publisher)": "https://www.ichijinsha.co.jp/special/takemoon_sp/"
-        },
-        "download": {
-            "Read on Mangadex (Warning: missing chapters)": "https://mangadex.org/title/c728b682-514e-4490-b099-a43eb9077b40/take-moon"
-        },
-        "source": {
-            "Mangadex": "https://mangadex.org"
-        },
-        "external": {
-            "anilist": "https://anilist.co/manga/30780/Take-Moon/",
-            "myanimelist": "https://myanimelist.net/manga/780/Take_Moon",
-            "wiki": "https://typemoon.fandom.com/wiki/TAKE_MOON"
-        },
-        "cover": "take-moon.jpg",
-        "description": "Gag manga that is a comedic adaptation of elements from Tsukihime, Melty Blood and Fate/stay night. Parts of Take Moon would later be adapted into the <a href='#60'>Carnival Phantasm</a> anime.",
-        "credit": "<b>Mangadex:</b><br/>vimiani, Lymus, ColorCorp."
-    },
-    "15": {
-        "official": {},
-        "download": {
-            "PC collection": "#6"
-        },
-        "source": {
-            "Nyaa": "https://nyaa.si/view/1042489"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Melty_Blood_Act_Cadenza"
-        },
-        "cover": "melty-blood-act-cadenza.webp",
-        "description": "Third game in the Melty Blood series. It's included in the download for Melty Blood above.",
-        "credit": ""
-    },
-    "17": {
-        "official": {
-            "Amazon": "https://www.amazon.com/Fate-Hollow-Ataraxia-Japanese/dp/B000ANETRM"
-        },
-        "download": {
-            "Game": "https://drive.google.com/file/d/1GBXPN6-96J7JS-g3UUMM-sblJcI1mKkb/view",
-            "7zip": "https://www.7-zip.org/"
-        },
-        "source": {
-            "Reddit": "https://www.reddit.com/r/fatestaynight/comments/a2fiuo/comment/javkidi/?utm_source=share&utm_medium=web2x&context=3"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Fate/hollow_ataraxia"
-        },
-        "cover": "hollow-ataraxia.jpg",
-        "description": "Fate/Hollow Ataraxia is the sequel to Fate/stay night. It's a visual novel with a lot of gameplay elements. The download includes the game with an English patch.\n<strong>Note: </strong>The download is in a 7zip archive. You will need a program like <a href='https://www.7-zip.org/' target='_blank' rel='noopener noreferrer'>7zip</a> to extract it.",
-        "credit": ""
-    },
-    "22": {
-        "official": {},
-        "download": {
-            "EPUB (e-book)": "https://legacy.colorman.me/ekstra/nasu-hub/collection/fate-zero/epub.html",
-            "PDF": "https://legacy.colorman.me/ekstra/nasu-hub/collection/fate-zero/pdf.html",
-            "Web": "https://legacy.colorman.me/ekstra/nasu-hub/collection/fate-zero/web.html"
-        },
-        "source": {
-            "Just Light Novels": "https://www.justlightnovels.com/2018/06/fate-zero/"
-        },
-        "external": {
-            "myanimelist": "https://myanimelist.net/manga/3649/",
-            "anilist": "https://anilist.co/manga/33649/",
-            "wiki": "https://typemoon.fandom.com/wiki/Fate/Zero"
-        },
-        "cover": "fate-zero.jpg",
-        "description": "The original Fate/Zero novel written by Gen Urobuchi. Download also contains a side story called Another Story -Heart of Freaks.",
-        "credit": "Translated by <a href='https://www.baka-tsuki.org/project/?title=Main_Page' target='_blank' rel='noopener noreferrer'>Baka-Tsuki</a>."
-    },
-    "23": {
-        "official": {
-            "Mac App Store": "https://apps.apple.com/app/id967898020"
-        },
-        "download": {
-            "Custom patch": "#9"
-        },
-        "source": {
-            "Nyaa": "https://nyaa.si/view/1587539"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night?so=search#R%C3%A9alta_Nua"
-        },
-        "cover": "realta-nua.jpg",
-        "description": "The \"family-friendly\" re-release of Fate/stay night. This version adds voice acting, replaces the sex scenes and tones down other explicit content. It's included in the download for Fate/stay night above.",
-        "credit": ""
-    },
-    "35": {
-        "official": {
-            "Kodansha": "https://bookclub.kodansha.co.jp/product?item=0000025592"
-        },
-        "download": {
-            "Web": "https://legacy.colorman.me/ekstra/nasu-hub/collection/mirai-fukuin/"
-        },
-        "source": {
-            "Quality ★ Mistranslations": "https://canonrap.wordpress.com/full/#mirai-fukuin"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai#Chapter_Listing"
-        },
-        "cover": "mirai-fukuin.jpg",
-        "description": "A Kara no Kyoukai side story.",
-        "credit": "Preface translated by YHK of Beast's Laire.\nRest translated by <a href='https://canonrap.wordpress.com/' target='_blank' rel='noopener noreferrer'>Quality ★ Mistranslations</a>."
-    },
-    "38": {
-        "official": {},
-        "download": {
-            "EPUB, PDF and Web": "#22"
-        },
-        "source": {
-            "Just Light Novels": "https://www.justlightnovels.com/2018/06/fate-zero/"
-        },
-        "external": {
-            "myanimelist": "https://myanimelist.net/manga/36803/Heart_of_Freaks",
-            "anilist": "https://anilist.co/manga/66803/Heart-of-Freaks/",
-            "wiki": "https://typemoon.fandom.com/wiki/Fate/Zero_Another_Story:_Heart_of_Freaks"
-        },
-        "cover": "heart-of-freaks.webp",
-        "description": "A short side-story to Fate/Zero. It's included in the download for Fate/Zero above.",
-        "credit": "Translated by <a href='https://www.baka-tsuki.org/project/?title=Main_Page' target='_blank' rel='noopener noreferrer'>Baka-Tsuki</a>."
-    },
-    "44": {
-        "official": {
-            "Steam": "https://store.steampowered.com/app/411370/"
-        },
-        "download": {
-            "PC collection": "#6"
-        },
-        "source": {
-            "Nyaa": "https://nyaa.si/view/1042489"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Melty_Blood_Actress_Again"
-        },
-        "cover": "melty-blood-actress-again.webp",
-        "description": "Fourth game in the Melty Blood series. It's included in the download for Melty Blood above.",
-        "credit": ""
-    },
-    "55": {
-        "official": {},
-        "download": {
-            "PDF": "https://drive.google.com/uc?export=download&id=158RpWKefIeMuLZP1bKr_G1gTN5MGdoU0"
-        },
-        "source": {
-            "PDF": "http://www.vn-meido.com/k1/index.php?topic=1204.0",
-            "PDF (archive)": "https://web.archive.org/web/20180223092010/http://www.vn-meido.com/k1/index.php?topic=1204.0"
-        },
-        "external": {
-            "anilist": "https://anilist.co/manga/64329/Tsuki-no-Sango/",
-            "myanimelist": "https://myanimelist.net/manga/34329/Tsuki_no_Sango",
-            "wiki": "https://typemoon.fandom.com/wiki/Tsuki_no_Sango"
-        },
-        "cover": "tsuki-no-sango.webp",
-        "description": "A short story about the a future earth around the year 3000 where the events of <a href='#2'>Tsukihime</a> never happened and civilization is losing its will to keep living after passing its peak.",
-        "credit": "Translated by Alumine on the <a href='http://www.vn-meido.com/k1/index.php?topic=1204.0' target='_blank' rel='noopener noreferrer'>Kureha One</a> forum."
-    },
-    "84": {
-        "official": {},
-        "download": {
-            "Web": "https://legacy.colorman.me/ekstra/nasu-hub/collection/shuumatsu-rokuon/"
-        },
-        "source": {
-            "Serouzo from Beast's Lair forum": "https://forums.nrvnqsr.com/showthread.php/5115-Kara-no-Kyoukai-Shuumatsu-Rokuon-%28Completish-2016-12-13%29"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai#Chapter_Listing"
-        },
-        "cover": "shuumatsu-rokuon.jpg",
-        "description": "A Kara no Kyoukai side story.",
-        "credit": "Translated by Serouzo from the Beast's Lair forum."
-    },
-    "134": {
-        "official": {
-            "PlayStation Store": "https://store.playstation.com/ja-jp/product/JP3372-CUSA27095_00-DIGITALDELUXEEDI",
-            "Nintendo Switch": "https://store-jp.nintendo.com/age-gate/?pid=70010000039545"
-        },
-        "download": {
-            "Emulator (Ryujinx)": "https://ryujinx.org/download",
-            "Prod Key": "https://theprodkeys.com/ryujinx-prod-keys-title-keys/",
-            "Firmware": "https://theprodkeys.com/switch-firmwares-download/",
-            "Tsukihime NSP": "https://www.ziperto.com/tsukihime-a-piece-of-blue-glass-moon-switch/",
-            "English patch (Tsukihimates)": "https://tsukihimates.com/patch/"
-        },
-        "source": {
-            "Ryujinx": "https://ryujinx.org/",
-            "theprodkeys": "https://theprodkeys.com/",
-            "Ziperto": "https://www.ziperto.com/",
-            "Tsukihimates": "https://tsukihimates.com/"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Tsukihime_-A_piece_of_blue_glass_moon-"
-        },
-        "cover": "tsukihime_blue_glass.webp",
-        "description": "Remake of the original Tsukihime, released in 2 parts: -A piece of blue glass moon-, which contain the Near Side routes (Arcueid and Ciel), and -The other side of red garden-, which will contain the Far Side routes (Akiha, Hisui and Kohaku (and maybe Sacchin?)).\n\n<strong>Disclaimer</strong>\n<i>Note: It is highly recommended that you buy the game on your own Switch, and then either extract the game to an emulator or apply the english patch to your switch. Emulation and patching is legal, piracy is not. These instructions are for those who do not own a Nintendo Switch (you can still buy the game even if you do not own a Switch, at least you will be offsetting the piracy.)</i>\nFor more information, see the guides from <a href='https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide' target='_blank' rel='noopener noreferrer'>Ryujinx</a> and <a href='https://tsukihimates.com/patch/' target='_blank' rel='noopener noreferrer'>Tsukihimates</a>.\nThe installation will most likely also work on Yuzu, though I have not tested it there.\n\n<strong>Installation instructions</strong>\n<ol style='list-style: decimal'><li>Download and extract the Ryujinx emulator.</li><li>Download the Prod Key and Firmware. Choose the newest version of both and make sure they match. Extract the Prod Key zip file (not the firmware one).</li><li>Follow the <a href='https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#initial-setup---placement-of-prodkeys' target='_blank' rel='noopener noreferrer'>key setup</a> for Ryujinx. Place both the <code>title.keys</code> and <code>prod.keys</code> files from the Prod Keys zip into the specified Ryujinx system folder.</li><li>Open up Ryujinx, go to Tools -> Install Firmware -> From XCI or ZIP. Navigate to and choose the Firmware zip you previously downloaded. It should display a success message after installation.</li><li>Download the Tsukihime NSP file. I recommend using MegaUp, as it's the fastest, but it will still take a while. (No need to download the v1.0.2 update.)\nThe website will download it in 5 parts. Once all 5 are downloaded, extract them to a folder (Note that some parts may be named incorrectly. If any of them ends in something like <code>part2_3</code>, remove the _3 part).\nIn Ryujinx, go to Options -> Settings. Here you need to add the path of the folder with the NSP file. See the <a href='https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#adding-your-games-to-ryujinx' target='_blank' rel='noopener noreferrer'>Ryujinx guide</a> for more information. The Tsukihime game should now show up in the emulator.</li><li>Finally, download the English Patch by Tsukihimates. Instructions to apply it are on the download page.</li><li>You can now double-click the game to play it.</li></ol>",
-        "credit": "Translated by <a href='https://tsukihimates.com/' target='_blank' rel='noopener noreferrer'>Tsukihimates</a>."
-    },
-    "141": {
-        "official": {
-            "TYPE-MOON Web Ace (japanese)": "https://web-ace.jp/tmca/contents/2000060/"
-        },
-        "download": {
-            "Chapter 1 zip (japanese)": "http://cdn.colorman.me/fate/prototype/fragments_of_sky_silver/fragments_of_sky_silver_chapter_1.zip",
-            "Read on Mangadex": "https://mangadex.org/title/37b7061e-7d5a-43fc-91d6-fba60f8519e0/fate-prototype-sougin-no-fragments"
-        },
-        "source": {
-            "TYPE-MOON Web Ace": "https://web-ace.jp/tmca/"
-        },
-        "external": {
-            "anilist": "https://anilist.co/manga/167469",
-            "myanimelist": "https://myanimelist.net/manga/161169/Fate_Prototype__Sougin_no_Fragments",
-            "wiki": "https://typemoon.fandom.com/wiki/Fate/Prototype:_Fragments_of_Sky_Silver_(manga)"
-        },
-        "cover": "sky_silver_manga.jpg",
-        "description": "Manga adaptation of the <a href='#77'>light novel</a> by the same name. It's a prequel to Fate/Prototype.",
-        "credit": ""
-    },
-    "147": {
-        "official": {},
-        "download": {
-            "Watch on YouTube": "https://www.youtube.com/watch?v=XZrj4ddxu5g",
-            "Download (webm)": "https://www.mediafire.com/file/rgirtqiytc0fsb2/Tsukihime_prologue_%255BXZrj4ddxu5g%255D.webm/file"
-        },
-        "source": {
-            "YouTube (silentbomber125)": "https://www.youtube.com/watch?v=XZrj4ddxu5g"
-        },
-        "external": {
-            "wiki": "https://typemoon.fandom.com/wiki/Lunar_Legend_Tsukihime_prologue"
-        },
-        "cover": "tsukihime-prologue.jpg",
-        "description": "OVA produced as a prequel to the <a href='#7'>Lunar Legend Tsukihime</a> anime. It contains background information about events and characters from before the start of the series.<br><br>The OVA came with a booklet. The first half of the video is the booklet, the second half is the OVA itself.",
-        "credit": "Video uploaded by silentbomber125."
-    }
+	"0": {
+		"official": {
+			"Amazon": "https://www.amazon.co.jp/-/en/%E5%A5%88%E9%A0%88-%E3%81%8D%E3%81%AE%E3%81%93/dp/406275892X"
+		},
+		"download": {
+			"Volume 1": "https://legacy.colorman.me/ekstra/nasu-hub/collection/kara-no-kyoukai/empty-boundaries-volume-1.pdf",
+			"Volume 2": "https://legacy.colorman.me/ekstra/nasu-hub/collection/kara-no-kyoukai/empty-boundaries-volume-2.pdf",
+			"Volume 3": "https://legacy.colorman.me/ekstra/nasu-hub/collection/kara-no-kyoukai/empty-boundaries-volume-3.pdf",
+			"Mirai Fukuin - Future Gospel": "#35",
+			"Shūmatsu Rokuon - Final Record": "#84"
+		},
+		"source": {
+			"Book translation": "https://emptyboundaries.wordpress.com/2011/07/25/kara-no-kyokai-translations-2/"
+		},
+		"credit": "Translated by Empty Boundaries.",
+		"cover": "kara-no-kyoukai-cover.jpg",
+		"description": "One of the earliest works in the Nasuverse. Mirai Fukuin and Shūmatsu Rokuon are short stories written after Kara no Kyoukai.",
+		"external": {
+			"myanimelist": "https://myanimelist.net/manga/2062/",
+			"wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai"
+		}
+	},
+	"1": {
+		"official": {},
+		"download": {
+			"Images (recommended)": "https://legacy.colorman.me/ekstra/nasu-hub/collection/notes/Angel_Notes.zip",
+			"Raw text": "https://legacy.colorman.me/ekstra/nasu-hub/collection/notes/angel-notes"
+		},
+		"source": {
+			"Translation": "https://forums.nrvnqsr.com/showthread.php/73-Angel-Notes-Translation-by-Evospace"
+		},
+		"credit": "Translated by Evospace.",
+		"external": {
+			"myanimelist": "https://myanimelist.net/manga/4594/",
+			"wiki": "https://typemoon.fandom.com/wiki/Notes."
+		},
+		"cover": "angel-notes-cover.jpg",
+		"description": "Excerpt from an anthology called Angel Voice. Takashi Takeuchi, original illustrator for Nasu, also published a one-shot manga in this anthology by the name of \"clowick canaan-vail\".\n\nNotes. includes a dictionary with terms used throughout the story. Consult the dictionary whenever a term appears, as it contains spoilers."
+	},
+	"2": {
+		"official": {},
+		"download": {
+			"Tsukihime English patch": "https://www.mediafire.com/file/l0iogvgg19jh2s8/Tsukihime.zip/file"
+		},
+		"source": {
+			"Nyaa": "https://sukebei.nyaa.si/view/3439039"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Tsukihime"
+		},
+		"cover": "tsukihime-cover.jpg",
+		"credit": "Translated by Mirror Moon. They don't condone piracy, but you literally can't get the game anywhere so... ¯\\_(ツ)_/¯",
+		"description": "The first visual novel by Nasu. If you want to know more about Tsukihime, I can recommend going to <a href='https://readtsukihi.me/' target='_blank' rel='noopener noreferrer'>readtsukihi.me</a>.\n\nThis download also includes <a href='#3'>PLUS-DISC</a> and <a href='#4'>Kagetsu Tohya</a>."
+	},
+	"3": {
+		"official": {},
+		"download": {
+			"Tsukihime": "#2"
+		},
+		"source": {
+			"Nyaa": "https://sukebei.nyaa.si/view/3439039"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Tsukihime_PLUS-DISC"
+		},
+		"cover": "plus-disc-cover.jpg",
+		"credit": "Translated by Mirror Moon.",
+		"description": "PLUS-DISC is sort of an OVA visual novel for Tsukihime. It contains some side stories to the original Tsukihime. It's included in the download for Tsukihime above."
+	},
+	"4": {
+		"official": {},
+		"download": {
+			"Tsukihime": "#2"
+		},
+		"source": {
+			"Nyaa": "https://sukebei.nyaa.si/view/3439039"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Kagetsu_Tohya"
+		},
+		"cover": "kagetsu-tohya.webp",
+		"description": "This is the sequel to Tsukihime. It's included in the download for Tsukihime above.",
+		"credit": ""
+	},
+	"5": {
+		"official": {},
+		"download": {
+			"Watch on YouTube": "https://www.youtube.com/watch?v=2aID7GwFSzc",
+			"MP3 file": "https://www.mediafire.com/file/f6h35lf2vmyyi30/Kara_no_Kyoukai__Ryougi_Shiki_Drama_CD__Fukan_Fuukei.mp3/file"
+		},
+		"source": {
+			"YouTube": "https://www.youtube.com/watch?v=2aID7GwFSzc"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai#Development"
+		},
+		"cover": "fukan-fuukei.jpg",
+		"description": "Drama CD based on the Overlooking View chapter. To my knowledge it has not yet been translated.",
+		"credit": "Video uploaded by Gaji Sunwoo."
+	},
+	"6": {
+		"official": {},
+		"download": {
+			"PC collection": "https://www.mediafire.com/file/23qrvl33jauopr7/MELTY_BLOOD_PC_Collection_2018-05-30_%2528Original_%252B_ReACT_%252B_Act_Cadenza_%252B_Actress_Again_Current_Code%2529.zip/file"
+		},
+		"source": {
+			"Nyaa": "https://nyaa.si/view/1042489"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Melty_Blood"
+		},
+		"cover": "melty-blood.jpg",
+		"description": "Melty Blood is a fighting game based on Tsukihime. This download contains Melty Blood, Melty Blood Re-ACT, Melty Blood Act Cadenza and Melty Blood Actress Again. Installation instructions can be found <a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/installation.html' target='_blank' rel='noopener noreferrer'>here</a>. Other useful links:\n<a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/netplay.html' target='_blank' rel='noopener noreferrer'>Netplay</a>\n<a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/links.html' target='_blank' rel='noopener noreferrer'>Useful game links</a>\n<a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/community.html' target='_blank' rel='noopener noreferrer'>Community</a>\nThe game has a very active community in their Discord server. Finally, check out <a href='https://meltyblood.club/' target='_blank' rel='noopener noreferrer'>meltyblood.club</a> for more information.",
+		"credit": ""
+	},
+	"7": {
+		"official": {
+			"HiDive": "https://www.hidive.com/tv/lunar-legend-tsukihime"
+		},
+		"download": {
+			"Stream on aniwave": "https://aniwave.to/watch/lunar-legend-tsukihime.l0m",
+			"Video files": "http://www.mediafire.com/file/omuthbo0jj0g13x/Shingetsutan_Tsukihime.zip"
+		},
+		"source": {
+			"Nyaa": "https://nyaa.si/view/1487827"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Lunar_Legend_Tsukihime_(anime)",
+			"myanimelist": "https://myanimelist.net/anime/169",
+			"anilist": "https://anilist.co/anime/169/"
+		},
+		"cover": "shingutsutan-tsukihime.jpg",
+		"description": "Shingetsutan Tsukihime (en. Lunar Legend Tsukihime) is an anime based on the original Tsukihime visual novel. The anime is generally considered god-awful and butchers its source material to the point that fans of Tsukihime refuse to acknowledge its existence, so you should really only watch this if you really want to marathon the whole series and are prepared for the experience.",
+		"credit": ""
+	},
+	"8": {
+		"official": {
+			"Amazon": "https://www.amazon.com/dp/1597960756",
+			"TYPE-MOON Comic Ace (japaenese)": "https://web-ace.jp/tmca/contents/2000013/"
+		},
+		"download": {
+			"Read on Mangadex": "https://mangadex.org/title/477800d5-bae8-4adb-b422-23e6cfa7ec87/shingetsutan-tsukihime",
+			"Zipped (Nyaa)": "https://drive.google.com/uc?export=download&id=1g6gBz6GLUXxNisUybeQ1kFmj3W_s2wWk"
+		},
+		"source": {
+			"TYPE-MOON Comic Ace": "https://web-ace.jp/tmca/",
+			"Nyaa": "https://nyaa.si/view/612721"
+		},
+		"external": {
+			"anilist": "https://anilist.co/manga/30705/Lunar-Legend-Tsukihime/",
+			"myanimelist": "https://myanimelist.net/manga/705/Shingetsutan_Tsukihime",
+			"wiki": "https://typemoon.fandom.com/wiki/Lunar_Legend_Tsukihime_(manga)"
+		},
+		"cover": "lunar-legend-tsukihime.jpg",
+		"description": "Manga adaptation of the <a href='#2'>visual novel</a> by the same name. It follows Arcueid's route, with a few elements mixed in from other routes, but it is generally considered to be a very good adaptation. It is still recommended te play the VN to get all the routes.",
+		"credit": "Various translators and groups.<br/><details><summary style='cursor: pointer'>Click to expand</summary><p><b>Mangadex:</b><br/>Beast's Lair, Scarlet Moon, Project Bite Me! Scanlations, Stifler, xyz199655, impulsive37, nokiasaintdotrar.<br/><b>Nyaa:</b><br/>Drmaster, Scarlet Moon Scans, Twilight Dream Scans + others.</p></details>NyaaTorrents for making the Nyaa release."
+	},
+	"9": {
+		"official": {},
+		"download": {
+			"Custom patch": "https://drive.google.com/file/d/1eHjQsDFjtFbK0M3APfCvkNGvd51eIoQz/view?usp=sharing"
+		},
+		"source": {
+			"Nyaa": "https://nyaa.si/view/1587539"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night"
+		},
+		"cover": "fate-stay-night.jpg",
+		"description": "The famous Fate/stay night visual novel. There are two releases of Fate/stay night. The original, and Réalta Nua. Réalta Nua is a family-friendly re-release with voice acting and cut out h-scenes. This patch merges the best of both worlds, so you get h-scenes and voice acting, all configurable in options.",
+		"credit": ""
+	},
+	"10": {
+		"official": {},
+		"download": {
+			"PC collection": "#6"
+		},
+		"source": {
+			"Nyaa": "https://nyaa.si/view/1042489"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Melty_Blood_Re-ACT"
+		},
+		"cover": "melty-blood-react.webp",
+		"description": "The second game in the Melty Blood series, acting as an expansion of the original Melty Blood. It's included in the download for Melty Blood above.\n\n<b>Note</b>: Re-ACT requires that you have already installed the original Melty Blood. After installing Re-ACT, the folder will have a file named <code>_Path.dat</code>. Open this file in a text editor and change the path to the Melty Blood folder.",
+		"credit": ""
+	},
+	"11": {
+		"official": {
+			"Amazon": "https://www.amazon.co.jp/gp/product/475806282X",
+			"Ichijinsha (publisher)": "https://www.ichijinsha.co.jp/special/takemoon_sp/"
+		},
+		"download": {
+			"Read on Mangadex (Warning: missing chapters)": "https://mangadex.org/title/c728b682-514e-4490-b099-a43eb9077b40/take-moon"
+		},
+		"source": {
+			"Mangadex": "https://mangadex.org"
+		},
+		"external": {
+			"anilist": "https://anilist.co/manga/30780/Take-Moon/",
+			"myanimelist": "https://myanimelist.net/manga/780/Take_Moon",
+			"wiki": "https://typemoon.fandom.com/wiki/TAKE_MOON"
+		},
+		"cover": "take-moon.jpg",
+		"description": "Gag manga that is a comedic adaptation of elements from Tsukihime, Melty Blood and Fate/stay night. Parts of Take Moon would later be adapted into the <a href='#60'>Carnival Phantasm</a> anime.",
+		"credit": "<b>Mangadex:</b><br/>vimiani, Lymus, ColorCorp."
+	},
+	"15": {
+		"official": {},
+		"download": {
+			"PC collection": "#6"
+		},
+		"source": {
+			"Nyaa": "https://nyaa.si/view/1042489"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Melty_Blood_Act_Cadenza"
+		},
+		"cover": "melty-blood-act-cadenza.webp",
+		"description": "Third game in the Melty Blood series. It's included in the download for Melty Blood above.",
+		"credit": ""
+	},
+	"17": {
+		"official": {
+			"Amazon": "https://www.amazon.com/Fate-Hollow-Ataraxia-Japanese/dp/B000ANETRM"
+		},
+		"download": {
+			"Game": "https://drive.google.com/file/d/1GBXPN6-96J7JS-g3UUMM-sblJcI1mKkb/view",
+			"7zip": "https://www.7-zip.org/"
+		},
+		"source": {
+			"Reddit": "https://www.reddit.com/r/fatestaynight/comments/a2fiuo/comment/javkidi/?utm_source=share&utm_medium=web2x&context=3"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/hollow_ataraxia"
+		},
+		"cover": "hollow-ataraxia.jpg",
+		"description": "Fate/Hollow Ataraxia is the sequel to Fate/stay night. It's a visual novel with a lot of gameplay elements. The download includes the game with an English patch.\n<strong>Note: </strong>The download is in a 7zip archive. You will need a program like <a href='https://www.7-zip.org/' target='_blank' rel='noopener noreferrer'>7zip</a> to extract it.",
+		"credit": ""
+	},
+	"22": {
+		"official": {},
+		"download": {
+			"EPUB (e-book)": "https://legacy.colorman.me/ekstra/nasu-hub/collection/fate-zero/epub.html",
+			"PDF": "https://legacy.colorman.me/ekstra/nasu-hub/collection/fate-zero/pdf.html",
+			"Web": "https://legacy.colorman.me/ekstra/nasu-hub/collection/fate-zero/web.html"
+		},
+		"source": {
+			"Just Light Novels": "https://www.justlightnovels.com/2018/06/fate-zero/"
+		},
+		"external": {
+			"myanimelist": "https://myanimelist.net/manga/3649/",
+			"anilist": "https://anilist.co/manga/33649/",
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/Zero"
+		},
+		"cover": "fate-zero.jpg",
+		"description": "The original Fate/Zero novel written by Gen Urobuchi. Download also contains a side story called Another Story -Heart of Freaks.",
+		"credit": "Translated by <a href='https://www.baka-tsuki.org/project/?title=Main_Page' target='_blank' rel='noopener noreferrer'>Baka-Tsuki</a>."
+	},
+	"23": {
+		"official": {
+			"Mac App Store": "https://apps.apple.com/app/id967898020"
+		},
+		"download": {
+			"Custom patch": "#9"
+		},
+		"source": {
+			"Nyaa": "https://nyaa.si/view/1587539"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night?so=search#R%C3%A9alta_Nua"
+		},
+		"cover": "realta-nua.jpg",
+		"description": "The \"family-friendly\" re-release of Fate/stay night. This version adds voice acting, replaces the sex scenes and tones down other explicit content. It's included in the download for Fate/stay night above.",
+		"credit": ""
+	},
+	"35": {
+		"official": {
+			"Kodansha": "https://bookclub.kodansha.co.jp/product?item=0000025592"
+		},
+		"download": {
+			"Web": "https://legacy.colorman.me/ekstra/nasu-hub/collection/mirai-fukuin/"
+		},
+		"source": {
+			"Quality ★ Mistranslations": "https://canonrap.wordpress.com/full/#mirai-fukuin"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai#Chapter_Listing"
+		},
+		"cover": "mirai-fukuin.jpg",
+		"description": "A Kara no Kyoukai side story.",
+		"credit": "Preface translated by YHK of Beast's Laire.\nRest translated by <a href='https://canonrap.wordpress.com/' target='_blank' rel='noopener noreferrer'>Quality ★ Mistranslations</a>."
+	},
+	"38": {
+		"official": {},
+		"download": {
+			"EPUB, PDF and Web": "#22"
+		},
+		"source": {
+			"Just Light Novels": "https://www.justlightnovels.com/2018/06/fate-zero/"
+		},
+		"external": {
+			"myanimelist": "https://myanimelist.net/manga/36803/Heart_of_Freaks",
+			"anilist": "https://anilist.co/manga/66803/Heart-of-Freaks/",
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/Zero_Another_Story:_Heart_of_Freaks"
+		},
+		"cover": "heart-of-freaks.webp",
+		"description": "A short side-story to Fate/Zero. It's included in the download for Fate/Zero above.",
+		"credit": "Translated by <a href='https://www.baka-tsuki.org/project/?title=Main_Page' target='_blank' rel='noopener noreferrer'>Baka-Tsuki</a>."
+	},
+	"44": {
+		"official": {
+			"Steam": "https://store.steampowered.com/app/411370/"
+		},
+		"download": {
+			"PC collection": "#6"
+		},
+		"source": {
+			"Nyaa": "https://nyaa.si/view/1042489"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Melty_Blood_Actress_Again"
+		},
+		"cover": "melty-blood-actress-again.webp",
+		"description": "Fourth game in the Melty Blood series. It's included in the download for Melty Blood above.",
+		"credit": ""
+	},
+	"55": {
+		"official": {},
+		"download": {
+			"PDF": "https://drive.google.com/uc?export=download&id=158RpWKefIeMuLZP1bKr_G1gTN5MGdoU0"
+		},
+		"source": {
+			"PDF": "http://www.vn-meido.com/k1/index.php?topic=1204.0",
+			"PDF (archive)": "https://web.archive.org/web/20180223092010/http://www.vn-meido.com/k1/index.php?topic=1204.0"
+		},
+		"external": {
+			"anilist": "https://anilist.co/manga/64329/Tsuki-no-Sango/",
+			"myanimelist": "https://myanimelist.net/manga/34329/Tsuki_no_Sango",
+			"wiki": "https://typemoon.fandom.com/wiki/Tsuki_no_Sango"
+		},
+		"cover": "tsuki-no-sango.webp",
+		"description": "A short story about the a future earth around the year 3000 where the events of <a href='#2'>Tsukihime</a> never happened and civilization is losing its will to keep living after passing its peak.",
+		"credit": "Translated by Alumine on the <a href='http://www.vn-meido.com/k1/index.php?topic=1204.0' target='_blank' rel='noopener noreferrer'>Kureha One</a> forum."
+	},
+	"84": {
+		"official": {},
+		"download": {
+			"Web": "https://legacy.colorman.me/ekstra/nasu-hub/collection/shuumatsu-rokuon/"
+		},
+		"source": {
+			"Serouzo from Beast's Lair forum": "https://forums.nrvnqsr.com/showthread.php/5115-Kara-no-Kyoukai-Shuumatsu-Rokuon-%28Completish-2016-12-13%29"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai#Chapter_Listing"
+		},
+		"cover": "shuumatsu-rokuon.jpg",
+		"description": "A Kara no Kyoukai side story.",
+		"credit": "Translated by Serouzo from the Beast's Lair forum."
+	},
+	"134": {
+		"official": {
+			"PlayStation Store": "https://store.playstation.com/ja-jp/product/JP3372-CUSA27095_00-DIGITALDELUXEEDI",
+			"Nintendo Switch": "https://store-jp.nintendo.com/age-gate/?pid=70010000039545"
+		},
+		"download": {
+			"Emulator (Ryujinx)": "https://ryujinx.org/download",
+			"Prod Key": "https://theprodkeys.com/ryujinx-prod-keys-title-keys/",
+			"Firmware": "https://theprodkeys.com/switch-firmwares-download/",
+			"Tsukihime NSP": "https://www.ziperto.com/tsukihime-a-piece-of-blue-glass-moon-switch/",
+			"English patch (Tsukihimates)": "https://tsukihimates.com/patch/"
+		},
+		"source": {
+			"Ryujinx": "https://ryujinx.org/",
+			"theprodkeys": "https://theprodkeys.com/",
+			"Ziperto": "https://www.ziperto.com/",
+			"Tsukihimates": "https://tsukihimates.com/"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Tsukihime_-A_piece_of_blue_glass_moon-"
+		},
+		"cover": "tsukihime_blue_glass.webp",
+		"description": "Remake of the original Tsukihime, released in 2 parts: -A piece of blue glass moon-, which contain the Near Side routes (Arcueid and Ciel), and -The other side of red garden-, which will contain the Far Side routes (Akiha, Hisui and Kohaku (and maybe Sacchin?)).\n\n<strong>Disclaimer</strong>\n<i>Note: It is highly recommended that you buy the game on your own Switch, and then either extract the game to an emulator or apply the english patch to your switch. Emulation and patching is legal, piracy is not. These instructions are for those who do not own a Nintendo Switch (you can still buy the game even if you do not own a Switch, at least you will be offsetting the piracy.)</i>\nFor more information, see the guides from <a href='https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide' target='_blank' rel='noopener noreferrer'>Ryujinx</a> and <a href='https://tsukihimates.com/patch/' target='_blank' rel='noopener noreferrer'>Tsukihimates</a>.\nThe installation will most likely also work on Yuzu, though I have not tested it there.\n\n<strong>Installation instructions</strong>\n<ol style='list-style: decimal'><li>Download and extract the Ryujinx emulator.</li><li>Download the Prod Key and Firmware. Choose the newest version of both and make sure they match. Extract the Prod Key zip file (not the firmware one).</li><li>Follow the <a href='https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#initial-setup---placement-of-prodkeys' target='_blank' rel='noopener noreferrer'>key setup</a> for Ryujinx. Place both the <code>title.keys</code> and <code>prod.keys</code> files from the Prod Keys zip into the specified Ryujinx system folder.</li><li>Open up Ryujinx, go to Tools -> Install Firmware -> From XCI or ZIP. Navigate to and choose the Firmware zip you previously downloaded. It should display a success message after installation.</li><li>Download the Tsukihime NSP file. I recommend using MegaUp, as it's the fastest, but it will still take a while. (No need to download the v1.0.2 update.)\nThe website will download it in 5 parts. Once all 5 are downloaded, extract them to a folder (Note that some parts may be named incorrectly. If any of them ends in something like <code>part2_3</code>, remove the _3 part).\nIn Ryujinx, go to Options -> Settings. Here you need to add the path of the folder with the NSP file. See the <a href='https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#adding-your-games-to-ryujinx' target='_blank' rel='noopener noreferrer'>Ryujinx guide</a> for more information. The Tsukihime game should now show up in the emulator.</li><li>Finally, download the English Patch by Tsukihimates. Instructions to apply it are on the download page.</li><li>You can now double-click the game to play it.</li></ol>",
+		"credit": "Translated by <a href='https://tsukihimates.com/' target='_blank' rel='noopener noreferrer'>Tsukihimates</a>."
+	},
+	"141": {
+		"official": {
+			"TYPE-MOON Web Ace (japanese)": "https://web-ace.jp/tmca/contents/2000060/"
+		},
+		"download": {
+			"Chapter 1 zip (japanese)": "http://cdn.colorman.me/fate/prototype/fragments_of_sky_silver/fragments_of_sky_silver_chapter_1.zip",
+			"Read on Mangadex": "https://mangadex.org/title/37b7061e-7d5a-43fc-91d6-fba60f8519e0/fate-prototype-sougin-no-fragments"
+		},
+		"source": {
+			"TYPE-MOON Web Ace": "https://web-ace.jp/tmca/"
+		},
+		"external": {
+			"anilist": "https://anilist.co/manga/167469",
+			"myanimelist": "https://myanimelist.net/manga/161169/Fate_Prototype__Sougin_no_Fragments",
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/Prototype:_Fragments_of_Sky_Silver_(manga)"
+		},
+		"cover": "sky_silver_manga.jpg",
+		"description": "Manga adaptation of the <a href='#77'>light novel</a> by the same name. It's a prequel to Fate/Prototype.",
+		"credit": ""
+	},
+	"147": {
+		"official": {},
+		"download": {
+			"Watch on YouTube": "https://www.youtube.com/watch?v=XZrj4ddxu5g",
+			"Download (webm)": "https://www.mediafire.com/file/rgirtqiytc0fsb2/Tsukihime_prologue_%255BXZrj4ddxu5g%255D.webm/file"
+		},
+		"source": {
+			"YouTube (silentbomber125)": "https://www.youtube.com/watch?v=XZrj4ddxu5g"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Lunar_Legend_Tsukihime_prologue"
+		},
+		"cover": "tsukihime-prologue.jpg",
+		"description": "OVA produced as a prequel to the <a href='#7'>Lunar Legend Tsukihime</a> anime. It contains background information about events and characters from before the start of the series.<br><br>The OVA came with a booklet. The first half of the video is the booklet, the second half is the OVA itself.",
+		"credit": "Video uploaded by silentbomber125."
+	}
 }
