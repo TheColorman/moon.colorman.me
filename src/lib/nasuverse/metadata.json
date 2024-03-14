@@ -206,6 +206,28 @@
 		"description": "Gag manga that is a comedic adaptation of elements from Tsukihime, Melty Blood and Fate/stay night. Parts of Take Moon would later be adapted into the <a href='#60'>Carnival Phantasm</a> anime.",
 		"credit": "<b>Mangadex:</b><br/>vimiani, Lymus, ColorCorp."
 	},
+	"12": {
+		"official": {
+			"Kadokawa (Vol. 1)": "https://www.kadokawa.co.jp/product/200403000427/",
+			"Kadokawa (Vol. 2)": "https://www.kadokawa.co.jp/product/200403000428/",
+			"Amazon (Vol. 1)": "https://www.amazon.co.jp/dp/4048537601",
+			"Amazon (Vol. 2)": "https://www.amazon.co.jp/dp/404853789X"
+		},
+		"download": {
+			"Read on Mangadex (Warning: missing chapters)": "https://mangadex.org/title/3906742c-a9d3-4d88-a3b7-e7cae4af2581/fate-stay-night-comic-battle"
+		},
+		"source": {
+			"Mangadex": "https://mangadex.org"
+		},
+		"external": {
+			"anilist": "https://anilist.co/manga/40491",
+			"myanimelist": "https://myanimelist.net/manga/10491",
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night_Comic_Battle"
+		},
+		"cover": "comic-battle-vol1.webp",
+		"description": "An anthology series collecting a number of <a href='#9'>Fate/stay night</a> short manga from various authors. It consists of 2 volumes with 7 chapters each. The first volume is mostly comedic, while the second volume is more serious.",
+		"credit": "<b>Mangadex:</b><br/>BNC Scanlation, SnoopyCool, Beast's Lair."
+	},
 	"15": {
 		"official": {},
 		"download": {
