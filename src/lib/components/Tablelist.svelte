@@ -303,6 +303,7 @@
 			case 'Manga':
 			case 'Light Novel':
 			case 'Novel':
+			case 'Material Book':
 				return 'Read';
 			case 'Drama CD':
 			case 'OVA':
