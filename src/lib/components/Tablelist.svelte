@@ -400,7 +400,7 @@
 					<a
 						bind:this={accordionLinks[entry.id]}
 						on:click|stopPropagation={(event) => expandAll(event, entry.id)}
-						on:mouseover={() => preload(`/images/items/${metadata[entry.id].cover}`)}
+						on:mouseover={() => metadata[entry.id].cover && preload(`/images/items/${metadata[entry.id].cover}`)}
 						on:focus={() => preload(`/images/items/${metadata[entry.id].cover}`)}>{entry.title}</a
 					>
 					<!-- svelte-ignore a11y-missing-attribute a11y-click-events-have-key-events -->
