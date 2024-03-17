@@ -282,44 +282,44 @@
                       />
                       <meta property="twitter:image" content="https://nasu.colorman.me/images/header.webp" />`;
 
-    // Open accordion if url contains permalink to entry
-    onMount(() => {
-        if (window.location.hash) {
-            const id = window.location.hash.slice(1);
-            const target = accordionRefs[id];
+	// Open accordion if url contains permalink to entry
+	onMount(() => {
+		if (window.location.hash) {
+			const id = window.location.hash.slice(1);
+			const target = accordionRefs[id];
 
-            if (target?.getOpenState() === false) {
-                setTimeout(() => {
-                    target?.toggle();
-                }, 300)
-            }
-        }
-    })
+			if (target?.getOpenState() === false) {
+				setTimeout(() => {
+					target?.toggle();
+				}, 300);
+			}
+		}
+	});
 
-    function getConsumeKeyword(medium: string) {
-        switch (medium) {
-            case 'Web Novel':
-            case 'Short Story':
-            case 'Manga':
-            case 'Light Novel':
-            case 'Novel':
-                return 'Read';
-            case 'Drama CD':
-            case 'OVA':
-            case 'Anime':
-            case 'Anime Film':
-            case 'ONA Series':
-            case 'Anime Special':
-                return 'Watch';
-            case 'Visual Novel':
-            case 'Video Game':
-            case 'April Fools Story':
-            case 'Mobile Game':
-            case 'Arcade Game':
-            default:
-                return 'Download';
-        }
-    }
+	function getConsumeKeyword(medium: string) {
+		switch (medium) {
+			case 'Web Novel':
+			case 'Short Story':
+			case 'Manga':
+			case 'Light Novel':
+			case 'Novel':
+				return 'Read';
+			case 'Drama CD':
+			case 'OVA':
+			case 'Anime':
+			case 'Anime Film':
+			case 'ONA Series':
+			case 'Anime Special':
+				return 'Watch';
+			case 'Visual Novel':
+			case 'Video Game':
+			case 'April Fools Story':
+			case 'Mobile Game':
+			case 'Arcade Game':
+			default:
+				return 'Download';
+		}
+	}
 </script>
 
 <!-- Set head if url contains permalink to entry -->
