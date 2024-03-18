@@ -11,7 +11,10 @@
 		"title": "Notes.",
 		"released": "1999-05",
 		"ended": "",
-		"medium": "Short Story"
+		"medium": "Short Story",
+		"notes": [
+			"format"
+		]
 	},
 	{
 		"id": 2,
@@ -39,7 +42,10 @@
 		"title": "Kara no Kyoukai: The Garden of Sinners - Overlooking View",
 		"released": "2002-09",
 		"ended": "",
-		"medium": "Drama CD"
+		"medium": "Drama CD",
+		"notes": [
+			"translation-none"
+		]
 	},
 	{
 		"id": 6,
@@ -88,28 +94,41 @@
 		"title": "Take Moon",
 		"released": "2004-06",
 		"ended": "2005-09",
-		"medium": "Manga"
+		"medium": "Manga",
+		"notes": [
+			"translation-partly"
+		]
 	},
 	{
 		"id": 12,
 		"title": "Fate/stay night Comic Battle",
 		"released": "2004-08",
 		"ended": "2004-12",
-		"medium": "Manga"
+		"medium": "Manga",
+		"notes": [
+			"translation-partly",
+			"missing-material"
+		]
 	},
 	{
 		"id": 13,
 		"title": "Talk.",
 		"released": "2004-10",
 		"ended": "",
-		"medium": "Short Story"
+		"medium": "Short Story",
+		"notes": [
+			"format"
+		]
 	},
 	{
 		"id": 14,
 		"title": "Tsukihime Reader Plus Period",
 		"released": "2004-10",
 		"ended": "",
-		"medium": "Material Book"
+		"medium": "Material Book",
+		"notes": [
+			"translation-none"
+		]
 	},
 	{
 		"id": 15,
@@ -256,7 +275,10 @@
 		"title": "Kara no Kyoukai: Mirai Fukuin (Future Gospel)",
 		"released": "2008-08",
 		"ended": "",
-		"medium": "Novel"
+		"medium": "Novel",
+		"notes": [
+			"format"
+		]
 	},
 	{
 		"id": 36,
@@ -613,7 +635,10 @@
 		"title": "Kara no Kyoukai: Shūmatsu Rokuon (Final Record)",
 		"released": "2013-09",
 		"ended": "",
-		"medium": "Novel"
+		"medium": "Novel",
+		"notes": [
+			"format"
+		]
 	},
 	{
 		"id": 85,
