@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { format, translationNone, translationPartly, missingMaterial } from '$lib/svg';
 	import Tablelist from '$lib/components/Tablelist.svelte';
 </script>
 
@@ -25,6 +26,20 @@
 		<p class="ml-2 mt-2 text-sm text-gray-500 dark:text-gray-400">
 			Tip: Ctrl+click on a link to toggle open all rows.
 		</p>
+		<ul>
+			<li>
+				{@html format} - Format should be updated
+			</li>
+			<li>
+				{@html translationNone} - Not translated
+			</li>
+			<li>
+				{@html translationPartly} - Only partly translated
+			</li>
+			<li>
+			{@html missingMaterial} - Missing material. Contact me if you have a source! 
+			</li>
+		</ul>
 	</div>
 	<div>
 		<div class="flex flex-col md:flex-row">
@@ -65,10 +80,10 @@
 		</div>
 		<p class="max-w-sm xl:hidden">
 			<b>Help needed!</b><br />
-			A lot of Nasuverse work remains missing or untranslated. If you have any of the missing works, or
-			can help with translations, please reach out at
+			A lot of Nasuverse work remains missing or untranslated. If you have any of the missing works,
+			or can help with translations, please reach out at
 			<a href="mailto:mailto:nasuverse@colorman.me">nasuverse@colorman.me</a>!
-		</p>	
+		</p>
 	</div>
 	<p class="hidden max-w-sm xl:block">
 		<b>Help needed!</b><br />
