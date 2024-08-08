@@ -535,7 +535,7 @@
 							<p class="whitespace-pre-line">
 								{@html metadata[entry.id].description || 'No description available.'}
 							</p>
-							{#if metadata[entry.id].source}
+							{#if Object.keys(metadata[entry.id].source).length}
 								<h1 class="mt-4 text-xl font-thin">Download source</h1>
 								<ul>
 									{#each Object.entries(metadata[entry.id].source) as [key, value]}
