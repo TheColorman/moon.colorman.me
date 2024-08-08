@@ -15,8 +15,7 @@
 		/>
 		<p class="max-w-md">
 			This page consists of a table of all Nasuverse works. You can sort the table by clicking on
-			the column headers, and mark rows as complete by clicking on the checkbox. The table is saved
-			to your browser's local storage, so you can come back to it later.
+			the column headers, and mark rows as complete by clicking on the checkbox.
 		</p>
 		<p class="max-w-md">
 			If you spot a missing entry or any errors, don't hesitate to contact me on <a
