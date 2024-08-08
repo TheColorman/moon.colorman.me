@@ -3,9 +3,10 @@ type EntryMetadata = {
     download: { [key: string]: string },
     source: { [key: string]: string },
     external: {
-        "myanimelist"?: string,
-        "anilist"?: string,
-        "wiki"?: string,
+        "myanimelist"?: `https://myanimelist.net/${string}`,
+        "anilist"?: `https://anilist.co/${string}`,
+				"vndb"?: `https://vndb.org/${string}`,
+        "wiki"?: `https://typemoon.fandom.com/wiki/${string}`,
     },
     credit: string,
     cover?: string,

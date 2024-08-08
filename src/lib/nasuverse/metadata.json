@@ -47,7 +47,8 @@
 			"Nyaa": "https://sukebei.nyaa.si/view/3439039"
 		},
 		"external": {
-			"wiki": "https://typemoon.fandom.com/wiki/Tsukihime"
+			"wiki": "https://typemoon.fandom.com/wiki/Tsukihime",
+			"vndb": "https://vndb.org/r339"
 		},
 		"cover": "tsukihime-cover.jpg",
 		"credit": "Translated by Mirror Moon. They don't condone piracy, but you literally can't get the game anywhere so... ¯\\_(ツ)_/¯",
@@ -62,7 +63,8 @@
 			"Nyaa": "https://sukebei.nyaa.si/view/3439039"
 		},
 		"external": {
-			"wiki": "https://typemoon.fandom.com/wiki/Tsukihime_PLUS-DISC"
+			"wiki": "https://typemoon.fandom.com/wiki/Tsukihime_PLUS-DISC",
+			"vndb": "https://vndb.org/v49"
 		},
 		"cover": "plus-disc-cover.jpg",
 		"credit": "Translated by Mirror Moon.",
@@ -77,7 +79,8 @@
 			"Nyaa": "https://sukebei.nyaa.si/view/3439039"
 		},
 		"external": {
-			"wiki": "https://typemoon.fandom.com/wiki/Kagetsu_Tohya"
+			"wiki": "https://typemoon.fandom.com/wiki/Kagetsu_Tohya",
+			"vndb": "https://vndb.org/v47"
 		},
 		"cover": "kagetsu-tohya.webp",
 		"description": "This is the sequel to Tsukihime. It's included in the download for Tsukihime above.",
@@ -165,7 +168,8 @@
 			"Nyaa": "https://nyaa.si/view/1587539"
 		},
 		"external": {
-			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night"
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night",
+			"vndb": "https://vndb.org/r62346"
 		},
 		"cover": "fate-stay-night.jpg",
 		"description": "The famous Fate/stay night visual novel. There are two releases of Fate/stay night. The original, and Réalta Nua. Réalta Nua is a family-friendly re-release with voice acting and cut out h-scenes. This patch merges the best of both worlds, so you get h-scenes and voice acting, all configurable in options.",
@@ -291,7 +295,8 @@
 			"Reddit": "https://www.reddit.com/r/fatestaynight/comments/a2fiuo/comment/javkidi/?utm_source=share&utm_medium=web2x&context=3"
 		},
 		"external": {
-			"wiki": "https://typemoon.fandom.com/wiki/Fate/hollow_ataraxia"
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/hollow_ataraxia",
+			"vndb": "https://vndb.org/v50"
 		},
 		"cover": "hollow-ataraxia.jpg",
 		"description": "Fate/Hollow Ataraxia is the sequel to Fate/stay night. It's a visual novel with a lot of gameplay elements. The download includes the game with an English patch.\n<strong>Note: </strong>The download is in a 7zip archive. You will need a program like <a href='https://www.7-zip.org/' target='_blank' rel='noopener noreferrer'>7zip</a> to extract it.",
@@ -327,7 +332,8 @@
 			"Nyaa": "https://nyaa.si/view/1587539"
 		},
 		"external": {
-			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night?so=search#R%C3%A9alta_Nua"
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night?so=search#R%C3%A9alta_Nua",
+			"vndb": "https://vndb.org/r62346"
 		},
 		"cover": "realta-nua.jpg",
 		"description": "The \"family-friendly\" re-release of Fate/stay night. This version adds voice acting, replaces the sex scenes and tones down other explicit content. It's included in the download for Fate/stay night above.",
@@ -436,7 +442,8 @@
 			"Tsukihimates": "https://tsukihimates.com/"
 		},
 		"external": {
-			"wiki": "https://typemoon.fandom.com/wiki/Tsukihime_-A_piece_of_blue_glass_moon-"
+			"wiki": "https://typemoon.fandom.com/wiki/Tsukihime_-A_piece_of_blue_glass_moon-",
+			"vndb": "https://vndb.org/r82663"
 		},
 		"cover": "tsukihime_blue_glass.webp",
 		"description": "Remake of the original Tsukihime, released in 2 parts: -A piece of blue glass moon-, which contain the Near Side routes (Arcueid and Ciel), and -The other side of red garden-, which will contain the Far Side routes (Akiha, Hisui and Kohaku (and maybe Sacchin?)).\n\n<strong>Disclaimer</strong>\n<i>Note: It is highly recommended that you buy the game on your own Switch, and then either extract the game to an emulator or apply the english patch to your switch. Emulation and patching is legal, piracy is not. These instructions are for those who do not own a Nintendo Switch (you can still buy the game even if you do not own a Switch, at least you will be offsetting the piracy.)</i>\nFor more information, see the guides from <a href='https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide' target='_blank' rel='noopener noreferrer'>Ryujinx</a> and <a href='https://tsukihimates.com/patch/' target='_blank' rel='noopener noreferrer'>Tsukihimates</a>.\nThe installation will most likely also work on Yuzu, though I have not tested it there.\n\n<strong>Installation instructions</strong>\n<ol style='list-style: decimal'><li>Download and extract the Ryujinx emulator.</li><li>Download the Prod Key and Firmware. Choose the newest version of both and make sure they match. Extract the Prod Key zip file (not the firmware one).</li><li>Follow the <a href='https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#initial-setup---placement-of-prodkeys' target='_blank' rel='noopener noreferrer'>key setup</a> for Ryujinx. Place both the <code>title.keys</code> and <code>prod.keys</code> files from the Prod Keys zip into the specified Ryujinx system folder.</li><li>Open up Ryujinx, go to Tools -> Install Firmware -> From XCI or ZIP. Navigate to and choose the Firmware zip you previously downloaded. It should display a success message after installation.</li><li>Download the Tsukihime NSP file. I recommend using MegaUp, as it's the fastest, but it will still take a while. (No need to download the v1.0.2 update.)\nThe website will download it in 5 parts. Once all 5 are downloaded, extract them to a folder (Note that some parts may be named incorrectly. If any of them ends in something like <code>part2_3</code>, remove the _3 part).\nIn Ryujinx, go to Options -> Settings. Here you need to add the path of the folder with the NSP file. See the <a href='https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide#adding-your-games-to-ryujinx' target='_blank' rel='noopener noreferrer'>Ryujinx guide</a> for more information. The Tsukihime game should now show up in the emulator.</li><li>Finally, download the English Patch by Tsukihimates. Instructions to apply it are on the download page.</li><li>You can now double-click the game to play it.</li></ol>",
@@ -488,7 +495,8 @@
 		},
 		"source": {},
 		"external": {
-			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night"
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night",
+			"vndb": "https://vndb.org/r118913"
 		},
 		"cover": "fsnremaster.jpg",
 		"description": "A Remaster of the PS Vita release of Réalta Nua version of the Faste/stay night visual novel from 2012, using a new game-engine in HD and 16:9. It's available in both English and Simplified Chinese for the first time ever, and was released on the 20th anniversary of the <a href='#9'>original visual novel</a> from 2004.",
@@ -501,7 +509,8 @@
 		"download": {},
 		"source": {},
 		"external":{
-			"wiki": "https://typemoon.fandom.com/wiki/Fate/hollow_ataraxia"
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/hollow_ataraxia",
+			"vndb": "https://vndb.org/r125890"
 		},
 		"cover": "hollowataraxiaremaster.png",
 		"description": "A Remaster of the Fate/hollow ataraxia visual novel from 2005, as part of the Fate/stay night 20th anniversary celebration. Yet to be released.",

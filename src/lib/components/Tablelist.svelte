@@ -519,6 +519,16 @@
 										<img src="/images/myanimelist.ico" alt="MyAnimeList" class="w-4" />
 									</a>
 								{/if}
+								{#if metadata[entry.id].external.vndb}
+									<a
+										href={metadata[entry.id].external.vndb}
+										target="_blank"
+										rel="noopener noreferrer"
+										title="Go to the visual novel database entry"
+									>
+										<img src="/images/vndb.ico" alt="vndb" class="w-4" />
+									</a>
+								{/if}
 								{#if metadata[entry.id].external.wiki}
 									<a
 										href={metadata[entry.id].external.wiki}
