@@ -12,9 +12,7 @@
 		"released": "1999-05",
 		"ended": "",
 		"medium": "Short Story",
-		"notes": [
-			"format"
-		]
+		"notes": ["format"]
 	},
 	{
 		"id": 2,
@@ -43,9 +41,7 @@
 		"released": "2002-09",
 		"ended": "",
 		"medium": "Drama CD",
-		"notes": [
-			"translation-none"
-		]
+		"notes": ["translation-none"]
 	},
 	{
 		"id": 6,
@@ -102,10 +98,7 @@
 		"released": "2004-08",
 		"ended": "2004-12",
 		"medium": "Manga",
-		"notes": [
-			"translation-partly",
-			"missing-material"
-		]
+		"notes": ["translation-partly", "missing-material"]
 	},
 	{
 		"id": 13,
@@ -113,9 +106,7 @@
 		"released": "2004-10",
 		"ended": "",
 		"medium": "Short Story",
-		"notes": [
-			"format"
-		]
+		"notes": ["format"]
 	},
 	{
 		"id": 14,
@@ -123,9 +114,7 @@
 		"released": "2004-10",
 		"ended": "",
 		"medium": "Material Book",
-		"notes": [
-			"translation-none"
-		]
+		"notes": ["translation-none"]
 	},
 	{
 		"id": 15,
@@ -273,9 +262,7 @@
 		"released": "2008-08",
 		"ended": "",
 		"medium": "Novel",
-		"notes": [
-			"format"
-		]
+		"notes": ["format"]
 	},
 	{
 		"id": 36,
@@ -633,9 +620,7 @@
 		"released": "2013-09",
 		"ended": "",
 		"medium": "Novel",
-		"notes": [
-			"format"
-		]
+		"notes": ["format"]
 	},
 	{
 		"id": 85,
@@ -1070,5 +1055,12 @@
 		"released": "TBA",
 		"ended": "",
 		"medium": "Anime"
+	},
+	{
+		"id": 150,
+		"title": "Fate/hollow ataraxia REMASTERED",
+		"released": "TBA",
+		"ended": "",
+		"medium": "Visual Novel"
 	}
 ]

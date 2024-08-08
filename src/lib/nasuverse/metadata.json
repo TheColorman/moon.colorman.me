@@ -493,5 +493,18 @@
 		"cover": "fsnremaster.jpg",
 		"description": "A Remaster of the PS Vita release of Réalta Nua version of the Faste/stay night visual novel from 2012, using a new game-engine in HD and 16:9. It's available in both English and Simplified Chinese for the first time ever, and was released on the 20th anniversary of the <a href='#9'>original visual novel</a> from 2004.",
 		"credit": ""
+	},
+	"150": {
+		"official": {
+			"TYPE-MOON (YouTube)": "https://www.youtube.com/watch?v=UCiyflcEDv8"
+		},
+		"download": {},
+		"source": {},
+		"external":{
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/hollow_ataraxia"
+		},
+		"cover": "hollowataraxiaremaster.png",
+		"description": "A Remaster of the Fate/hollow ataraxia visual novel from 2005, as part of the Fate/stay night 20th anniversary celebration. Yet to be released.",
+		"credit": ""
 	}
 }
