@@ -15,16 +15,12 @@
 
 	// Toggle checkbox and save to local storage
 	function toggleRow(
-		event: MouseEvent & { currentTarget: EventTarget & (HTMLTableRowElement | HTMLInputElement) },
+		event: MouseEvent & { currentTarget: EventTarget & HTMLInputElement },
 		id: number
 	) {
 		// Check if row or checkbox itseslf was clicked
-		const checkbox =
-			event.currentTarget instanceof HTMLTableRowElement
-				? (event.currentTarget.querySelector('input[type="checkbox"]') as HTMLInputElement)
-				: event.currentTarget;
+		const checkbox = event.currentTarget;
 
-		checkbox.checked = !checkbox.checked;
 		completed.update((completed) => {
 			completed[id] = checkbox.checked;
 			return completed;
@@ -125,8 +121,8 @@
 					? 'asc'
 					: 'desc'
 				: currentSort.secondary.ascending
-					? 'asc'
-					: 'desc'
+				? 'asc'
+				: 'desc'
 			: false,
 		completed: sortKeys.includes('completed')
 			? currentSort.primary.key === 'completed'
@@ -134,8 +130,8 @@
 					? 'asc'
 					: 'desc'
 				: currentSort.secondary.ascending
-					? 'asc'
-					: 'desc'
+				? 'asc'
+				: 'desc'
 			: false,
 		title: sortKeys.includes('title')
 			? currentSort.primary.key === 'title'
@@ -143,8 +139,8 @@
 					? 'asc'
 					: 'desc'
 				: currentSort.secondary.ascending
-					? 'asc'
-					: 'desc'
+				? 'asc'
+				: 'desc'
 			: false,
 		released: sortKeys.includes('released')
 			? currentSort.primary.key === 'released'
@@ -152,8 +148,8 @@
 					? 'asc'
 					: 'desc'
 				: currentSort.secondary.ascending
-					? 'asc'
-					: 'desc'
+				? 'asc'
+				: 'desc'
 			: false,
 		ended: sortKeys.includes('ended')
 			? currentSort.primary.key === 'ended'
@@ -161,8 +157,8 @@
 					? 'asc'
 					: 'desc'
 				: currentSort.secondary.ascending
-					? 'asc'
-					: 'desc'
+				? 'asc'
+				: 'desc'
 			: false,
 		medium: sortKeys.includes('medium')
 			? currentSort.primary.key === 'medium'
@@ -170,8 +166,8 @@
 					? 'asc'
 					: 'desc'
 				: currentSort.secondary.ascending
-					? 'asc'
-					: 'desc'
+				? 'asc'
+				: 'desc'
 			: false
 	};
 
@@ -401,7 +397,6 @@
 			class="group border-t dark:border-[#2e3c52] {$completed[entry.id]
 				? 'bg-gray-200 text-gray-500 hover:bg-gray-300 dark:bg-[#293548] dark:text-gray-400 dark:hover:bg-[#2e3c52]'
 				: 'hover:bg-gray-100 dark:hover:bg-[#293548]'}"
-			on:click={(event) => toggleRow(event, entry.id)}
 			id={`${entry.id}`}
 		>
 			<td class="py-1">
