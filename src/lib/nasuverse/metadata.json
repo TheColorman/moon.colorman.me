@@ -477,5 +477,20 @@
 		"cover": "tsukihime-prologue.jpg",
 		"description": "OVA produced as a prequel to the <a href='#7'>Lunar Legend Tsukihime</a> anime. It contains background information about events and characters from before the start of the series.<br><br>The OVA came with a booklet. The first half of the video is the booklet, the second half is the OVA itself.",
 		"credit": "Video uploaded by silentbomber125."
+	},
+	"149": {
+		"official": {
+			"Steam": "https://store.steampowered.com/app/2396980/Fatestay_night_REMASTERED/",
+			"TYPE-MOON": "https://typemoon.com/products/f-sn/"
+		},
+		"download": {
+			"Steam": "https://store.steampowered.com/app/2396980/Fatestay_night_REMASTERED/"
+		},
+		"source": {},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night"
+		},
+		"cover": "fsnremaster.jpg",
+		"description": "A Remaster of the PS Vita release of Réalta Nua version of the Faste/stay night visual novel from 2012, using a new game-engine in HD and 16:9. It's available in both English and Simplified Chinese for the first time ever, and was released on the 20th anniversary of the ,A href='#9'>original visual novel</a> from 2004."
 	}
 }
