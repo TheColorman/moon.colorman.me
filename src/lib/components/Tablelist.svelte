@@ -449,7 +449,9 @@
 					</a>
 					{#if entry.notes !== undefined}
 						{#each entry.notes as note}
-							{@html displayNote(note)}
+							<span class="float-right">
+								{@html displayNote(note)}
+							</span>
 						{/each}
 					{/if}
 				{:else}

@@ -1,4 +1,4 @@
-export const format = `<span class="inline-block float-right" style="color: #3b82f6" title="Format should be updated">
+export const format = `<span class="inline-block" style="color: #3b82f6" title="Format should be updated">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 -960 960 960"
@@ -12,7 +12,7 @@ export const format = `<span class="inline-block float-right" style="color: #3b8
 						>
 					</span>`;
 
-export const translationNone = `<span class="inline-block float-right" style="color: #f63939" title="Not translated">
+export const translationNone = `<span class="inline-block" style="color: #f63939" title="Not translated">
 					<svg
 						xmlns="http://www.w3.org/2000/svg" 
 						viewBox="0 -960 960 960" 
@@ -26,7 +26,7 @@ export const translationNone = `<span class="inline-block float-right" style="co
 					>
 				</span>`;
 
-export const translationPartly = `<span class="inline-block float-right" style="color: #f6af3a" title="Only partly translated">
+export const translationPartly = `<span class="inline-block" style="color: #f6af3a" title="Only partly translated">
 					<svg
 						xmlns="http://www.w3.org/2000/svg" 
 						viewBox="0 -960 960 960" 
@@ -40,7 +40,7 @@ export const translationPartly = `<span class="inline-block float-right" style="
 					>
 				</span>`;
 
-export const missingMaterial = `<span class="inline-block float-right" style="color: #f63939" title="Missing material. Contact me if you have a source!">
+export const missingMaterial = `<span class="inline-block" style="color: #f63939" title="Missing material. Contact me if you have a source!">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 -960 960 960"
