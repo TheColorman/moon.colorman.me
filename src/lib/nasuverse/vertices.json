@@ -912,6 +912,14 @@
 		"medium": "Anime Special"
 	},
 	{
+		"id": 153,
+		"title": "Fate/GO MEMO 3",
+		"released": "2018-12",
+		"ended": "",
+		"medium": "Material Book",
+		"notes": ["unofficial", "translation-none", "format"]
+	},
+	{
 		"id": 123,
 		"title": "Fate/stay night Heaven's Feel: II. Lost Butterfly",
 		"released": "2019-01",
