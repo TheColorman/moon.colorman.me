@@ -1,5 +1,11 @@
 <script lang="ts">
-	import { format, translationNone, translationPartly, missingMaterial } from '$lib/svg';
+	import {
+		format,
+		translationNone,
+		translationPartly,
+		missingMaterial,
+		unofficial
+	} from '$lib/svg';
 	import Tablelist from '$lib/components/Tablelist.svelte';
 </script>
 
@@ -36,7 +42,10 @@
 				{@html translationPartly} - Only partly translated
 			</li>
 			<li>
-			{@html missingMaterial} - Missing material. Contact me if you have a source! 
+				{@html missingMaterial} - Missing material. Contact me if you have a source!
+			</li>
+			<li>
+				{@html unofficial} - Unofficial - not published directly by Type-Moon
 			</li>
 		</ul>
 	</div>

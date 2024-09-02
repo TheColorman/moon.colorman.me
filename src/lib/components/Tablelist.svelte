@@ -1,6 +1,12 @@
 <script lang="ts">
 	import type { EntriesMetadata } from '$lib/types';
-	import { format, translationNone, translationPartly, missingMaterial } from '$lib/svg';
+	import {
+		format,
+		translationNone,
+		translationPartly,
+		missingMaterial,
+		unofficial
+	} from '$lib/svg';
 	import AccordionRow from './AccordionRow.svelte';
 	import entriesImmutable from '$lib/nasuverse/vertices.json';
 	import metadataImmuatable from '$lib/nasuverse/metadata.json';
@@ -331,6 +337,8 @@
 				return translationPartly;
 			case 'missing-material':
 				return missingMaterial;
+			case 'unofficial':
+				return unofficial;
 			default:
 				return '';
 		}

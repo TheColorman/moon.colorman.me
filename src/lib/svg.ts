@@ -46,9 +46,22 @@ export const missingMaterial = `<span class="inline-block" style="color: #f63939
 						viewBox="0 -960 960 960"
 						stroke="currentColor"
 						fill="currentColor"
-						class=h-4 w-4"
+						class="h-4 w-4"
 						style="transform: translate(0, 0.2rem)"
 						><path
 							d="M240-80q-33 0-56.5-23.5T160-160v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-80H240Zm-80-440v-280q0-33 23.5-56.5T240-880h320l240 240v120h-80v-80H520v-200H240v280h-80ZM40-360v-80h880v80H40Zm440-160Zm0 240Z"
+						/></svg>
+					</span>`;
+
+export const unofficial = `<span class="inline-block" style="color: #289a20" title="Unofficial - not published directly by Type-Moon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 -960 960 960"
+						stroke="currentColor"
+						fill="currentColor"
+						class="h-4 w-4"
+						style="transform: translate(0, 0.2rem)"
+						><path
+							d="M440-120v-319q-64 0-123-24.5T213-533q-45-45-69-104t-24-123v-80h80q63 0 122 24.5T426-746q31 31 51.5 68t31.5 79q5-7 11-13.5t13-13.5q45-45 104-69.5T760-720h80v80q0 64-24.5 123T746-413q-45 45-103.5 69T520-320v200h-80Zm0-400q0-48-18.5-91.5T369-689q-34-34-77.5-52.5T200-760q0 48 18 92t52 78q34 34 78 52t92 18Zm80 120q48 0 91.5-18t77.5-52q34-34 52.5-78t18.5-92q-48 0-92 18.5T590-569q-34 34-52 77.5T520-400Zm0 0Zm-80-120Z"
 						/></svg>
 					</span>`;
