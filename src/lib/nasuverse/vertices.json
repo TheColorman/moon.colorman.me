@@ -976,6 +976,14 @@
 		"medium": "Anime"
 	},
 	{
+		"id": 154,
+		"title": "Fate/GO MEMO 4",
+		"released": "2019-12",
+		"ended": "",
+		"medium": "Material Book",
+		"notes": ["unofficial", "translation-none"]
+	},
+	{
 		"id": 131,
 		"title": "Fate/stay night Heaven's Feel: III. Spring Song",
 		"released": "2020-08",
