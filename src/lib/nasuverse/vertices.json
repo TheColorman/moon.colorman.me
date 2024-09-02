@@ -1072,6 +1072,14 @@
 		"medium": "Video Game"
 	},
 	{
+		"id": 158,
+		"title": "Fate/GO MEMO 8",
+		"released": "2023-12",
+		"ended": "",
+		"medium": "Material Book",
+		"notes": ["unofficial", "translation-none", "missing-material"]
+	},
+	{
 		"id": 149,
 		"title": "Fate/stay night REMASTERED",
 		"released": "2024-08",
