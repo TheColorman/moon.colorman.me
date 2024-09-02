@@ -553,19 +553,19 @@
 	"153": {
 		"official": {},
 		"download": {
-			"imgur (low quality)": "https://imgur.com/gallery/most-of-fate-go-memo-3-low-quality-0ULYw2B",
-			"Zip archive.org (low quality)": "https://archive.org/download/fategomemo3-low-quality",
-			"cubari/imgur (low quality)": "https://cubari.moe/read/imgur/0ULYw2B/1/1"
+			"imgur": "https://imgur.com/a/oRMvCeD",
+			"Zip archive.org": "https://archive.org/download/fategomemo3",
+			"cubari/imgur (←see note)": "https://cubari.moe/read/imgur/oRMvCeD/1/1"
 		},
 		"source": {
-			"Compilation": "https://www.reddit.com/r/grandorder/comments/cpejaw/most_of_wada_arcos_fatego_memo_3_low_quality/"
+			"Collection": "https://kikaruuni.tumblr.com/post/754702127485583360/wada-arco-fate-go-memo-3-fate-grand-order"
 		},
 		"external": {
 			"wiki": "https://typemoon.fandom.com/wiki/Arco_Wada#wadamemo"
 		},
 		"cover": "fgomemo3.jpeg",
-		"description": "Fate/GO Memo 3 is the third art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Comiket 95. See also <a href='#152'>Fate/GO MEMO 2</a> and <a href='#154'>Fate/GO MEMO 4</a>.",
-		"credit": "/u/kaidoku123 on Reddit for the image compilation."
+		"description": "Fate/GO Memo 3 is the third art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Comiket 95. See also <a href='#152'>Fate/GO MEMO 2</a> and <a href='#154'>Fate/GO MEMO 4</a>.\n\nNote for cubari link: This is the recommended link for reading. Make sure to set these settings:\nReader layout: Left-to-right.\n2-page spread: 2-page layout, odd (only do odd after the first page).",
+		"credit": "kikaruuni on Tumblr for collection, IndexxNecronomicom for scans."
 	},
 	"154": {
 		"official": {},
@@ -609,13 +609,13 @@
 			"cubari/imgur (←see note)": "https://cubari.moe/read/imgur/XQKKM7H/1/1"
 		},
 		"source": {
-			"Book scans": "https://kikaruuni.tumblr.com/post/754815921967726592/wada-arco-fate-go-memo-6-fate-grand-order"
+			"Collection": "https://kikaruuni.tumblr.com/post/754815921967726592/wada-arco-fate-go-memo-6-fate-grand-order"
 		},
 		"external": {
 			"wiki": "https://typemoon.fandom.com/wiki/Arco_Wada#wadamemo"
 		},
 		"cover": "fgomemo6.jpg",
 		"description": "Fate/GO Memo 6 is the sixth art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Comiket 99. See also <a href='#155'>Fate/GO MEMO 5</a>.\n\nNote for cubari link: This is the recommended link for reading. Make sure to set these settings:\nReader layout: Left-to-right.\n2-page spread: 2-page layout, odd (only do odd after the first page).",
-		"credit": "kikaruuni on Tumblr, with scans by ptrepa"
+		"credit": "kikaruuni on Tumblr for collection, ptrepa for scans."
 	}
 }
