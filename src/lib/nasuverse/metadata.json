@@ -520,7 +520,8 @@
 		"official": {},
 		"download": {
 			"imgur": "https://imgur.com/a/fategomemo-lmJks#17meBx3",
-			"Web archive": "https://archive.org/download/fate-go-memo"
+			"Web archive": "https://archive.org/download/fate-go-memo",
+			"cubari/imgur (←see note)": "https://cubari.moe/read/imgur/lmJks/1/1"
 		},
 		"source": {
 			"Book scans": "https://www.reddit.com/r/grandorder/comments/6s9ohv/fategomemo_scans/"
@@ -529,7 +530,7 @@
 			"wiki": "https://typemoon.fandom.com/wiki/Fate/GOMEMO"
 		},
 		"cover": "fgomemo.jpeg",
-		"description": "Fate/GO Memo is an art book released at Comiket 91 by Arco Wada's doujin circle, wadamemo. Arco Wada is the main artist behind the Fate/EX games such as Fate/Extra and Fate/Extella.",
+		"description": "Fate/GO Memo is an art book released at Comiket 91 by Arco Wada's doujin circle, wadamemo. Arco Wada is the main artist behind the Fate/EX games such as Fate/Extra and Fate/Extella.\n\nNote for cubari link: This is the recommended link for reading. Make sure to set these settings:\nReader layout: Left-to-right.\n2-page spread: 2-page layout, odd (only do odd after the first page).",
 		"credit": "/u/yowahoshihime on Reddit for the book scans."
 	}
 }
