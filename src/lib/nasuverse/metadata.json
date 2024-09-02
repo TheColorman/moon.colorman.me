@@ -564,7 +564,8 @@
 			"wiki": "https://typemoon.fandom.com/wiki/Arco_Wada#wadamemo"
 		},
 		"cover": "fgomemo3.jpeg",
-		"description": "Fate/GO Memo 3 is the third art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Comiket 95. See also <a href='#152'>Fate/GO MEMO 2</a> and <a href='#154'>Fate/GO MEMO 4</a>."
+		"description": "Fate/GO Memo 3 is the third art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Comiket 95. See also <a href='#152'>Fate/GO MEMO 2</a> and <a href='#154'>Fate/GO MEMO 4</a>.",
+		"credit": "/u/kaidoku123 on Reddit for the image compilation."
 	},
 	"154": {
 		"official": {},
@@ -580,6 +581,24 @@
 			"wiki": "https://typemoon.fandom.com/wiki/Arco_Wada#wadamemo"
 		},
 		"cover": "fgomemo4.jpg",
-		"description": "Fate/GO Memo 4 is the fourth art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Comiket 97. See also <a href='#153'>Fate/GO MEMO 3</a>.\n\nNote for cubari link: This is the recommended link for reading. Make sure to set these settings:\nReader layout: Left-to-right.\n2-page spread: 2-page layout, odd (only do odd after the first page)."
+		"description": "Fate/GO Memo 4 is the fourth art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Comiket 97. See also <a href='#153'>Fate/GO MEMO 3</a> and <a href='#155'>Fate/GO MEMO 5</a>.\n\nNote for cubari link: This is the recommended link for reading. Make sure to set these settings:\nReader layout: Left-to-right.\n2-page spread: 2-page layout, odd (only do odd after the first page).",
+		"credit": "以恋焦炙-因愛也 on BiliBili"
+	},
+	"155": {
+		"official": {},
+		"download": {
+			"imgur": "https://imgur.com/a/rzD7J6t",
+			"Zip archive.org": "https://archive.org/download/fategomemo5",
+			"cubari/imgur (←see note)": "https://cubari.moe/read/imgur/rzD7J6t/1/1"
+		},
+		"source": {
+			"Book scans": "https://www.bilibili.com/read/cv22138846/"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Arco_Wada#wadamemo"
+		},
+		"cover": "fgomemo5.jpg",
+		"description": "Fate/GO Memo 5 is the fifth art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Air Comiket 2. See also <a href='#154'>Fate/GO MEMO 4</a>.\n\nNote for cubari link: This is the recommended link for reading. Make sure to set these settings:\nReader layout: Left-to-right.\n2-page spread: 2-page layout, odd (only do odd after the first page).",
+		"credit": "以恋焦炙-因愛也 on BiliBili"
 	}
 }

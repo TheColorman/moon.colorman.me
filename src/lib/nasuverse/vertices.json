@@ -998,6 +998,14 @@
 		"medium": "Anime Film"
 	},
 	{
+		"id": 155,
+		"title": "Fate/GO MEMO 5",
+		"released": "2020-12",
+		"ended": "",
+		"medium": "Material Book",
+		"notes": ["unofficial", "translation-none"]
+	},
+	{
 		"id": 133,
 		"title": "-The Sacred Round Table Camelot- Paladin; Agateram",
 		"released": "2021-05",
