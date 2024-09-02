@@ -1043,6 +1043,14 @@
 		"medium": "Visual Novel"
 	},
 	{
+		"id": 157,
+		"title": "Fate/GO MEMO 7",
+		"released": "2022-12",
+		"ended": "",
+		"medium": "Material Book",
+		"notes": ["unofficial", "translation-none"]
+	},
+	{
 		"id": 138,
 		"title": "Fate/strange Fake -Whispers of Dawn-",
 		"released": "2023-07",
