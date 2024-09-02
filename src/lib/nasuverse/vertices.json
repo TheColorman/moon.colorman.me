@@ -784,6 +784,14 @@
 		"medium": "Anime Short"
 	},
 	{
+		"id": 151,
+		"title": "Fate/GO MEMO",
+		"released": "2016-12",
+		"ended": "",
+		"medium": "Material Book",
+		"notes": ["unofficial", "translation-none"]
+	},
+	{
 		"id": 107,
 		"title": "Fate/Apocrypha",
 		"released": "2017-07",
@@ -978,7 +986,7 @@
 		"released": "2021",
 		"ended": "",
 		"medium": "Visual Novel",
-		"notes": [ "format" ]
+		"notes": ["format"]
 	},
 	{
 		"id": 135,

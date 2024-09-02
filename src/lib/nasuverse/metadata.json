@@ -508,12 +508,28 @@
 		},
 		"download": {},
 		"source": {},
-		"external":{
+		"external": {
 			"wiki": "https://typemoon.fandom.com/wiki/Fate/hollow_ataraxia",
 			"vndb": "https://vndb.org/r125890"
 		},
 		"cover": "hollowataraxiaremaster.png",
 		"description": "A Remaster of the Fate/hollow ataraxia visual novel from 2005, as part of the Fate/stay night 20th anniversary celebration. Yet to be released.",
 		"credit": ""
+	},
+	"151": {
+		"official": {},
+		"download": {
+			"imgur": "https://imgur.com/a/fategomemo-lmJks#17meBx3",
+			"Web archive": "https://archive.org/download/fate-go-memo"
+		},
+		"source": {
+			"Book scans": "https://www.reddit.com/r/grandorder/comments/6s9ohv/fategomemo_scans/"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/GOMEMO"
+		},
+		"cover": "fgomemo.jpeg",
+		"description": "Fate/GO Memo is an art book released at Comiket 91 by Arco Wada's doujin circle, wadamemo. Arco Wada is the main artist behind the Fate/EX games such as Fate/Extra and Fate/Extella.",
+		"credit": "/u/yowahoshihime on Reddit for the book scans."
 	}
 }
