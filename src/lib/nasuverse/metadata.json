@@ -598,7 +598,24 @@
 			"wiki": "https://typemoon.fandom.com/wiki/Arco_Wada#wadamemo"
 		},
 		"cover": "fgomemo5.jpg",
-		"description": "Fate/GO Memo 5 is the fifth art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Air Comiket 2. See also <a href='#154'>Fate/GO MEMO 4</a>.\n\nNote for cubari link: This is the recommended link for reading. Make sure to set these settings:\nReader layout: Left-to-right.\n2-page spread: 2-page layout, odd (only do odd after the first page).",
+		"description": "Fate/GO Memo 5 is the fifth art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Air Comiket 2. See also <a href='#154'>Fate/GO MEMO 4</a> and <a href='#156'>Fate/GO MEMO 6</a>.\n\nNote for cubari link: This is the recommended link for reading. Make sure to set these settings:\nReader layout: Left-to-right.\n2-page spread: 2-page layout, odd (only do odd after the first page).",
 		"credit": "以恋焦炙-因愛也 on BiliBili"
+	},
+	"156": {
+		"official": {},
+		"download": {
+			"imgur": "https://imgur.com/a/XQKKM7H",
+			"Zip archive.org": "https://archive.org/download/fategomemo6",
+			"cubari/imgur (←see note)": "https://cubari.moe/read/imgur/XQKKM7H/1/1"
+		},
+		"source": {
+			"Book scans": "https://kikaruuni.tumblr.com/post/754815921967726592/wada-arco-fate-go-memo-6-fate-grand-order"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Arco_Wada#wadamemo"
+		},
+		"cover": "fgomemo6.jpg",
+		"description": "Fate/GO Memo 6 is the sixth art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Comiket 99. See also <a href='#155'>Fate/GO MEMO 5</a>.\n\nNote for cubari link: This is the recommended link for reading. Make sure to set these settings:\nReader layout: Left-to-right.\n2-page spread: 2-page layout, odd (only do odd after the first page).",
+		"credit": "kikaruuni on Tumblr"
 	}
 }

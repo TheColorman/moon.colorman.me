@@ -1013,6 +1013,14 @@
 		"medium": "Anime Film"
 	},
 	{
+		"id": 156,
+		"title": "Fate/GO MEMO 6",
+		"released": "2021-12",
+		"ended": "",
+		"medium": "Material Book",
+		"notes": ["unofficial", "translation-none"]
+	},
+	{
 		"id": 134,
 		"title": "Tsukihime -A piece of blue glass moon-",
 		"released": "2021",
