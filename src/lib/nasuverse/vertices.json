@@ -848,6 +848,14 @@
 		"medium": "Anime Short"
 	},
 	{
+		"id": 152,
+		"title": "Fate/GO MEMO 2",
+		"released": "2017-12",
+		"ended": "",
+		"medium": "Material Book",
+		"notes": ["unofficial", "translation-none"]
+	},
+	{
 		"id": 115,
 		"title": "Today's Menu for Emiya Faimly",
 		"released": "2018-01",
