@@ -17,7 +17,7 @@
 		<img
 			src="/images/clueless.png"
 			alt="hmm today i will download the entirety of the nasuverse seßries and freely distribute it diregarding any and all copyright law. *clueless*"
-			class="h-60 w-60 md:hidden"
+			class="mb-4 h-60 w-60 md:hidden"
 		/>
 		<p class="max-w-md">
 			This page consists of a table of all Nasuverse works. You can sort the table by clicking on
@@ -28,9 +28,10 @@
 				href="mailto:nasuverse@colorman.me">nasuverse@colorman.me</a
 			>.
 		</p>
-		<p class="ml-2 mt-2 text-sm text-gray-500 dark:text-gray-400">
+		<p class="ml-2 mt-2 hidden text-sm text-gray-500 dark:text-gray-400 md:block">
 			Tip: Ctrl+click on a link to toggle open all rows.
 		</p>
+		<hr class="my-2 border-slate-500" />
 		<ul>
 			<li>
 				{@html format} - Format should be updated
@@ -56,7 +57,7 @@
 				alt="hmm today i will download the entirety of the nasuverse series and freely distribute it diregarding any and all copyright law. *clueless*"
 				class="hidden h-60 w-60 md:block"
 			/>
-			<a
+			<!-- <a
 				href="https://thecolorman.github.io/Fate-Timeline/"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -84,9 +85,9 @@
 					</svg>
 					<p class="absolute bottom-1 z-10 self-center text-center">View the Nasuverse timeline</p>
 				</div>
-			</a>
+			</a> -->
 		</div>
-		<p class="max-w-sm xl:hidden">
+		<p class="mt-4 max-w-sm xl:hidden">
 			<b>Help needed!</b><br />
 			A lot of Nasuverse work remains missing or untranslated. If you have any of the missing works,
 			or can help with translations, please reach out at
@@ -100,6 +101,6 @@
 		<a href="mailto:mailto:nasuverse@colorman.me">nasuverse@colorman.me</a>!
 	</p>
 </div>
-<div class="flex w-full justify-center overflow-x-scroll">
+<div>
 	<Tablelist />
 </div>

@@ -6,7 +6,7 @@
 
 	let rowClass = isOpen ? '' : 'hidden';
 	let timeout: NodeJS.Timeout | undefined;
-    export const getOpenState = () => isOpen;
+	export const getOpenState = () => isOpen;
 	export const toggle = () => {
 		isOpen = !isOpen;
 

@@ -2,7 +2,11 @@
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			gridTemplateColumns: {
+				'auto-fr': 'auto minmax(0, 1fr)'
+			}
+		}
 	},
 	plugins: []
 };

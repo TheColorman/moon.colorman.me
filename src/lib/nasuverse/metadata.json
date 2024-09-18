@@ -52,7 +52,7 @@
 		},
 		"cover": "tsukihime-cover.jpg",
 		"credit": "Translated by Mirror Moon. They don't condone piracy, but you literally can't get the game anywhere so... ¯\\_(ツ)_/¯",
-		"description": "The first visual novel by Nasu. If you want to know more about Tsukihime, I can recommend going to <a href='https://readtsukihi.me/' target='_blank' rel='noopener noreferrer'>readtsukihi.me</a>.\n\nThis download also includes <a href='#3'>PLUS-DISC</a> and <a href='#4'>Kagetsu Tohya</a>."
+		"description": "The first visual novel by Nasu. If you want to know more about Tsukihime, I can recommend going to <a href='https://readtsukihi.me/' target='_blank' rel='noopener noreferrer'>readtsukihi.me</a>.\n\nThis download also includes <a href='/3#3'>PLUS-DISC</a> and <a href='/4#4'>Kagetsu Tohya</a>."
 	},
 	"3": {
 		"official": {},
@@ -156,7 +156,7 @@
 			"wiki": "https://typemoon.fandom.com/wiki/Lunar_Legend_Tsukihime_(manga)"
 		},
 		"cover": "lunar-legend-tsukihime.jpg",
-		"description": "Manga adaptation of the <a href='#2'>visual novel</a> by the same name. It follows Arcueid's route, with a few elements mixed in from other routes, but it is generally considered to be a very good adaptation. It is still recommended te play the VN to get all the routes.",
+		"description": "Manga adaptation of the <a href='/2#2'>visual novel</a> by the same name. It follows Arcueid's route, with a few elements mixed in from other routes, but it is generally considered to be a very good adaptation. It is still recommended te play the VN to get all the routes.",
 		"credit": "Various translators and groups.<br/><details><summary style='cursor: pointer'>Click to expand</summary><p><b>Mangadex:</b><br/>Beast's Lair, Scarlet Moon, Project Bite Me! Scanlations, Stifler, xyz199655, impulsive37, nokiasaintdotrar.<br/><b>Nyaa:</b><br/>Drmaster, Scarlet Moon Scans, Twilight Dream Scans + others.</p></details>NyaaTorrents for making the Nyaa release."
 	},
 	"9": {
@@ -229,7 +229,7 @@
 			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night_Comic_Battle"
 		},
 		"cover": "comic-battle-vol1.webp",
-		"description": "An anthology series collecting a number of <a href='#9'>Fate/stay night</a> short manga from various authors. It consists of 2 volumes with 7 chapters each. The first volume is mostly comedic, while the second volume is more serious.",
+		"description": "An anthology series collecting a number of <a href='/9#9'>Fate/stay night</a> short manga from various authors. It consists of 2 volumes with 7 chapters each. The first volume is mostly comedic, while the second volume is more serious.",
 		"credit": "<b>Mangadex:</b><br/>BNC Scanlation, SnoopyCool, Beast's Lair."
 	},
 	"13": {
@@ -248,7 +248,7 @@
 		"external": {
 			"wiki": "https://typemoon.fandom.com/wiki/Talk."
 		},
-		"description": "Short story set in the <a href='#8'>Tsukihime</a> series, that was originally a doujin work that was later released in <a href='#14'>Plus Period</a>.",
+		"description": "Short story set in the <a href='/8#8'>Tsukihime</a> series, that was originally a doujin work that was later released in <a href='#14'>Plus Period</a>.",
 		"credit": "Translated by Crimson."
 	},
 	"14": {
@@ -265,7 +265,7 @@
 		"external": {
 			"wiki": "https://typemoon.fandom.com/wiki/Plus_Period"
 		},
-		"description": "Material book that is a collection of artwork, character info, rankings, shorts, dictionaries, interviews, and <a href='#13'>Talk.</a> Note that it is currently not translated. Talk. has a translation available <a href='#13'>here</a>.",
+		"description": "Material book that is a collection of artwork, character info, rankings, shorts, dictionaries, interviews, and <a href='/13#13'>Talk.</a> Note that it is currently not translated. Talk. has a translation available <a href='/13#13'>here</a>.",
 		"credit": "Uploaded by btkid"
 	},
 	"15": {
@@ -405,7 +405,7 @@
 			"wiki": "https://typemoon.fandom.com/wiki/Tsuki_no_Sango"
 		},
 		"cover": "tsuki-no-sango.webp",
-		"description": "A short story about the a future earth around the year 3000 where the events of <a href='#2'>Tsukihime</a> never happened and civilization is losing its will to keep living after passing its peak.",
+		"description": "A short story about the a future earth around the year 3000 where the events of <a href='/2#2'>Tsukihime</a> never happened and civilization is losing its will to keep living after passing its peak.",
 		"credit": "Translated by Alumine on the <a href='http://www.vn-meido.com/k1/index.php?topic=1204.0' target='_blank' rel='noopener noreferrer'>Kureha One</a> forum."
 	},
 	"84": {
@@ -482,7 +482,7 @@
 			"wiki": "https://typemoon.fandom.com/wiki/Lunar_Legend_Tsukihime_prologue"
 		},
 		"cover": "tsukihime-prologue.jpg",
-		"description": "OVA produced as a prequel to the <a href='#7'>Lunar Legend Tsukihime</a> anime. It contains background information about events and characters from before the start of the series.<br><br>The OVA came with a booklet. The first half of the video is the booklet, the second half is the OVA itself.",
+		"description": "OVA produced as a prequel to the <a href='/7#7'>Lunar Legend Tsukihime</a> anime. It contains background information about events and characters from before the start of the series.<br><br>The OVA came with a booklet. The first half of the video is the booklet, the second half is the OVA itself.",
 		"credit": "Video uploaded by silentbomber125."
 	},
 	"149": {
@@ -499,7 +499,7 @@
 			"vndb": "https://vndb.org/r118913"
 		},
 		"cover": "fsnremaster.jpg",
-		"description": "A Remaster of the PS Vita release of Réalta Nua version of the Faste/stay night visual novel from 2012, using a new game-engine in HD and 16:9. It's available in both English and Simplified Chinese for the first time ever, and was released on the 20th anniversary of the <a href='#9'>original visual novel</a> from 2004.",
+		"description": "A Remaster of the PS Vita release of Réalta Nua version of the Faste/stay night visual novel from 2012, using a new game-engine in HD and 16:9. It's available in both English and Simplified Chinese for the first time ever, and was released on the 20th anniversary of the <a href='/9#9'>original visual novel</a> from 2004.",
 		"credit": ""
 	},
 	"150": {
@@ -643,6 +643,7 @@
 			"wiki": "https://typemoon.fandom.com/wiki/Arco_Wada#wadamemo"
 		},
 		"cover": "fgomemo8.webp",
-		"description": "Fate/GO Memo 8 is the eight art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Comiket 103. See also <a href='/157#157'>Fate/GO MEMO 7</a>."
+		"description": "Fate/GO Memo 8 is the eight art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Comiket 103. See also <a href='/157#157'>Fate/GO MEMO 7</a>.",
+		"credit": ""
 	}
 }

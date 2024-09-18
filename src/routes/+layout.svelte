@@ -42,7 +42,8 @@
 		content: '';
 		@apply absolute inset-0 bg-gradient-to-b from-transparent to-indigo-300 dark:to-[#0f172a];
 	}
-	a {
+	a,
+	button.link {
 		@apply text-sky-500 hover:cursor-pointer hover:text-sky-600 hover:underline;
 	}
 </style>
