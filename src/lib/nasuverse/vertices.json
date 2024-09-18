@@ -153,6 +153,14 @@
 		"medium": "Anime"
 	},
 	{
+		"id": 159,
+		"title": "Character material",
+		"released": "2006-08",
+		"ended": "",
+		"medium": "Material Book",
+		"notes": ["translation-none"]
+	},
+	{
 		"id": 20,
 		"title": "Prelude",
 		"released": "2006-08",

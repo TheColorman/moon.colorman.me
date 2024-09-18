@@ -699,5 +699,20 @@
 		"cover": "fgomemo8.webp",
 		"description": "Fate/GO Memo 8 is the eight art book in the series released by Arco Wada's doujin circle, wadamemo. This was released at Comiket 103. See also <a href='/157#157'>Fate/GO MEMO 7</a>.",
 		"credit": ""
+	},
+	"159": {
+		"cover": "character-material.jpg",
+		"credit": "Uploaded by <a href='https://e-hentai.org/uploader/Nanashi%28kari%29' target='_blank' rel='noopener noreferrer'>Nanashi(kari)</a>.",
+		"description": "A series of Material Books released at Comiket 70. Contains characters and settings from <a href='/2#2'>Tsukihime</a>, <a href='#65>Mahou Tsukai no Yoru</a>, <a href='/1#1>Notes</a>, DDD, <a href='#64'>Fate/Prototype</a>, and <a href='/9#9'>Fate/stay night</a>.",
+		"download": {
+			"Read on E-hentai": "https://e-hentai.org/g/2124175/892a4d4721/"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Character_material"
+		},
+		"official": {},
+		"source": {
+			"E-hentai.org": "https://e-hentai.org/"
+		}
 	}
 }
