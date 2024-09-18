@@ -1,15 +1,13 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import type { defineConfig  } from 'vite';
+import { defineConfig } from 'vite';
 
-const config: defineConfig  = {
+const config = defineConfig({
 	plugins: [sveltekit()],
-    build: {
-        rollupOptions: {
-            external: [
-                "/src/routes/admin/"
-            ]
-        }
-    }
-};
+	build: {
+		rollupOptions: {
+			external: ['/src/routes/admin/']
+		}
+	}
+});
 
 export default config;
