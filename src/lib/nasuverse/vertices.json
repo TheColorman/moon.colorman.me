@@ -142,7 +142,8 @@
 		"title": "Fate/stay night",
 		"released": "2005-12",
 		"ended": "2012-11",
-		"medium": "Manga"
+		"medium": "Manga",
+		"notes": ["translation-partly"]
 	},
 	{
 		"id": 19,

@@ -3,6 +3,7 @@
 	"additionalProperties": false,
 	"patternProperties": {
 		"^[0-9]+$": {
+			"required": ["credit", "description", "download", "external", "official", "source"],
 			"properties": {
 				"cover": {
 					"type": "string"

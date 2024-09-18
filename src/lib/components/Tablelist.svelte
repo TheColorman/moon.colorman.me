@@ -433,8 +433,10 @@
 								class="link border-0 p-0"
 								bind:this={accordionLinks[entry.id]}
 								on:click|stopPropagation={(event) => expandAll(event, entry.id)}
-								on:mouseover={() => preload(`/images/items/${metadata[entry.id].cover}`)}
-								on:focus={() => preload(`/images/items/${metadata[entry.id].cover}`)}
+								on:mouseover={() =>
+									metadata[entry.id].cover && preload(`/images/items/${metadata[entry.id].cover}`)}
+								on:focus={() =>
+									metadata[entry.id].cover && preload(`/images/items/${metadata[entry.id].cover}`)}
 							>
 								<p class="w-full text-start">
 									{entry.title}

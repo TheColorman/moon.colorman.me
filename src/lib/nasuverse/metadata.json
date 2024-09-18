@@ -112,7 +112,8 @@
 			"Nyaa": "https://nyaa.si/view/1042489"
 		},
 		"external": {
-			"wiki": "https://typemoon.fandom.com/wiki/Melty_Blood"
+			"wiki": "https://typemoon.fandom.com/wiki/Melty_Blood",
+			"vndb": "https://vndb.org/v165"
 		},
 		"cover": "melty-blood.jpg",
 		"description": "Melty Blood is a fighting game based on Tsukihime. This download contains Melty Blood, <a href='/10#10'>Melty Blood Re-ACT</a>, <a href='/15#15'>Melty Blood Act Cadenza</a> and <a href='/44#44'>Melty Blood Actress Again</a>. Installation instructions can be found <a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/installation.html' target='_blank' rel='noopener noreferrer'>here</a>. Other useful links:\n<a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/netplay.html' target='_blank' rel='noopener noreferrer'>Netplay</a>\n<a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/links.html' target='_blank' rel='noopener noreferrer'>Useful game links</a>\n<a href='https://legacy.colorman.me/ekstra/nasu-hub/collection/melty-blood/community.html' target='_blank' rel='noopener noreferrer'>Community</a>\nThe game has a very active community in their Discord server. Finally, check out <a href='https://meltyblood.club/' target='_blank' rel='noopener noreferrer'>meltyblood.club</a> for more information.",
@@ -123,16 +124,16 @@
 			"HiDive": "https://www.hidive.com/tv/lunar-legend-tsukihime"
 		},
 		"download": {
-			"Stream on aniwave": "https://aniwave.to/watch/lunar-legend-tsukihime.l0m",
+			"Stream on AnimePahe": "https://animepahe.ru/anime/91d4d85a-7965-8718-d4c6-f1b1c7c0cdb7",
 			"Video files": "http://www.mediafire.com/file/omuthbo0jj0g13x/Shingetsutan_Tsukihime.zip"
 		},
 		"source": {
 			"Nyaa": "https://nyaa.si/view/1487827"
 		},
 		"external": {
-			"wiki": "https://typemoon.fandom.com/wiki/Lunar_Legend_Tsukihime_(anime)",
+			"anilist": "https://anilist.co/anime/169/",
 			"myanimelist": "https://myanimelist.net/anime/169",
-			"anilist": "https://anilist.co/anime/169/"
+			"wiki": "https://typemoon.fandom.com/wiki/Lunar_Legend_Tsukihime_(anime)"
 		},
 		"cover": "shingutsutan-tsukihime.jpg",
 		"description": "Shingetsutan Tsukihime (en. Lunar Legend Tsukihime) is an anime based on the original Tsukihime visual novel. The anime is generally considered god-awful and butchers its source material to the point that fans of Tsukihime refuse to acknowledge its existence, so you should really only watch this if you really want to marathon the whole series and are prepared for the experience.",
@@ -144,7 +145,7 @@
 			"TYPE-MOON Comic Ace (japaenese)": "https://web-ace.jp/tmca/contents/2000013/"
 		},
 		"download": {
-			"Read on Mangadex": "https://mangadex.org/title/477800d5-bae8-4adb-b422-23e6cfa7ec87/shingetsutan-tsukihime",
+			"Read on MangaDex": "https://mangadex.org/title/477800d5-bae8-4adb-b422-23e6cfa7ec87/shingetsutan-tsukihime",
 			"Zipped (Nyaa)": "https://drive.google.com/uc?export=download&id=1g6gBz6GLUXxNisUybeQ1kFmj3W_s2wWk"
 		},
 		"source": {
@@ -158,7 +159,7 @@
 		},
 		"cover": "lunar-legend-tsukihime.jpg",
 		"description": "Manga adaptation of the <a href='/2#2'>visual novel</a> by the same name. It follows Arcueid's route, with a few elements mixed in from other routes, but it is generally considered to be a very good adaptation. It is still recommended te play the VN to get all the routes.",
-		"credit": "Various translators and groups.<br/><details><summary style='cursor: pointer'>Click to expand</summary><p><b>Mangadex:</b><br/>Beast's Lair, Scarlet Moon, Project Bite Me! Scanlations, Stifler, xyz199655, impulsive37, nokiasaintdotrar.<br/><b>Nyaa:</b><br/>Drmaster, Scarlet Moon Scans, Twilight Dream Scans + others.</p></details>NyaaTorrents for making the Nyaa release."
+		"credit": "Various translators and groups.<br/><details><summary style='cursor: pointer'>Click to expand</summary><p><b>MangaDex:</b><br/>Beast's Lair, Scarlet Moon, Project Bite Me! Scanlations, Stifler, xyz199655, impulsive37, nokiasaintdotrar.<br/><b>Nyaa:</b><br/>Drmaster, Scarlet Moon Scans, Twilight Dream Scans + others.</p></details>NyaaTorrents for making the Nyaa release."
 	},
 	"9": {
 		"official": {},
@@ -185,7 +186,8 @@
 			"Nyaa": "https://nyaa.si/view/1042489"
 		},
 		"external": {
-			"wiki": "https://typemoon.fandom.com/wiki/Melty_Blood_Re-ACT"
+			"wiki": "https://typemoon.fandom.com/wiki/Melty_Blood_Re-ACT",
+			"vndb": "https://vndb.org/v165"
 		},
 		"cover": "melty-blood-react.webp",
 		"description": "The second game in the Melty Blood series, acting as an expansion of the original Melty Blood. It's included in the download for <a href='/6#6'>Melty Blood above</a>.\n\n<b>Note</b>: Re-ACT requires that you have already installed the original Melty Blood. After installing Re-ACT, the folder will have a file named <code>_Path.dat</code>. Open this file in a text editor and change the path to the Melty Blood folder.",
@@ -197,10 +199,10 @@
 			"Ichijinsha (publisher)": "https://www.ichijinsha.co.jp/special/takemoon_sp/"
 		},
 		"download": {
-			"Read on Mangadex": "https://mangadex.org/title/c728b682-514e-4490-b099-a43eb9077b40/take-moon"
+			"Read on MangaDex": "https://mangadex.org/title/c728b682-514e-4490-b099-a43eb9077b40/take-moon"
 		},
 		"source": {
-			"Mangadex": "https://mangadex.org"
+			"MangaDex": "https://mangadex.org"
 		},
 		"external": {
 			"anilist": "https://anilist.co/manga/30780/Take-Moon/",
@@ -209,7 +211,7 @@
 		},
 		"cover": "take-moon.jpg",
 		"description": "Gag manga that is a comedic adaptation of elements from Tsukihime, Melty Blood and Fate/stay night. Parts of Take Moon would later be adapted into the <a href='#60'>Carnival Phantasm</a> anime.",
-		"credit": "<b>Mangadex:</b><br/>vimiani, Lymus, ColorCorp, dandalyn."
+		"credit": "<b>MangaDex:</b><br/>vimiani, Lymus, ColorCorp, dandalyn."
 	},
 	"12": {
 		"official": {
@@ -219,10 +221,10 @@
 			"Amazon (Vol. 2)": "https://www.amazon.co.jp/dp/404853789X"
 		},
 		"download": {
-			"Read on Mangadex (Warning: missing chapters)": "https://mangadex.org/title/3906742c-a9d3-4d88-a3b7-e7cae4af2581/fate-stay-night-comic-battle"
+			"Read on MangaDex (Warning: missing chapters)": "https://mangadex.org/title/3906742c-a9d3-4d88-a3b7-e7cae4af2581/fate-stay-night-comic-battle"
 		},
 		"source": {
-			"Mangadex": "https://mangadex.org"
+			"MangaDex": "https://mangadex.org"
 		},
 		"external": {
 			"anilist": "https://anilist.co/manga/40491",
@@ -231,7 +233,7 @@
 		},
 		"cover": "comic-battle-vol1.webp",
 		"description": "An anthology series collecting a number of <a href='/9#9'>Fate/stay night</a> short manga from various authors. It consists of 2 volumes with 7 chapters each. The first volume is mostly comedic, while the second volume is more serious.",
-		"credit": "<b>Mangadex:</b><br/>BNC Scanlation, SnoopyCool, Beast's Lair."
+		"credit": "<b>MangaDex:</b><br/>BNC Scanlation, SnoopyCool, Beast's Lair."
 	},
 	"13": {
 		"official": {
@@ -287,10 +289,10 @@
 	"16": {
 		"official": {},
 		"download": {
-			"Read on Mangadex": "https://mangadex.org/title/36999805-52e9-451f-94de-ca50e8e7e873/melty-blood"
+			"Read on MangaDex": "https://mangadex.org/title/36999805-52e9-451f-94de-ca50e8e7e873/melty-blood"
 		},
 		"source": {
-			"Mangadex": "https://mangadex.org/"
+			"MangaDex": "https://mangadex.org/"
 		},
 		"external": {
 			"anilist": "https://anilist.co/manga/30707/Melty-Blood/",
@@ -299,7 +301,7 @@
 		},
 		"cover": "melty-blood-manga.jpg",
 		"description": "Manga based on the <a href='/4#4'>Melty Blood</a> fighting game series.",
-		"credit": "<a href='https://mangadex.org/user/4b9812e6-a06e-43d9-94a4-9d70e1afbc12/xyz199655' target='_blank' rel='noopener noreferrer'>xyz199655</a> as part of <a href='https://forums.nrvnqsr.com/' target='_blank' rel='noopener noreferrer'>Beast's Lair</a> and Sugoi-Sugoi on Mangadex."
+		"credit": "<a href='https://mangadex.org/user/4b9812e6-a06e-43d9-94a4-9d70e1afbc12/xyz199655' target='_blank' rel='noopener noreferrer'>xyz199655</a> as part of <a href='https://forums.nrvnqsr.com/' target='_blank' rel='noopener noreferrer'>Beast's Lair</a> and Sugoi-Sugoi on MangaDex."
 	},
 	"17": {
 		"official": {
@@ -319,6 +321,23 @@
 		"cover": "hollow-ataraxia.jpg",
 		"description": "Fate/Hollow Ataraxia is the sequel to Fate/stay night. It's a visual novel with a lot of gameplay elements. The download includes the game with an English patch.\n<strong>Note: </strong>The download is in a 7zip archive. You will need a program like <a href='https://www.7-zip.org/' target='_blank' rel='noopener noreferrer'>7zip</a> to extract it.",
 		"credit": ""
+	},
+	"18": {
+		"cover": "fate-stay-night-manga.jpg",
+		"credit": "<a href='https://mangadex.org/user/833aa25c-0d4b-427f-9716-4be7b3a22db8/kah0922' target='_blank' rel='noopener noreferrer'>kah0922</a> as part of <a href='https://mangadex.org/group/a4ebf4b0-03df-4d0b-9be7-c82a0009a8ba/kawaru-enishi' target='_blank' rel='noopener noreferrer'>Kawaru-Enishi</a>, <a href='https://forums.nrvnqsr.com/' target='_blank' rel='noopener noreferrer'> Beast's Lair</a>, <a href='https://mangadex.org/group/27156292-dba4-4c5d-8b7a-c58e9b796282/iamthebest22' target='_blank' rel='noopener noreferrer'>iamthebest22</a>, <a href='https://mangadex.org/group/c5a907ba-4455-4663-9ca6-9ac05d9dbe3d/mugeslowscans' target='_blank' rel='noopener noreferrer'>mugeSlowScans</a>, <a href='https://mangadex.org/group/68e63bf1-d812-4214-bdc3-0dc6d94c60f9/professor-scissors' target='_blank' rel='noopener noreferrer'>Professor Scissors</a> and <a href='https://mangadex.org/group/5c6532fb-df36-41d9-b904-54fc5007ff3c/angry-issei-scanlations' target='_blank' rel='noopener noreferrer'>Angry Issei Scanlations</a>,<br />as well as <a href='https://mangadex.org/user/81df246e-2115-4333-84bc-e17639f9156a/rosstheross' target='_blank' rel='noopener noreferrer'>RossTheRoss</a> as part of <a href='https://mangadex.org/group/36f5e11a-db79-4881-b7f2-25145ba11a43/crystallis-scanlations' target='_blank' rel='noopener noreferrer'>Crystallis Scanlations</a>, <a href='https://mangadex.org/group/c07ae6a3-612f-4a76-afe4-bad8d2b53af3/assassin-scans' target='_blank' rel='noopener noreferrer'>Assassin Scans</a> and <a href='https://mangadex.org/group/d727f220-f9d9-4367-bff9-1d4f49cc462f/the-infinity-scanlation' target='_blank' rel='noopener noreferrer'>The Infinity Scanlation</a>,<br />as well as <a href='https://mangadex.org/user/ca812d6e-8001-4e3b-9831-834919ac5f30/dokterkaj' target='_blank' rel='noopener noreferrer'>DokterKaj</a> as part of <a href='https://mangadex.org/group/c07ae6a3-612f-4a76-afe4-bad8d2b53af3/assassin-scans' target='_blank' rel='noopener noreferrer'>Assassin Scans</a> on MangaDex.",
+		"description": "Manga adaptation of the <a href='/9#9'>Fate/stay night</a> visual novel. This manga is generally considered worse than the visual novel as it tries to blend the 3 vn routes, and excels at none of them, similar to the <a href='/19#19'>Fate/stay night anime</a>.",
+		"download": {
+			"Read on MangaDex (not fully translated)": "https://mangadex.org/title/21f5800a-13b8-44f1-8e50-3cff94f1397d/fate-stay-night?tab=chapters"
+		},
+		"external": {
+			"anilist": "https://anilist.co/manga/30715/Fatestay-night/",
+			"myanimelist": "https://myanimelist.net/manga/715",
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night_(2006_manga)"
+		},
+		"official": {},
+		"source": {
+			"MangaDex": "https://mangadex.org/"
+		}
 	},
 	"22": {
 		"official": {},
@@ -473,7 +492,7 @@
 		},
 		"download": {
 			"Chapter 1 zip (japanese)": "http://cdn.colorman.me/fate/prototype/fragments_of_sky_silver/fragments_of_sky_silver_chapter_1.zip",
-			"Read on Mangadex": "https://mangadex.org/title/37b7061e-7d5a-43fc-91d6-fba60f8519e0/fate-prototype-sougin-no-fragments"
+			"Read on MangaDex": "https://mangadex.org/title/37b7061e-7d5a-43fc-91d6-fba60f8519e0/fate-prototype-sougin-no-fragments"
 		},
 		"source": {
 			"TYPE-MOON Web Ace": "https://web-ace.jp/tmca/"
