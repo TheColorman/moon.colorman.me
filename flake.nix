@@ -11,7 +11,7 @@
     devShells.x86_64-linux.default = pkgs.mkShell {
       packages = with pkgs; [ pnpm nodejs_22 ];
 
-      shellHook = "zsh";
+      shellHook = "zsh && code .";
     };
   };
 }
