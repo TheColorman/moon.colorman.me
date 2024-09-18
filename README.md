@@ -1,6 +1,6 @@
-# nasu.colorman.me
+# moon.colorman.me
 
-This is the repository for [nasu.colorman.me](https://nasu.colorman.me).  
+This is the repository for [moon.colorman.me](https://moon.colorman.me).  
 The website has 2 main goals:
 
 1. Be a list of all items in the [Nasuverse](https://typemoon.fandom.com/wiki/Nasuverse). Each item on the list can be checked off (e.g. "completed"), along with there being a direct download link to said items where it can be consumed.

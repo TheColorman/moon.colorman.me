@@ -270,22 +270,22 @@
                       />
                       <!-- Open Graph / Facebook -->
                       <meta property="og:type" content="website" />
-                      <meta property="og:url" content="https://nasu.colorman.me/" />
+                      <meta property="og:url" content="https://moon.colorman.me/" />
                       <meta property="og:title" content="Entirety of Nasuverse, by Colorman" />
                       <meta
                           property="og:description"
                           content="Read, watch, play and track your progress in everything from the Nasuverse, for free"
                       />
-                      <meta property="og:image" content="https://nasu.colorman.me/images/header.webp" />
+                      <meta property="og:image" content="https://moon.colorman.me/images/header.webp" />
                       <!-- Twitter -->
                       <meta property="twitter:card" content="summary_large_image" />
-                      <meta property="twitter:url" content="https://nasu.colorman.me/" />
+                      <meta property="twitter:url" content="https://moon.colorman.me/" />
                       <meta property="twitter:title" content="Entirety of Nasuverse, by Colorman" />
                       <meta
                           property="twitter:description"
                           content="Read, watch, play and track your progress in everything from the Nasuverse, for free"
                       />
-                      <meta property="twitter:image" content="https://nasu.colorman.me/images/header.webp" />`;
+                      <meta property="twitter:image" content="https://moon.colorman.me/images/header.webp" />`;
 
 	// Open accordion if url contains permalink to entry
 	onMount(() => {
@@ -353,18 +353,18 @@
 		{@html `<!-- Dynamic head meta -->
             <title>${getConsumeKeyword(entry.medium)} ${entry.title}</title>
 			<meta name="title" content="Download ${entry.title}" />
-			<meta property="og:url" content="https://nasu.colorman.me/${entry.id}#${entry.id}" />
+			<meta property="og:url" content="https://moon.colorman.me/${entry.id}#${entry.id}" />
 			<meta property="og:title" content="Download ${entry.title}" />
 			<meta property="twitter:card" content="summary_large_image" />
-			<meta property="twitter:url" content="https://nasu.colorman.me/${entry.id}#${entry.id}" />
+			<meta property="twitter:url" content="https://moon.colorman.me/${entry.id}#${entry.id}" />
 			<meta property="twitter:title" content="Download ${entry.title}" />
 			<meta name="description" content="${metadata[entry.id].description}" />
 			<meta property="og:description" content="${metadata[entry.id].description}" />
             <meta property="twitter:description" content="${metadata[entry.id].description}" />
-			<meta property="og:image" content="https://nasu.colorman.me/images/items/${
+			<meta property="og:image" content="https://moon.colorman.me/images/items/${
 				metadata[entry.id].cover
 			}" />
-			<meta property="twitter:image" content="https://nasu.colorman.me/images/items/${
+			<meta property="twitter:image" content="https://moon.colorman.me/images/items/${
 				metadata[entry.id].cover
 			}" />`}
 	{:else}
@@ -448,7 +448,7 @@
 								href="/{entry.id}#{entry.id}"
 								on:click|stopPropagation|preventDefault={(event) => {
 									goto(`${entry.id}/#${entry.id}`);
-									navigator.clipboard.writeText(`https://nasu.colorman.me/${entry.id}#${entry.id}`);
+									navigator.clipboard.writeText(`https://moon.colorman.me/${entry.id}#${entry.id}`);
 								}}
 							>
 								<svg
@@ -503,7 +503,7 @@
 								title="Copy permalink"
 								on:click|stopPropagation|preventDefault={() => {
 									goto(`/#${entry.id}`);
-									navigator.clipboard.writeText(`https://nasu.colorman.me/#${entry.id}`);
+									navigator.clipboard.writeText(`https://moon.colorman.me/#${entry.id}`);
 								}}
 							>
 								<svg

@@ -11,7 +11,7 @@
 	>
 		<slot />
 		<a
-			href="https://github.com/TheColorman/nasu.colorman.me"
+			href="https://github.com/TheColorman/moon.colorman.me"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
