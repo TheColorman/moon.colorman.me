@@ -475,26 +475,6 @@
 									{/each}
 								{/if}
 							</div>
-
-							<div class="ml-2 md:hidden">
-								<p class="text-sm text-slate-400">
-									{entry.released}{entry.ended ? ` - ${entry.ended}` : ''}
-								</p>
-								<div class="flex justify-between">
-									<p class="font-light">
-										{entry.medium}
-									</p>
-									<div class="md:hidden">
-										{#if entry.notes !== undefined}
-											{#each entry.notes as note}
-												<span>
-													{@html displayNote(note)}
-												</span>
-											{/each}
-										{/if}
-									</div>
-								</div>
-							</div>
 						{:else}
 							<p class="inline-block">{entry.title}</p>
 							<a
@@ -522,6 +502,25 @@
 								</svg>
 							</a>
 						{/if}
+						<div class="ml-2 md:hidden">
+							<p class="text-sm text-slate-400">
+								{entry.released}{entry.ended ? ` - ${entry.ended}` : ''}
+							</p>
+							<div class="flex justify-between">
+								<p class="font-light">
+									{entry.medium}
+								</p>
+								<div class="md:hidden">
+									{#if entry.notes !== undefined}
+										{#each entry.notes as note}
+											<span>
+												{@html displayNote(note)}
+											</span>
+										{/each}
+									{/if}
+								</div>
+							</div>
+						</div>
 					</td>
 					<td class="hidden md:table-cell">{entry.released}</td>
 					<td class="hidden md:table-cell">{entry.ended}</td>
