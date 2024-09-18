@@ -339,6 +339,23 @@
 			"MangaDex": "https://mangadex.org/"
 		}
 	},
+	"19": {
+		"cover": "fate-stay-night-anime.jpg",
+		"credit": "",
+		"description": "The original anime adaptation of the <a href='/9#9'>Fate/stay night visual novel</a>. This is generally considered a bad place to start the series, as it tries to adapt all 3 of the visual novels routes at the same time, and ends up executing none of them well, butchering the story and characters in the process. If you want to start the series but don't want to read the VN, then either start at <a href='#91'>Fate/stay night: Unlimited Blade Works</a> (anime, not movie) or <a href='#62'>Fate/Zero</a>.",
+		"download": {
+			"Watch on AnimePahe": "https://animepahe.ru/anime/e67bc534-0246-c57b-8c98-bcf1c846e157"
+		},
+		"external": {
+			"anilist": "https://anilist.co/anime/356/Fatestay-night/",
+			"myanimelist": "https://myanimelist.net/anime/356",
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night_(anime)"
+		},
+		"official": {},
+		"source": {
+			"AnimePahe": "https://animepahe.ru/"
+		}
+	},
 	"22": {
 		"official": {},
 		"download": {
