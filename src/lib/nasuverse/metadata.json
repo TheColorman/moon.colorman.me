@@ -283,6 +283,23 @@
 		"description": "Third game in the Melty Blood series. It's included in the download for <a href='/6#6'>Melty Blood above</a>.",
 		"credit": ""
 	},
+	"16": {
+		"official": {},
+		"download": {
+			"Read on Mangadex": "https://mangadex.org/title/36999805-52e9-451f-94de-ca50e8e7e873/melty-blood"
+		},
+		"source": {
+			"Mangadex": "https://mangadex.org/"
+		},
+		"external": {
+			"anilist": "https://anilist.co/manga/30707/Melty-Blood/",
+			"myanimelist": "https://myanimelist.net/manga/707",
+			"wiki": "https://typemoon.fandom.com/wiki/Melty_Blood_(manga)"
+		},
+		"cover": "melty-blood-manga.jpg",
+		"description": "Manga based on the <a href='/4#4'>Melty Blood</a> fighting game series.",
+		"credit": "<a href='https://mangadex.org/user/4b9812e6-a06e-43d9-94a4-9d70e1afbc12/xyz199655' target='_blank' rel='noopener noreferrer'>xyz199655</a> as part of <a href='https://forums.nrvnqsr.com/' target='_blank' rel='noopener noreferrer'>Beast's Lair</a> and Sugoi-Sugoi on Mangadex."
+	},
 	"17": {
 		"official": {
 			"Amazon": "https://www.amazon.com/Fate-Hollow-Ataraxia-Japanese/dp/B000ANETRM"
