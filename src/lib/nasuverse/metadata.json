@@ -1,4 +1,5 @@
 {
+	"$schema": "./schema.json",
 	"0": {
 		"official": {
 			"Amazon": "https://www.amazon.co.jp/-/en/%E5%A5%88%E9%A0%88-%E3%81%8D%E3%81%AE%E3%81%93/dp/406275892X"

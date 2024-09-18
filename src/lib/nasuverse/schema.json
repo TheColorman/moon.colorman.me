@@ -1,0 +1,68 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"additionalProperties": false,
+	"patternProperties": {
+		"^[0-9]+$": {
+			"properties": {
+				"cover": {
+					"type": "string"
+				},
+				"credit": {
+					"type": "string"
+				},
+				"description": {
+					"type": "string"
+				},
+				"download": {
+					"additionalProperties": {
+						"type": "string",
+						"pattern": "^(https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*))|(#\\d*)$"
+					},
+					"type": "object"
+				},
+				"external": {
+					"properties": {
+						"anilist": {
+							"pattern": "^https://anilist\\.co/.*$",
+							"type": "string"
+						},
+						"myanimelist": {
+							"pattern": "^https://myanimelist\\.net/.*$",
+							"type": "string"
+						},
+						"vndb": {
+							"pattern": "^https://vndb\\.org/.*$",
+							"type": "string"
+						},
+						"wiki": {
+							"pattern": "^https://typemoon\\.fandom\\.com/wiki/.*$",
+							"type": "string"
+						}
+					},
+					"type": "object"
+				},
+				"official": {
+					"additionalProperties": {
+						"type": "string",
+						"pattern": "^https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)$"
+					},
+					"type": "object"
+				},
+				"source": {
+					"additionalProperties": {
+						"type": "string",
+						"pattern": "^https?:\\/\\/(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)$"
+					},
+					"type": "object"
+				}
+			},
+			"type": "object"
+		}
+	},
+	"properties": {
+		"$schema": {
+			"type": "string"
+		}
+	},
+	"type": "object"
+}
