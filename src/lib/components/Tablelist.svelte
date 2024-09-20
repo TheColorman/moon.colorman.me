@@ -365,7 +365,6 @@
 				<div
 					class="flex h-16 w-full flex-col items-center justify-center text-gray-500 dark:text-gray-400"
 				>
-					<span>Nothing to show! Update the filter to show entries.</span>
 					<span>
 						{[
 							'(￣ω￣;)',
@@ -393,6 +392,7 @@
 							'(¯ ¯٥)'
 						][Math.floor(Math.random() * 23)]}
 					</span>
+					<span>Nothing to show! Update the filter to show entries.</span>
 				</div>
 			</td>
 		</tr>
