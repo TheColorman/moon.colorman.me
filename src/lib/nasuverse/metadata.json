@@ -371,6 +371,23 @@
 			"E-hentai.org": "https://e-hentai.org/"
 		}
 	},
+	"21": {
+		"cover": "fate-school-life.jpg",
+		"credit": "<a href='https://mangadex.org/user/a6e5331b-a432-4664-9872-eb252d88a03b/wili' target='_blank' rel='noopener noreferrer'>Wili</a> on Mangadex.",
+		"description": "Himuro's Universe - Fate/school life is a comedy 4-koma manga written and illustrated by Eiichirou Mashin. It's a spinoff of <a href='/9#9'>Fate/stay night</a>, whose events happen in the background of this manga.",
+		"download": {
+			"Read on MangaDex": "https://mangadex.org/title/164eff7a-e949-4edf-8531-1664d2a8771d/himuro-no-tenchi-fate-school-life"
+		},
+		"external": {
+			"anilist": "https://anilist.co/manga/49381/Himuro-no-Tenchi-Fateschool-Life/",
+			"myanimelist": "https://myanimelist.net/manga/19381",
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/school_life"
+		},
+		"official": {},
+		"source": {
+			"MangaDex": "https://mangadex.org"
+		}
+	},
 	"22": {
 		"official": {},
 		"download": {
