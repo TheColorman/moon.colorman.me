@@ -17,5 +17,6 @@
 		"editor.defaultFormatter": "svelte.svelte-vscode"
 	},
 	"svelte.enable-ts-plugin": true,
-	"workbench.editor.wrapTabs": true
+	"workbench.editor.wrapTabs": true,
+	"git.enableSmartCommit": true
 }
