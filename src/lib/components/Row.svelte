@@ -79,7 +79,7 @@
 
 {#if !entry.notes?.includes('unofficial') || showUnofficial == 'on'}
 	<tr
-		class="group border-t dark:border-[#2e3c52] {$completed[entry.id]
+		class="group border-t dark:border-dark-divider {$completed[entry.id]
 			? 'bg-offset-primary text-gray-500 hover:bg-hover-primary dark:bg-dark-offset-primary dark:text-gray-400 dark:hover:bg-dark-hover-primary'
 			: 'hover:bg-primary dark:hover:bg-dark-primary'}"
 		id={`${entry.id}`}

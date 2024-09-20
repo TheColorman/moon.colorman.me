@@ -12,10 +12,14 @@ module.exports = {
 				primary: colors.gray[100],
 				secondary: colors.white,
 				tertiary: '#a5b4fc',
+				divider: '#e5e7eb',
+				border: '#cccfd6',
 				dark: {
 					primary: '#293548',
 					secondary: '#1e293b',
 					tertiary: '#0f172a',
+					divider: '#2e3c52',
+					border: '#546278',
 					offset: {
 						primary: '#2e3c52'
 					},
