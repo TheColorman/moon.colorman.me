@@ -356,6 +356,21 @@
 			"AnimePahe": "https://animepahe.ru/"
 		}
 	},
+	"20": {
+		"cover": "prelude.png",
+		"credit": "Uploaded by <a href='https://e-hentai.org/uploader/Nanashi%28kari%29' target='_blank' rel='noopener noreferrer'>Nanashi(kari)</a>.",
+		"description": "A set of short stories set in the <a href='/2#2'>Tsukihime</a> universe. Released as part of <a href='/159#159'>Character Material</a>.",
+		"download": {
+			"Character Material": "#159"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Prelude"
+		},
+		"official": {},
+		"source": {
+			"E-hentai.org": "https://e-hentai.org/"
+		}
+	},
 	"22": {
 		"official": {},
 		"download": {
