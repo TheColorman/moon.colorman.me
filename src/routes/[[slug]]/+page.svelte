@@ -92,8 +92,9 @@
 		</div>
 		<p class="mt-4 max-w-sm">
 			<b>Help needed!</b><br />
-			A lot of Nasuverse work remains missing or untranslated. If you have any of the missing works,
-			or can help with translations, please reach out at
+			A lot of Nasuverse work remains missing {@html missingMaterial} or untranslated {@html translationPartly}
+			{@html translationNone}. If you have any of the missing works, or can help with translations,
+			please reach out at
 			<a href="mailto:mailto:nasuverse@colorman.me">nasuverse@colorman.me</a>!
 		</p>
 	</div>
