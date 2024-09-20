@@ -3,11 +3,11 @@
 </script>
 
 <main
-	class="static flex min-h-screen flex-col items-center bg-indigo-300 dark:bg-[#0f172a] dark:text-gray-200"
+	class="static flex min-h-screen flex-col items-center bg-tertiary dark:bg-dark-tertiary dark:text-gray-200"
 >
 	<header class="sticky top-0 h-36 w-full overflow-hidden" />
 	<section
-		class="relative mt-2 w-[95vw] rounded-md bg-white p-6 shadow-xl dark:bg-[#1e293b] md:w-[80vw]"
+		class="relative mt-2 w-[95vw] rounded-md bg-secondary p-6 shadow-xl dark:bg-dark-secondary md:w-[80vw]"
 	>
 		<slot />
 		<a

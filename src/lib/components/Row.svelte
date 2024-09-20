@@ -80,8 +80,8 @@
 {#if !entry.notes?.includes('unofficial') || showUnofficial == 'on'}
 	<tr
 		class="group border-t dark:border-[#2e3c52] {$completed[entry.id]
-			? 'bg-gray-200 text-gray-500 hover:bg-gray-300 dark:bg-[#293548] dark:text-gray-400 dark:hover:bg-[#2e3c52]'
-			: 'hover:bg-gray-100 dark:hover:bg-[#293548]'}"
+			? 'bg-offset-primary text-gray-500 hover:bg-hover-primary dark:bg-dark-offset-primary dark:text-gray-400 dark:hover:bg-dark-hover-primary'
+			: 'hover:bg-primary dark:hover:bg-dark-primary'}"
 		id={`${entry.id}`}
 	>
 		<td class="hidden py-1 md:table-cell">
@@ -194,7 +194,7 @@
 		<AccordionRow
 			colspan={columnLabels.length}
 			trigger={accordionLinks[entry.id]}
-			class={`border-t bg-gray-100 dark:border-[#35445c] dark:bg-[#293548] dark:text-gray-200`}
+			class={`border-t bg-primary dark:border-[#35445c] dark:bg-dark-primary dark:text-gray-200`}
 			bind:this={accordionRefs[entry.id]}
 		>
 			<Entry {metadata} {entry} {openRow} {toggleRow} />

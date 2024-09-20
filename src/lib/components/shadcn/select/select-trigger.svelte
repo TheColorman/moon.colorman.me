@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { cn } from '$lib/shadcn/utils';
 	import { Select as SelectPrimitive } from 'bits-ui';
-	import ChevronDown from 'lucide-svelte/dist/icons/chevron-down.svelte';
+	import { ChevronDown } from 'lucide-svelte';
 
 	type $$Props = SelectPrimitive.TriggerProps;
 	type $$Events = SelectPrimitive.TriggerEvents;
