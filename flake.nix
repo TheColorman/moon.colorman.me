@@ -8,10 +8,12 @@
   outputs = { self, nixpkgs }: let
     pkgs = nixpkgs.legacyPackages.x86_64-linux;
   in {
-    devShells.x86_64-linux.default = pkgs.mkShell {
-      packages = with pkgs; [ pnpm nodejs_22 ];
-
-      shellHook = "zsh && code .";
+    packages.x86_64-linux.default = pkgs.writeShellApplication {
+      name = "Start code";
+      runtimeInputs = with pkgs; [ pnpm nodejs_22 ];
+      text = ''
+        code .
+      '';
     };
   };
 }
