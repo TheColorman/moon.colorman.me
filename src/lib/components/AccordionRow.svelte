@@ -24,7 +24,7 @@
 <tr class={`${rowClass} ${$$restProps.class}`}>
 	<td {colspan}>
 		{#if isOpen}
-			<div transition:slide={{ duration: 300 }}>
+			<div transition:slide|global={{ duration: 300 }}>
 				<slot />
 			</div>
 		{/if}
