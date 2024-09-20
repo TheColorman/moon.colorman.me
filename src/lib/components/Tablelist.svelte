@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { afterNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
 	import completed from '$lib/completed';
 	import activeFilters from '$lib/filter';
@@ -29,6 +30,17 @@
 			return completed;
 		});
 	}
+	function openRow(id: number) {
+		console.log('opening', id);
+		const target = accordionRefs[id];
+		target?.open();
+	}
+
+	afterNavigate((nav) => {
+		const idh = nav.to?.url.hash;
+		if (!idh) return;
+		openRow(parseInt(idh.slice(1)));
+	});
 
 	const currentSort: {
 		primary: {
@@ -121,8 +133,8 @@
 					? 'asc'
 					: 'desc'
 				: currentSort.secondary.ascending
-				? 'asc'
-				: 'desc'
+					? 'asc'
+					: 'desc'
 			: false,
 		completed: sortKeys.includes('completed')
 			? currentSort.primary.key === 'completed'
@@ -130,8 +142,8 @@
 					? 'asc'
 					: 'desc'
 				: currentSort.secondary.ascending
-				? 'asc'
-				: 'desc'
+					? 'asc'
+					: 'desc'
 			: false,
 		title: sortKeys.includes('title')
 			? currentSort.primary.key === 'title'
@@ -139,8 +151,8 @@
 					? 'asc'
 					: 'desc'
 				: currentSort.secondary.ascending
-				? 'asc'
-				: 'desc'
+					? 'asc'
+					: 'desc'
 			: false,
 		released: sortKeys.includes('released')
 			? currentSort.primary.key === 'released'
@@ -148,8 +160,8 @@
 					? 'asc'
 					: 'desc'
 				: currentSort.secondary.ascending
-				? 'asc'
-				: 'desc'
+					? 'asc'
+					: 'desc'
 			: false,
 		ended: sortKeys.includes('ended')
 			? currentSort.primary.key === 'ended'
@@ -157,8 +169,8 @@
 					? 'asc'
 					: 'desc'
 				: currentSort.secondary.ascending
-				? 'asc'
-				: 'desc'
+					? 'asc'
+					: 'desc'
 			: false,
 		medium: sortKeys.includes('medium')
 			? currentSort.primary.key === 'medium'
@@ -166,8 +178,8 @@
 					? 'asc'
 					: 'desc'
 				: currentSort.secondary.ascending
-				? 'asc'
-				: 'desc'
+					? 'asc'
+					: 'desc'
 			: false
 	};
 
@@ -354,6 +366,7 @@
 			{accordionLinks}
 			{accordionRefs}
 			{toggleRow}
+			{openRow}
 			{columnLabels}
 			{entry}
 			metadata={metadata[entry.id]}

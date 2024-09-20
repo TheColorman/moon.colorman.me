@@ -16,6 +16,7 @@
 	export let entry: EntryData;
 	export let metadata: EntryMetadata | undefined = undefined;
 	export let toggleRow: (arg0: number) => void;
+	export let openRow: (arg0: number) => void;
 	export let accordionLinks: {
 		[k: EntryData['id']]: HTMLElement | null;
 	};
@@ -53,14 +54,6 @@
 				return unofficial;
 			default:
 				return '';
-		}
-	}
-
-	function openRow(id: number) {
-		const target = accordionRefs[id];
-		console.log(target?.getOpenState());
-		if (!target?.getOpenState()) {
-			target?.toggle();
 		}
 	}
 </script>

@@ -7,16 +7,16 @@
 	let rowClass = isOpen ? '' : 'hidden';
 	let timeout: NodeJS.Timeout | undefined;
 	export const getOpenState = () => isOpen;
-	export const toggle = () => {
-		isOpen = !isOpen;
-
-		if (isOpen) {
-			rowClass = '';
-			clearTimeout(timeout);
-		} else {
-			timeout = setTimeout(() => (rowClass = 'hidden'), 300);
-		}
+	export const open = () => {
+		isOpen = true;
+		rowClass = '';
+		clearTimeout(timeout);
 	};
+	export const close = () => {
+		isOpen = false;
+		timeout = setTimeout(() => (rowClass = 'hidden'), 300);
+	};
+	export const toggle = () => (isOpen ? close() : open());
 
 	$: trigger?.addEventListener('click', toggle);
 </script>
