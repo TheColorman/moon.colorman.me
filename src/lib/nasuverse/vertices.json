@@ -225,6 +225,14 @@
 		"notes": [ "translation-none" ]
 	},
 	{
+		"id": 161,
+		"title": "Fate/tiger colosseum",
+		"released": "2007-08",
+		"ended": "",
+		"medium": "Manga",
+		"type": "main"
+	},
+	{
 		"id": 25,
 		"title": "Fate/kaleid liner PRISMA☆ILLYA",
 		"released": "2007-09",
@@ -238,6 +246,14 @@
 		"released": "2007-09",
 		"ended": "",
 		"medium": "Video Game",
+		"type": "main"
+	},
+	{
+		"id": 160,
+		"title": "Fate/tiger colosseum Secret Episode - Tora no I wo Karu Kemonotachi",
+		"released": "2007-09",
+		"ended": "",
+		"medium": "Drama CD",
 		"type": "main"
 	},
 	{
@@ -298,7 +314,7 @@
 	},
 	{
 		"id": 34,
-		"title": "Fate/tiger colesseum Upper",
+		"title": "Fate/tiger colosseum UPPER",
 		"released": "2008-06",
 		"ended": "",
 		"medium": "Video Game",

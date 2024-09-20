@@ -444,7 +444,7 @@
 	},
 	"25": {
 		"cover": "fate-kaleid-liner-prisma-illya.jpg",
-		"credit": "Translated by <a href='https://mangadex.org/user/4b9812e6-a06e-43d9-94a4-9d70e1afbc12/xyz199655'>xyz199655</a> as part of <a href='https://forums.nrvnqsr.com/'>Beast's Lair</a>, <a href='https://mangadex.org/group/34e49fe6-66b2-4162-abd4-b5075e7aced4/ala-atra-scans'>Ala Atra Scans</a>, <a href='https://mangadex.org/group/89744e52-3744-4b15-b533-3e4442adf424/twilight-dreams-scans'>Twilight Dreams Scans</a> and <a href='https://mangadex.org/group/9d2e4310-772b-4b34-bae0-61268ea41cb9/suimasen-scans'>Suimasen Scans</a> on Mangadex.",
+		"credit": "Translated by <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/user/4b9812e6-a06e-43d9-94a4-9d70e1afbc12/xyz199655'>xyz199655</a> as part of <a target='_blank' rel='noopener noreferrer' href='https://forums.nrvnqsr.com/'>Beast's Lair</a>, <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/group/34e49fe6-66b2-4162-abd4-b5075e7aced4/ala-atra-scans'>Ala Atra Scans</a>, <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/group/89744e52-3744-4b15-b533-3e4442adf424/twilight-dreams-scans'>Twilight Dreams Scans</a> and <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/group/9d2e4310-772b-4b34-bae0-61268ea41cb9/suimasen-scans'>Suimasen Scans</a> on Mangadex.",
 		"description": "Fate/kaleid liner PRISMA☆ILLYA is a spinoff manga of <a href='/9#9'>Fate/stay night</a> that takes place in a universe where the third holy grail war never started, and Illya never became aware of the Holy Grail. Instead, she becomes a magical girl and has to collect Servant Cards. It later become the Fate/kaleid liner PRISMA☆ILLYA sub-franchise.<br />See also the sequel, <a href='#41'>Fate/kaleid liner PRISMA☆ILLYA 2wei!</a>.",
 		"download": {
 			"Read on MangaDex": "https://mangadex.org/title/c0587ebd-7e89-43b7-a877-b28b20ad8261/fate-kaleid-liner-prisma-illya"
@@ -459,6 +459,25 @@
 		},
 		"source": {
 			"MangaDex": "https://mangadex.org"
+		}
+	},
+	"26": {
+		"cover": "fate-tiger-colosseum.png",
+		"credit": "Download provided by <a target='_blank' rel='noreferrer noopener' href='https://erista.me/'>Erista Group</a>.<br />Video walkthrough translated by <a target='_blank' rel='noreferrer noopener' href='https://www.youtube.com/@negriger1491'>Negriger</a> on YouTube.",
+		"description": "Fate/tiger colosseum is a 3D fighting game released for the PSP. It also has a series of <a href='#161'>manga oneshots</a> and a <a href='#160'>Drama CD</a> based on it.<br />See also its sequel, <a href='#34'>Fate/tiger colosseum UPPER</a>.",
+		"download": {
+			"Download ROM (Japanees)": "https://myrient.erista.me/files/No-Intro/Non-Redump%20-%20Sony%20-%20PlayStation%20Portable/Fate-Tiger%20Colosseum%20%28Japan%29%20%28v1.01%29.zip",
+			"Watch translated playthrough on YouTube": "https://www.youtube.com/playlist?list=PLAeSgPneWuAIPFb5Uvj6SQ3oR6qzHT7q7"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/tiger_colosseum"
+		},
+		"official": {
+			"typemoon.com": "https://typemoon.com/contents/9ncnes/rceare"
+		},
+		"source": {
+			"Myrient for ROM download": "https://myrient.erista.me/",
+			"Negriger on YouTube for translation": "https://www.youtube.com/@negriger1491"
 		}
 	},
 	"35": {
