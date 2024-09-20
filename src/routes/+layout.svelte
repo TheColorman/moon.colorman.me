@@ -7,7 +7,7 @@
 >
 	<header class="sticky top-0 h-36 w-full overflow-hidden" />
 	<section
-		class="relative mt-2 w-[95vw] rounded-md bg-secondary p-6 shadow-xl dark:bg-dark-secondary md:w-[80vw]"
+		class="relative mt-2 w-[95vw] rounded-md bg-secondary p-6 shadow-xl lg:w-[88vw] xl:w-[80vw] dark:bg-dark-secondary"
 	>
 		<slot />
 		<div class="mt-8 flex w-full justify-center">

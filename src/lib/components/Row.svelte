@@ -27,27 +27,16 @@
 	/**
 	 * Expand all accordions when ctrl+clicking on one
 	 */
-	function expandAll(
-		event: {
-			preventDefault: () => void;
-			ctrlKey: boolean;
-		},
-		targetId: number
-	) {
-		if (!event.ctrlKey) {
-			return;
-		}
-		event.preventDefault();
+	function toggleAll(event: { ctrlKey: boolean }, targetId: number) {
+		if (!event.ctrlKey) return;
+
 		const targetState = accordionRefs[targetId]?.getOpenState() ? false : true;
 		Object.entries(accordionRefs).forEach(([id, accordion]) => {
-			if (id === targetId.toString()) {
-				return;
-			}
-			if (accordion?.getOpenState() !== targetState) {
-				accordion?.toggle();
-			}
+			if (id == targetId.toString()) return;
+			if (accordion?.getOpenState() !== targetState) accordion?.toggle();
 		});
 	}
+
 	function displayNote(note: string) {
 		if (!note) return;
 
@@ -95,7 +84,7 @@
 			<button
 				class="link border-0 p-0"
 				bind:this={accordionLinks[entry.id]}
-				on:click|stopPropagation={(event) => expandAll(event, entry.id)}
+				on:click|stopPropagation={(event) => toggleAll(event, entry.id)}
 				on:mouseover={() => metadata.cover && preload(`/images/items/${metadata.cover}`)}
 				on:focus={() => metadata.cover && preload(`/images/items/${metadata.cover}`)}
 			>
