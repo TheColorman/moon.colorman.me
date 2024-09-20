@@ -115,6 +115,9 @@
 		let:option
 	>
 		<TypeSlot {option} />
+		<span slot="after-input">
+			{`${$activeFilters.length}/${filters.length} filters applied`}
+		</span>
 	</MultiSelect>
 	<Tablelist />
 </div>
