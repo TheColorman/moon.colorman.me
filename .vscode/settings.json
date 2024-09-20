@@ -18,5 +18,6 @@
 	},
 	"svelte.enable-ts-plugin": true,
 	"workbench.editor.wrapTabs": true,
-	"git.enableSmartCommit": true
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false
 }
