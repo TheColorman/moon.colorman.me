@@ -425,6 +425,23 @@
 		"description": "The \"family-friendly\" re-release of Fate/stay night. This version adds voice acting, replaces the sex scenes and tones down other explicit content. It's included in the download for Fate/stay night above.",
 		"credit": ""
 	},
+	"24": {
+		"cover": "all-around-type-moon.jpg",
+		"credit": "<a href='https://www.youtube.com/@gajisunwoo1395' target='_blank' rel='noopener noreferrer'>Gaji Sunwoo</a> on YouTube.",
+		"description": "ALL ROUND TYPE-MOON is a Drama CD written by Kinoko Nasu and released in Comiket 72.",
+		"download": {
+			"Watch on YouTube (no translation)": "https://www.youtube.com/watch?v=2NqazdEYQe4"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/All_Around_Type-Moon"
+		},
+		"official": {
+			"typemoon.com": "https://typemoon.com/contents/9ncnes/7y1ur7"
+		},
+		"source": {
+			"YouTube": "https://www.youtube.com/@gajisunwoo1395"
+		}
+	},
 	"35": {
 		"official": {
 			"Kodansha": "https://bookclub.kodansha.co.jp/product?item=0000025592"
