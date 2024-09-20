@@ -13,8 +13,8 @@
 </script>
 
 <div class="ml-8 mt-2 flex flex-col md:flex-row">
-	<div>
-		<h1 class="text-2xl">All Nasuverse works, in release order</h1>
+	<div class="md:pr-4">
+		<h1 class="text-2xl">All Type-Moon shared universe works, in release order</h1>
 		<h2 class="text-xl text-gray-500 dark:text-gray-400">(Not all works are currently present)</h2>
 		<br />
 		<img
@@ -34,7 +34,7 @@
 		<p class="ml-2 mt-2 hidden text-sm text-gray-500 dark:text-gray-400 md:block">
 			Tip: Ctrl+click on a link to toggle open all rows.
 		</p>
-		<hr class="my-2 border-slate-500" />
+		<hr class="my-2 w-full border-slate-500 lg:w-2/3" />
 		<ul>
 			<li>
 				{@html format} - Format should be updated
@@ -90,19 +90,13 @@
 				</div>
 			</a> -->
 		</div>
-		<p class="mt-4 max-w-sm xl:hidden">
+		<p class="mt-4 max-w-sm">
 			<b>Help needed!</b><br />
 			A lot of Nasuverse work remains missing or untranslated. If you have any of the missing works,
 			or can help with translations, please reach out at
 			<a href="mailto:mailto:nasuverse@colorman.me">nasuverse@colorman.me</a>!
 		</p>
 	</div>
-	<p class="hidden max-w-sm xl:block">
-		<b>Help needed!</b><br />
-		A lot of Nasuverse work remains missing or untranslated. If you have any of the missing works, or
-		can help with translations, please reach out at
-		<a href="mailto:mailto:nasuverse@colorman.me">nasuverse@colorman.me</a>!
-	</p>
 </div>
 <div class="mt-8">
 	<MultiSelect
