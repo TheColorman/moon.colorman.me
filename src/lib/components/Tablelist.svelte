@@ -1,28 +1,19 @@
 <script lang="ts">
-	import type { EntriesMetadata } from '$lib/types';
-	import {
-		format,
-		translationNone,
-		translationPartly,
-		missingMaterial,
-		unofficial
-	} from '$lib/svg';
-	import AccordionRow from './AccordionRow.svelte';
-	import entriesImmutable from '$lib/nasuverse/vertices.json';
-	import metadataImmuatable from '$lib/nasuverse/metadata.json';
-	import completed from '$lib/completed';
 	import { page } from '$app/stores';
-	import { goto } from '$app/navigation';
-	import { onMount } from 'svelte';
+	import completed from '$lib/completed';
 	import Switch from '$lib/components/Switch.svelte';
-	import { iconMap } from '$lib/maps';
-	import { objectEntries } from '$lib/utils';
+	import metadataImmuatable from '$lib/nasuverse/metadata.json';
+	import entriesImmutable from '$lib/nasuverse/vertices.json';
+	import type { EntriesMetadata, EntryData, SortKey } from '$lib/types';
+	import { onMount } from 'svelte';
+	import AccordionRow from './AccordionRow.svelte';
+	import Row from './Row.svelte';
 
 	// Track whether to show unofficial entries
-	let showUnofficial = 'on';
+	let showUnofficial: 'on' | 'off' = 'on';
 
 	// Copy entries to a new array so we can sort it
-	let entries = [...entriesImmutable];
+	let entries = [...entriesImmutable] as EntryData[];
 	const metadata = metadataImmuatable as EntriesMetadata;
 
 	// Toggle checkbox and save to local storage
@@ -33,9 +24,6 @@
 			return completed;
 		});
 	}
-
-	// Sorting
-	type SortKey = 'id' | 'completed' | 'title' | 'released' | 'ended' | 'medium';
 
 	const currentSort: {
 		primary: {
@@ -179,11 +167,7 @@
 	};
 
 	// Others
-	const columnLabels: Array<{
-		key: SortKey;
-		label: string;
-		width: string;
-	}> = [
+	const columnLabels = [
 		{
 			key: 'completed',
 			label: '',
@@ -209,47 +193,13 @@
 			label: 'Medium',
 			width: '8.456'
 		}
-	];
+	] as const;
 	const accordionLinks = Object.fromEntries(
 		entries.map((entry) => [entry.id, null as HTMLElement | null])
 	);
 	const accordionRefs = Object.fromEntries(
 		entries.map((entry) => [entry.id, null as AccordionRow | null])
 	);
-	/**
-	 * Expand all accordions when ctrl+clicking on one
-	 */
-	function expandAll(
-		event: {
-			preventDefault: () => void;
-			ctrlKey: boolean;
-		},
-		targetId: number
-	) {
-		if (!event.ctrlKey) {
-			return;
-		}
-		event.preventDefault();
-		const targetState = accordionRefs[targetId]?.getOpenState() ? false : true;
-		Object.entries(accordionRefs).forEach(([id, accordion]) => {
-			if (id === targetId.toString()) {
-				return;
-			}
-			if (accordion?.getOpenState() !== targetState) {
-				accordion?.toggle();
-			}
-		});
-	}
-	/**
-	 * Preload cover images when hovering over accordion
-	 */
-	function preload(image: string | null) {
-		if (!image) {
-			return;
-		}
-		const img = new Image();
-		img.src = image;
-	}
 
 	/**
 	 * Get info on an entry from its id
@@ -326,25 +276,6 @@
 				return 'Download';
 		}
 	}
-
-	function displayNote(note: string) {
-		if (!note) return;
-
-		switch (note) {
-			case 'format':
-				return format;
-			case 'translation-none':
-				return translationNone;
-			case 'translation-partly':
-				return translationPartly;
-			case 'missing-material':
-				return missingMaterial;
-			case 'unofficial':
-				return unofficial;
-			default:
-				return '';
-		}
-	}
 </script>
 
 <!-- Set head if url contains permalink to entry -->
@@ -412,258 +343,15 @@
 			</th>
 		{/each}
 		{#each entries as entry, i}
-			{#if !entry.notes?.includes('unofficial') || showUnofficial == 'on'}
-				<tr
-					class="group border-t dark:border-[#2e3c52] {$completed[entry.id]
-						? 'bg-gray-200 text-gray-500 hover:bg-gray-300 dark:bg-[#293548] dark:text-gray-400 dark:hover:bg-[#2e3c52]'
-						: 'hover:bg-gray-100 dark:hover:bg-[#293548]'}"
-					id={`${entry.id}`}
-				>
-					<td class="hidden py-1 md:table-cell">
-						<input
-							type="checkbox"
-							class="hover:cursor-pointer"
-							bind:checked={$completed[entry.id]}
-							on:click={() => toggleRow(entry.id)}
-						/>
-					</td>
-					<td class="relative">
-						{#if metadata[entry.id]}
-							<button
-								class="link border-0 p-0"
-								bind:this={accordionLinks[entry.id]}
-								on:click|stopPropagation={(event) => expandAll(event, entry.id)}
-								on:mouseover={() =>
-									metadata[entry.id].cover && preload(`/images/items/${metadata[entry.id].cover}`)}
-								on:focus={() =>
-									metadata[entry.id].cover && preload(`/images/items/${metadata[entry.id].cover}`)}
-							>
-								<p class="w-full text-start">
-									{entry.title}
-								</p>
-							</button>
-							<a
-								class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400 dark:hover:!text-gray-300 dark:group-hover:text-gray-600"
-								title="Copy permalink"
-								href="/{entry.id}#{entry.id}"
-								on:click|stopPropagation|preventDefault={(event) => {
-									goto(`${entry.id}/#${entry.id}`);
-									navigator.clipboard.writeText(`https://moon.colorman.me/${entry.id}#${entry.id}`);
-								}}
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke-width="1.5"
-									stroke="currentColor"
-									class="h-4 w-4 translate-y-0.5"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
-									/>
-								</svg>
-							</a>
-							<div class="hidden md:inline">
-								{#if entry.notes !== undefined}
-									{#each entry.notes as note}
-										<span class="float-right">
-											{@html displayNote(note)}
-										</span>
-									{/each}
-								{/if}
-							</div>
-						{:else}
-							<p class="inline-block">{entry.title}</p>
-							<a
-								href="/#{entry.id}"
-								class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400 dark:hover:!text-gray-300 dark:group-hover:text-gray-600"
-								title="Copy permalink"
-								on:click|stopPropagation|preventDefault={() => {
-									goto(`/#${entry.id}`);
-									navigator.clipboard.writeText(`https://moon.colorman.me/#${entry.id}`);
-								}}
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									fill="none"
-									viewBox="0 0 24 24"
-									stroke-width="1.5"
-									stroke="currentColor"
-									class="h-4 w-4 translate-y-0.5"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
-									/>
-								</svg>
-							</a>
-						{/if}
-						<div class="ml-2 md:hidden">
-							<p class="text-sm text-slate-400">
-								{entry.released}{entry.ended ? ` - ${entry.ended}` : ''}
-							</p>
-							<div class="flex justify-between">
-								<p class="font-light">
-									{entry.medium}
-								</p>
-								<div class="md:hidden">
-									{#if entry.notes !== undefined}
-										{#each entry.notes as note}
-											<span>
-												{@html displayNote(note)}
-											</span>
-										{/each}
-									{/if}
-								</div>
-							</div>
-						</div>
-					</td>
-					<td class="hidden md:table-cell">{entry.released}</td>
-					<td class="hidden md:table-cell">{entry.ended}</td>
-					<td class="hidden md:table-cell">{entry.medium}</td>
-				</tr>
-
-				{#if metadata[entry.id]}
-					<AccordionRow
-						colspan={columnLabels.length}
-						trigger={accordionLinks[entry.id]}
-						class={`border-t bg-gray-100 dark:border-[#35445c] dark:bg-[#293548] dark:text-gray-200`}
-						bind:this={accordionRefs[entry.id]}
-					>
-						<div class="block p-2 md:m-2 md:mx-3 md:grid md:grid-cols-auto-fr md:p-0">
-							{#if metadata[entry.id].cover}
-								<img
-									src={`/images/items/${metadata[entry.id].cover}`}
-									alt={`${entry.title} cover`}
-									class="mt-2 w-full max-w-full rounded-md md:mr-4 md:inline md:w-44"
-								/>
-							{/if}
-
-							<div class="auto-rows-min md:relative md:grid md:grid-cols-3 md:gap-4">
-								<div class="absolute right-1 top-1 hidden gap-2 md:flex">
-									{#each objectEntries(metadata[entry.id].external ?? {}) as [site, link]}
-										<a
-											class="my-0.5 md:m-0"
-											href={link}
-											target="_blank"
-											rel="noopener noreferrer"
-											title={iconMap[site].description}
-										>
-											<img
-												src="/images/{iconMap[site].icon}"
-												alt={iconMap[site].title}
-												class="w-4"
-											/>
-										</a>
-									{/each}
-								</div>
-
-								<button
-									class="mb-2 flex w-full items-center justify-center text-white md:hidden"
-									on:click={() => toggleRow(entry.id)}
-								>
-									<input
-										type="checkbox"
-										class="hover:cursor-pointer"
-										bind:checked={$completed[entry.id]}
-									/>
-									<span class="ml-2">
-										{$completed[entry.id] ? 'Marked as done' : 'Mark as done'}
-									</span>
-								</button>
-								<div class="mb-8 flex md:col-span-2 md:m-0 md:block">
-									<p class="w-[92%] whitespace-pre-line md:w-full">
-										{@html metadata[entry.id].description || 'No description available.'}
-									</p>
-									<div class="mt-1 flex w-[8%] flex-col items-center md:hidden">
-										{#each objectEntries(metadata[entry.id].external ?? {}) as [site, link]}
-											<a
-												class="my-0.5 rounded"
-												href={link}
-												target="_blank"
-												rel="noopener noreferrer"
-												title={iconMap[site].description}
-											>
-												<img
-													src="/images/{iconMap[site].icon}"
-													alt={iconMap[site].title}
-													class="w-4"
-												/>
-											</a>
-										{/each}
-									</div>
-								</div>
-
-								<!-- Official links -->
-								<div class="row-span-2">
-									<h1 class="mt-6 text-xl font-thin">Official links</h1>
-									<ul>
-										{#if Object.keys(metadata[entry.id].official).length}
-											{#each Object.entries(metadata[entry.id].official) as [key, value]}
-												<li>
-													<a href={value} target="_blank" rel="noopener noreferrer">{key}</a>
-												</li>
-											{/each}
-										{:else}
-											<li>Nothing here!</li>
-										{/if}
-									</ul>
-
-									<!-- Downloads -->
-									<h1 class="mt-3 text-xl font-thin">Downloads</h1>
-									<ul>
-										{#if Object.keys(metadata[entry.id].download).length}
-											{#each Object.entries(metadata[entry.id].download) as [key, value]}
-												<li>
-													{#if value.startsWith('#')}
-														<a
-															href={value}
-															on:click={(event) => {
-																const target = accordionRefs[value.slice(1)];
-																console.log(target?.getOpenState());
-																if (!target?.getOpenState()) {
-																	target?.toggle();
-																}
-															}}>{key}</a
-														>
-													{:else}
-														<a href={value} target="_blank" rel="noopener noreferrer">{key}</a>
-													{/if}
-												</li>
-											{/each}
-										{:else}
-											<li>Nothing here!</li>
-										{/if}
-									</ul>
-								</div>
-
-								<div class="col-span-2 row-start-2">
-									{#if Object.keys(metadata[entry.id].source).length}
-										<h2 class="mt-4 text-base font-light">Download source</h2>
-										<ul>
-											{#each Object.entries(metadata[entry.id].source) as [key, value]}
-												<li>
-													<a href={value} target="_blank" rel="noopener noreferrer">{key}</a>
-												</li>
-											{/each}
-										</ul>
-									{/if}
-									{#if metadata[entry.id].credit}
-										<h2 class="mt-2 text-base font-light">Download credit:</h2>
-										<p class="whitespace-pre-line">
-											{@html metadata[entry.id].credit}
-										</p>
-									{/if}
-								</div>
-							</div>
-						</div>
-					</AccordionRow>
-				{/if}
-			{/if}
+			<Row
+				{accordionLinks}
+				{accordionRefs}
+				{toggleRow}
+				{columnLabels}
+				{entry}
+				{showUnofficial}
+				metadata={metadata[entry.id]}
+			/>
 		{/each}
 	</table>
 </div>
@@ -671,8 +359,5 @@
 <style>
 	th {
 		@apply p-2 hover:cursor-pointer;
-	}
-	td {
-		@apply px-2;
 	}
 </style>

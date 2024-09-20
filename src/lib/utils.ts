@@ -57,3 +57,14 @@ export type ObjectEntry<T> = {
  * while objectEntries results in a union of 2-tuples.
  */
 export const objectEntries = Object.entries as <T>(o: T) => Array<ObjectEntry<T>>;
+
+/**
+ * Preload cover images when hovering over accordion
+ */
+export function preload(image: string | null) {
+	if (!image) {
+		return;
+	}
+	const img = new Image();
+	img.src = image;
+}
