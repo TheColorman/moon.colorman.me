@@ -22,11 +22,12 @@
 			alt="hmm today i will download the entirety of the nasuverse seßries and freely distribute it diregarding any and all copyright law. *clueless*"
 			class="mb-4 h-60 w-60 md:hidden"
 		/>
-		<p class="max-w-md">
+		<p class="max-w-xl">
 			This page consists of a table of all Nasuverse works. You can sort the table by clicking on
-			the column headers, and mark rows as complete by clicking on the checkbox.
+			the column headers, filter the entries by release type, and mark rows as complete by clicking
+			on the checkbox.
 		</p>
-		<p class="max-w-md">
+		<p class="mt-4 max-w-md">
 			If you spot a missing entry or any errors, don't hesitate to contact me on <a
 				href="mailto:nasuverse@colorman.me">nasuverse@colorman.me</a
 			>.
@@ -92,7 +93,8 @@
 		</div>
 		<p class="mt-4 max-w-sm">
 			<b>Help needed!</b><br />
-			A lot of Nasuverse work remains missing {@html missingMaterial} or untranslated {@html translationPartly}
+			A lot of Type-Moon works, especially the older ones, remain missing {@html missingMaterial} or
+			untranslated {@html translationPartly}
 			{@html translationNone}. If you have any of the missing works, or can help with translations,
 			please reach out at
 			<a href="mailto:mailto:nasuverse@colorman.me">nasuverse@colorman.me</a>!
