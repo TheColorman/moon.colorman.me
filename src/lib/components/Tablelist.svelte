@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import completed from '$lib/completed';
-	import Switch from '$lib/components/Switch.svelte';
+	import activeFilters from '$lib/filter';
 	import metadataImmuatable from '$lib/nasuverse/metadata.json';
 	import entriesImmutable from '$lib/nasuverse/vertices.json';
 	import type { EntriesMetadata, EntryData, SortKey } from '$lib/types';
@@ -9,11 +9,16 @@
 	import AccordionRow from './AccordionRow.svelte';
 	import Row from './Row.svelte';
 
-	// Track whether to show unofficial entries
-	let showUnofficial: 'on' | 'off' = 'on';
+	let className: string = '';
+	export { className as class };
 
 	// Copy entries to a new array so we can sort it
 	let entries = [...entriesImmutable] as EntryData[];
+	activeFilters.subscribe((v) => {
+		entries = [...entriesImmutable].filter((e) =>
+			v.map((f) => f.value).includes(e.type)
+		) as EntryData[];
+	});
 	const metadata = metadataImmuatable as EntriesMetadata;
 
 	// Toggle checkbox and save to local storage
@@ -303,58 +308,96 @@
 	{/if}
 </svelte:head>
 
-<div class="mt-8">
-	<Switch
-		bind:value={showUnofficial}
-		label="Show unofficial entries"
-		fontSize={16}
-		design="slider"
-	/>
-	<table class="mt-4 w-full">
-		{#each columnLabels as { key, label, width }}
-			<th
-				class="hidden md:table-cell"
-				on:click={() => sortEntries(key)}
-				style={`width: ${width}rem`}
-			>
-				{label}
-				<div class="relative -ml-0.5 mb-2 mr-2 inline-block">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke-width="1.5"
-						stroke="currentColor"
-						class="absolute -top-1 h-3 w-3 {sortList[key] === 'desc' ? 'block' : 'hidden'}"
-					>
-						<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
-					</svg>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke-width="1.5"
-						stroke="currentColor"
-						class="absolute -top-1 h-3 w-3 {sortList[key] === 'asc' ? 'block' : 'hidden'}"
-					>
-						<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-					</svg>
+<table class={className + ' w-full'}>
+	<thead>
+		<tr>
+			{#each columnLabels as { key, label, width }}
+				<th
+					class="hidden md:table-cell"
+					on:click={() => sortEntries(key)}
+					style={`width: ${width}rem`}
+				>
+					{label}
+					<div class="relative -ml-0.5 mb-2 mr-2 inline-block">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="absolute -top-1 h-3 w-3 {sortList[key] === 'desc' ? 'block' : 'hidden'}"
+						>
+							<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+						</svg>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="absolute -top-1 h-3 w-3 {sortList[key] === 'asc' ? 'block' : 'hidden'}"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+							/>
+						</svg>
+					</div>
+				</th>
+			{/each}
+		</tr>
+	</thead>
+	<tbody />
+	{#each entries as entry, i}
+		<Row
+			{accordionLinks}
+			{accordionRefs}
+			{toggleRow}
+			{columnLabels}
+			{entry}
+			metadata={metadata[entry.id]}
+		/>
+	{/each}
+	{#if entries.length == 0}
+		<tr>
+			<td colspan={columnLabels.length}>
+				<div
+					class="flex h-16 w-full flex-col items-center justify-center text-gray-500 dark:text-gray-400"
+				>
+					<span>Nothing to show! Update the filter to show entries.</span>
+					<span>
+						{[
+							'(￣ω￣;)',
+							'σ(￣、￣〃)',
+							'(￣～￣;)',
+							'(-_-;)・・・',
+							"┐('～`;)┌",
+							'(・_・ヾ',
+							'(〃￣ω￣〃ゞ',
+							'┐(￣ヘ￣;)┌',
+							'(・_・;)',
+							'(￣_￣)・・・',
+							'╮(￣ω￣;)╭',
+							'(¯ . ¯;)',
+							'(＠_＠)',
+							'(・・;)ゞ',
+							'Σ(￣。￣ﾉ)',
+							'(・・ ) ?',
+							'(•ิ_•ิ)?',
+							'(◎ ◎)ゞ',
+							'(ーー;)',
+							'ლ(ಠ_ಠ ლ)',
+							'ლ(¯ロ¯"ლ)',
+							'(¯ . ¯٥)',
+							'(¯ ¯٥)'
+						][Math.floor(Math.random() * 23)]}
+					</span>
 				</div>
-			</th>
-		{/each}
-		{#each entries as entry, i}
-			<Row
-				{accordionLinks}
-				{accordionRefs}
-				{toggleRow}
-				{columnLabels}
-				{entry}
-				{showUnofficial}
-				metadata={metadata[entry.id]}
-			/>
-		{/each}
-	</table>
-</div>
+			</td>
+		</tr>
+	{/if}
+</table>
 
 <style>
 	th {

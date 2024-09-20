@@ -12,6 +12,7 @@ export type EntryData = {
 	ended: string;
 	medium: string;
 	notes?: EntryNote[];
+	type: 'main' | 'unofficial' | 'material';
 };
 
 export type EntryMetadata = {

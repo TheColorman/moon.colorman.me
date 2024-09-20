@@ -1,12 +1,15 @@
 <script lang="ts">
+	import Tablelist from '$lib/components/Tablelist.svelte';
+	import TypeSlot from '$lib/components/TypeSlot.svelte';
+	import activeFilters, { filters } from '$lib/filter';
 	import {
 		format,
+		missingMaterial,
 		translationNone,
 		translationPartly,
-		missingMaterial,
 		unofficial
 	} from '$lib/svg';
-	import Tablelist from '$lib/components/Tablelist.svelte';
+	import MultiSelect from 'svelte-multiselect';
 </script>
 
 <div class="ml-8 mt-2 flex flex-col md:flex-row">
@@ -101,6 +104,17 @@
 		<a href="mailto:mailto:nasuverse@colorman.me">nasuverse@colorman.me</a>!
 	</p>
 </div>
-<div>
+<div class="mt-8">
+	<MultiSelect
+		bind:selected={$activeFilters}
+		options={filters}
+		liSelectedClass="!bg-primary dark:!bg-dark-primary"
+		outerDivClass="!border-border dark:!border-dark-border"
+		ulOptionsClass="!bg-primary dark:!bg-dark-primary"
+		placeholder="Filters"
+		let:option
+	>
+		<TypeSlot {option} />
+	</MultiSelect>
 	<Tablelist />
 </div>
