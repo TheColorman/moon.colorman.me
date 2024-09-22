@@ -222,7 +222,7 @@
 		"ended": "",
 		"medium": "Drama CD",
 		"type": "main",
-		"notes": [ "translation-none" ]
+		"notes": ["translation-none"]
 	},
 	{
 		"id": 161,
@@ -230,7 +230,8 @@
 		"released": "2007-08",
 		"ended": "",
 		"medium": "Manga",
-		"type": "main"
+		"type": "main",
+		"notes": ["format", "missing-material"]
 	},
 	{
 		"id": 25,
@@ -928,7 +929,7 @@
 		"released": "2016-12",
 		"ended": "",
 		"medium": "Art Book",
-		"notes": ["unofficial", "translation-none"],
+		"notes": ["unofficial", "translation-none", "format"],
 		"type": "unofficial"
 	},
 	{
@@ -1001,7 +1002,7 @@
 		"released": "2017-12",
 		"ended": "",
 		"medium": "Art Book",
-		"notes": ["unofficial", "translation-none"],
+		"notes": ["unofficial", "translation-none", "format"],
 		"type": "unofficial"
 	},
 	{
@@ -1074,7 +1075,7 @@
 		"released": "2018-12",
 		"ended": "",
 		"medium": "Art Book",
-		"notes": ["unofficial", "translation-none"],
+		"notes": ["unofficial", "translation-none", "format"],
 		"type": "unofficial"
 	},
 	{
@@ -1147,7 +1148,7 @@
 		"released": "2019-12",
 		"ended": "",
 		"medium": "Art Book",
-		"notes": ["unofficial", "translation-none"],
+		"notes": ["unofficial", "translation-none", "format"],
 		"type": "unofficial"
 	},
 	{
@@ -1172,7 +1173,7 @@
 		"released": "2020-12",
 		"ended": "",
 		"medium": "Art Book",
-		"notes": ["unofficial", "translation-none"],
+		"notes": ["unofficial", "translation-none", "format"],
 		"type": "unofficial"
 	},
 	{
@@ -1189,7 +1190,7 @@
 		"released": "2021-12",
 		"ended": "",
 		"medium": "Art Book",
-		"notes": ["unofficial", "translation-none"],
+		"notes": ["unofficial", "translation-none", "format"],
 		"type": "unofficial"
 	},
 	{
@@ -1223,7 +1224,7 @@
 		"released": "2022-12",
 		"ended": "",
 		"medium": "Art Book",
-		"notes": ["unofficial", "translation-none"],
+		"notes": ["unofficial", "translation-none", "format"],
 		"type": "unofficial"
 	},
 	{
