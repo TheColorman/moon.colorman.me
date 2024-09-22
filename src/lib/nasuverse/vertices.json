@@ -255,7 +255,8 @@
 		"released": "2007-09",
 		"ended": "",
 		"medium": "Drama CD",
-		"type": "main"
+		"type": "main",
+		"notes": ["format", "translation-partly"]
 	},
 	{
 		"id": 27,

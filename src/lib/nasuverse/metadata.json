@@ -466,7 +466,7 @@
 	"26": {
 		"cover": "fate-tiger-colosseum.png",
 		"credit": "Download provided by <a target='_blank' rel='noreferrer noopener' href='https://erista.me/'>Erista Group</a>.<br />Video walkthrough translated by <a target='_blank' rel='noreferrer noopener' href='https://www.youtube.com/@negriger1491'>Negriger</a> on YouTube.",
-		"description": "Fate/tiger colosseum is a 3D fighting game released for the PSP. It also has a series of <a href='/161#161'>manga oneshots</a> and a <a href='#160'>Drama CD</a> based on it.<br />See also its sequel, <a href='#34'>Fate/tiger colosseum UPPER</a>.",
+		"description": "Fate/tiger colosseum is a 3D fighting game released for the PSP. It also has a series of <a href='/161#161'>manga oneshots</a> and a <a href='/160#160'>Drama CD</a> based on it.<br />See also its sequel, <a href='#34'>Fate/tiger colosseum UPPER</a>.",
 		"download": {
 			"Download ROM (Japanees)": "https://myrient.erista.me/files/No-Intro/Non-Redump%20-%20Sony%20-%20PlayStation%20Portable/Fate-Tiger%20Colosseum%20%28Japan%29%20%28v1.01%29.zip",
 			"Watch translated playthrough on YouTube": "https://www.youtube.com/playlist?list=PLAeSgPneWuAIPFb5Uvj6SQ3oR6qzHT7q7"
@@ -802,6 +802,23 @@
 		"official": {},
 		"source": {
 			"E-hentai.org": "https://e-hentai.org/"
+		}
+	},
+	"160": {
+		"cover": "fate-tiger-colosseum-drama-cd.jpg",
+		"credit": "Uploaded by <a target='_blank' rel='noopener noreferrer' href='https://downloads.khinsider.com/forums/index.php?members/2878400/'>ViviVGM</a> on KHI, and <a target='_blank' rel='noreferrer noopener' href='https://www.youtube.com/@108chances'>108chances</a> on YouTube.",
+		"description": "Drama CD based on the game <a href='/26#26'>Fate/tiger colosseum</a>. You can listen to the original Drama CD on KHI (Japanese), or listen to a short 7 minute translated snippet on YouTube (turn on CC).",
+		"download": {
+			"Listen on KHI": "https://downloads.khinsider.com/game-soundtracks/album/fate-tiger-colosseum-secret-episode-tora-no-i-wo-karu-kemonotachi-2007",
+			"Watch on YouTube (missing part of CD)": "https://www.youtube.com/watch?v=pJDGXGFNXOY"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/tiger_colosseum_Secret_Episode_-_Tora_no_I_wo_Karu_Kemonotachi",
+			"vgmdb": "https://vgmdb.net/album/30211"
+		},
+		"official": {},
+		"source": {
+			"KHI": "https://downloads.khinsider.com/"
 		}
 	},
 	"161": {
