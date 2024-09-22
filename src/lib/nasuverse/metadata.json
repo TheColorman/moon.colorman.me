@@ -464,7 +464,7 @@
 	"26": {
 		"cover": "fate-tiger-colosseum.png",
 		"credit": "Download provided by <a target='_blank' rel='noreferrer noopener' href='https://erista.me/'>Erista Group</a>.<br />Video walkthrough translated by <a target='_blank' rel='noreferrer noopener' href='https://www.youtube.com/@negriger1491'>Negriger</a> on YouTube.",
-		"description": "Fate/tiger colosseum is a 3D fighting game released for the PSP. It also has a series of <a href='#161'>manga oneshots</a> and a <a href='#160'>Drama CD</a> based on it.<br />See also its sequel, <a href='#34'>Fate/tiger colosseum UPPER</a>.",
+		"description": "Fate/tiger colosseum is a 3D fighting game released for the PSP. It also has a series of <a href='/161#161'>manga oneshots</a> and a <a href='#160'>Drama CD</a> based on it.<br />See also its sequel, <a href='#34'>Fate/tiger colosseum UPPER</a>.",
 		"download": {
 			"Download ROM (Japanees)": "https://myrient.erista.me/files/No-Intro/Non-Redump%20-%20Sony%20-%20PlayStation%20Portable/Fate-Tiger%20Colosseum%20%28Japan%29%20%28v1.01%29.zip",
 			"Watch translated playthrough on YouTube": "https://www.youtube.com/playlist?list=PLAeSgPneWuAIPFb5Uvj6SQ3oR6qzHT7q7"
@@ -800,6 +800,23 @@
 		"official": {},
 		"source": {
 			"E-hentai.org": "https://e-hentai.org/"
+		}
+	},
+	"161": {
+		"cover": "",
+		"credit": "Translated by <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/user/d892a0b4-9ea1-4e72-b08d-40272f9b5cea/reversinator'>Reversinator</a> as part of <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/group/ca88336f-9a55-46fb-8548-5086243b46c5/nondescriptors>Nondescriptors</a> and <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/user/766cf2d3-d7a1-497e-a842-599fa6a63e55/kyo133'>kyo133</a> as part of <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/group/958beca1-f584-4a5a-926c-e7894f31d9b1/infrequent-scans'>Infrequent scans</a> on Mangadex.",
+		"description": "One-shot manga series based on the fighting game <a href='/26#26'>Fate/tiger colosseum</a>.",
+		"download": {
+			"Read on MangaDex": "https://mangadex.org/title/7ff84257-32e6-491d-80ee-e3a57fcd2bcd/fate-tiger-colosseum"
+		},
+		"external": {
+			"anilist": "https://anilist.co/manga/96082/Fatetiger-Colosseum-Upper/",
+			"myanimelist": "https://myanimelist.net/manga/93358",
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/tiger_colosseum#See_Also"
+		},
+		"official": {},
+		"source": {
+			"MangaDex": "https://mangadex.org"
 		}
 	}
 }
