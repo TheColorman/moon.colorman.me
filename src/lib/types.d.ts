@@ -24,6 +24,7 @@ export type EntryMetadata = {
 		anilist?: `https://anilist.co/${string}`;
 		vndb?: `https://vndb.org/${string}`;
 		wiki?: `https://typemoon.fandom.com/wiki/${string}`;
+		vgmdb?: `https://vgmdb.net/album/${number}`;
 	};
 	credit: string;
 	cover?: string;

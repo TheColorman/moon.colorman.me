@@ -38,6 +38,10 @@
 						"wiki": {
 							"pattern": "^https://typemoon\\.fandom\\.com/wiki/.*$",
 							"type": "string"
+						},
+						"vgmdb": {
+							"pattern": "^https://vgmdb\\.net/album/\\d*$",
+							"type": "string"
 						}
 					},
 					"type": "object"
