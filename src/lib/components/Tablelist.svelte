@@ -256,15 +256,11 @@
 
 	// Open accordion if url contains permalink to entry
 	onMount(() => {
-		if (window.location.hash) {
-			const id = window.location.hash.slice(1);
+		const id = $page.params.slug ?? window.location.hash?.slice(1) ?? null;
+		if (id) {
 			const target = accordionRefs[id];
-
-			if (target?.getOpenState() === false) {
-				setTimeout(() => {
-					target?.toggle();
-				}, 300);
-			}
+			target?.open();
+			document.getElementById(id)?.scrollIntoView(true);
 		}
 	});
 
