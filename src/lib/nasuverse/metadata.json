@@ -270,7 +270,8 @@
 			"wiki": "https://typemoon.fandom.com/wiki/Plus_Period"
 		},
 		"description": "Material book that is a collection of artwork, character info, rankings, shorts, dictionaries, interviews, and <a href='/13#13'>Talk.</a> Note that it is currently not translated. Talk. has a translation available <a href='/13#13'>here</a>.",
-		"credit": "Uploaded by btkid"
+		"credit": "Uploaded by btkid",
+    "cover": "plus-period.jpg"
 	},
 	"15": {
 		"official": {},
