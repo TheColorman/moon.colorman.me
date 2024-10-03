@@ -125,7 +125,7 @@
 			"HiDive": "https://www.hidive.com/tv/lunar-legend-tsukihime"
 		},
 		"download": {
-			"Stream on AnimePahe": "https://animepahe.ru/anime/91d4d85a-7965-8718-d4c6-f1b1c7c0cdb7",
+			"Stream on AnimePahe": "https://animepahe.ru/a/782",
 			"Video files": "http://www.mediafire.com/file/omuthbo0jj0g13x/Shingetsutan_Tsukihime.zip"
 		},
 		"source": {
@@ -346,7 +346,7 @@
 		"credit": "",
 		"description": "The original anime adaptation of the <a href='/9#9'>Fate/stay night visual novel</a>. This is generally considered a bad place to start the series, as it tries to adapt all 3 of the visual novels routes at the same time, and ends up executing none of them well, butchering the story and characters in the process. If you want to start the series but don't want to read the VN, then either start at <a href='#91'>Fate/stay night: Unlimited Blade Works</a> (anime, not movie) or <a href='#62'>Fate/Zero</a>.",
 		"download": {
-			"Watch on AnimePahe": "https://animepahe.ru/anime/e67bc534-0246-c57b-8c98-bcf1c846e157"
+			"Watch on AnimePahe": "https://animepahe.ru/a/1204"
 		},
 		"external": {
 			"anilist": "https://anilist.co/anime/356/Fatestay-night/",
@@ -486,14 +486,48 @@
 	"27": {
 		"cover": "kara-no-kyoukai-movie-1.jpg",
 		"credit": "",
-		"description": "Movie adapting Volume 1, Part 1 of the <a href='/0#0'>Kara no Kyoukai</a> book.<br />See also the sequel, <a href='#28'>Kara no Kyoukai Movie 2: The First Homicide Inquiry</a>.",
+		"description": "Movie adapting Volume 1, Part 1 of the <a href='/0#0'>Kara no Kyoukai</a> book.<br />See also the sequel, <a href='/28#28'>Kara no Kyoukai Movie 2: The First Homicide Inquiry</a>.",
 		"download": {
-			"Watch on animepahe": "https://animepahe.ru/anime/17cef2a6-fe6f-2388-d5ae-bd8131345c55"
+			"Watch on animepahe": "https://animepahe.ru/a/756"
 		},
 		"external": {
 			"anilist": "https://anilist.co/anime/2593",
 			"myanimelist": "https://myanimelist.net/anime/2593",
 			"wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai_-_The_Garden_of_sinners_Movie_1:_Overlooking_View"
+		},
+		"official": {},
+		"source": {
+			"animepahe": "https://animepahe.ru"
+		}
+	},
+	"28": {
+		"cover": "kara-no-kyoukai-movie-2.jpg",
+		"credit": "",
+		"description": "Movie adapting Volume 1, Part 2 of the <a href='/0#0'>Kara no Kyoukai</a> book.<br />See also the prequel, <a href='/27#27'>Kara no Kyoukai Movie 1: Overlooking View</a>, and the sequel, <a href='/29#29'>Kara no Kyoukai Movie 3: Lingering Pain</a>.",
+		"download": {
+			"Watch on animepahe": "https://animepahe.ru/a/757"
+		},
+		"external": {
+			"anilist": "https://anilist.co/anime/3782",
+			"myanimelist": "https://myanimelist.net/anime/3782",
+			"wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai_-_The_Garden_of_sinners_Movie_2:_Murder_Speculation_(Part_1)"
+		},
+		"official": {},
+		"source": {
+			"animepahe": "https://animepahe.ru"
+		}
+	},
+	"29": {
+		"cover": "kara-no-kyoukai-movie-3.jpg",
+		"credit": "",
+		"description": "Movie adapting Volume 1, Part 3 of the <a href='/0#0'>Kara no Kyoukai</a> book.<br />See also the prequel, <a href='/28#28'>Kara no Kyoukai Movie 2: The First Homicide Inquiry</a>, and the sequel, <a href='#30'>Kara no Kyoukai Movie 4: A Hallow</a>.",
+		"download": {
+			"Watch on animepahe": "https://animepahe.ru/a/758"
+		},
+		"external": {
+			"anilist": "https://anilist.co/anime/3783",
+			"myanimelist": "https://myanimelist.net/anime/3783",
+			"wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai_-_The_Garden_of_sinners_Movie_3:_Remaining_Sense_of_Pain"
 		},
 		"official": {},
 		"source": {
