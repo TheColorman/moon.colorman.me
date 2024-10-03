@@ -1,6 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import preprocess from 'svelte-preprocess';
+import metadata from './src/lib/nasuverse/metadata.json' with { type: 'json' };
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -17,7 +18,12 @@ const config = {
 			fallback: 'index.html'
 		}),
 		prerender: {
-			entries: ['/']
+			entries: [
+				'/',
+				...Object.keys(metadata)
+					.filter(parseInt)
+					.map((id) => `/${id}`)
+			]
 		}
 	}
 };
