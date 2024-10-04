@@ -86,7 +86,7 @@
 				</p>
 			</button>
 			<a
-				class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400 dark:hover:!text-gray-300 dark:group-hover:text-gray-600"
+				class="md:hidden inline-block hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400 dark:hover:!text-gray-300 dark:group-hover:text-gray-600"
 				title="Copy permalink"
 				href="/{entry.id}#{entry.id}"
 				on:click|stopPropagation|preventDefault={() => {
@@ -119,10 +119,10 @@
 				{/if}
 			</div>
 		{:else}
-			<p class="inline-block">{entry.title}</p>
+			<span class="inline-block">{entry.title}</span>
 			<a
 				href="/#{entry.id}"
-				class="hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400 dark:hover:!text-gray-300 dark:group-hover:text-gray-600"
+				class="inline-block md:hidden hover:cursor-pointer hover:!text-gray-700 group-hover:inline-block group-hover:text-gray-400 dark:hover:!text-gray-300 dark:group-hover:text-gray-600"
 				title="Copy permalink"
 				on:click|stopPropagation|preventDefault={() => {
 					goto(`/#${entry.id}`);
