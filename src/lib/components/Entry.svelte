@@ -35,7 +35,7 @@
 		</div>
 
 		<button
-			class="mb-2 flex w-full items-center justify-center text-white md:hidden"
+			class="mb-2 flex w-full items-center justify-center text-gray-800/60 dark:text-white/60 md:hidden"
 			on:click={() => toggleRow(entry.id)}
 		>
 			<input type="checkbox" class="hover:cursor-pointer" bind:checked={$completed[entry.id]} />
