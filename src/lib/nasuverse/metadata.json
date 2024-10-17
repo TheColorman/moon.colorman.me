@@ -534,6 +534,24 @@
 			"animepahe": "https://animepahe.ru"
 		}
 	},
+	"30": {
+		"cover": "fake-states-night.webp",
+		"credit": "April fools website translated by <a href='https://nakulas.blogspot.com/' target='_blank' rel='noopener noreferrer'>nakulas</a>.",
+		"description": "Fake/states night is an april fools story that parodies <a href='/9#9'>Fate/stay night</a>. It describes a Holy Grail War in America, and would later evolve in to the <a href='#93'>Fate/strange fake</a> light novel.<br />Fake/states night has 2 parts: a website on the author's, Ryohgo Narita's, homepage, and a short story. Only the website has been translated, as the short story is basically an inferior version of Fate/strange fake. See nakulas' comment on the matter:<br /><blockquote>\"ＦＡＫＥ／states night.txt\" is the original document that was uploaded to Narita Ryohgo's personal homepage on April Fools' Day, 2008. It was subsequently revised into the published novel \"Fate/strange fake\", which is what I have translated. \"ＦＡＫＥ／states night.txt\" is missing all of the auxiliary material that was in the novel (forewords, afterwords, art, etc.), as well as bits and pieces of all of the main chapters (in particular, Lancer). As such, there is not really much reason to read \"ＦＡＫＥ／states night.txt\", and it has been included here merely as a historical curiosity.</blockquote><p>—nakulas, <cite>Fate/strange fake translation</cite>.</p>",
+		"download": {
+			"nakulas' blog (choose \"complete collection\")": "https://nakulas.blogspot.com/2013/07/fate-strange-fake.html",
+			"Translated mirror of the original website": "https://cdn.colorman.me/fate/fake_states_night/main2_translated.htm"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/strange_Fake#Development"
+		},
+		"official": {
+			"Original website": "http://www2.tba.t-com.ne.jp/taoru/resistance/fake/main2.htm"
+		},
+		"source": {
+			"nakulas' personal blog, membor of Beast's Lair": "https://nakulas.blogspot.com/"
+		}
+	},
 	"35": {
 		"official": {
 			"Kodansha": "https://bookclub.kodansha.co.jp/product?item=0000025592"
