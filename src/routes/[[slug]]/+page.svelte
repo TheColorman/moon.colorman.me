@@ -19,13 +19,13 @@
 		<br />
 		<img
 			src="/images/clueless.png"
-			alt="hmm today i will download the entirety of the nasuverse seßries and freely distribute it diregarding any and all copyright law. *clueless*"
+			alt="hmm today i will download the entirety of Type-Moon and freely distribute it diregarding any and all copyright law. *clueless*"
 			class="mb-4 h-60 w-60 md:hidden"
 		/>
 		<p class="max-w-xl">
-			This page consists of a table of all Nasuverse works. You can sort the table by clicking on
-			the column headers, filter the entries by release type, and mark rows as complete by clicking
-			on the checkbox.
+			This page consists of a table of all Type-Moon shared universe works. You can sort the table
+			by clicking on the column headers, filter the entries by release type, and mark rows as
+			complete by clicking on the checkbox.
 		</p>
 		<p class="mt-4 max-w-md">
 			If you spot a missing entry or any errors, don't hesitate to contact me on <a
@@ -58,7 +58,7 @@
 		<div class="flex flex-col md:flex-row">
 			<img
 				src="/images/clueless.png"
-				alt="hmm today i will download the entirety of the nasuverse series and freely distribute it diregarding any and all copyright law. *clueless*"
+				alt="hmm today i will download the entirety of Type-Moon and freely distribute it diregarding any and all copyright law. *clueless*"
 				class="hidden h-60 w-60 md:block"
 			/>
 			<!-- <a

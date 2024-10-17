@@ -229,28 +229,28 @@
 		return entry;
 	}
 	$: entry = getEntry($page.params.slug);
-	const baseMeta = `<meta name="title" content="Entirety of Nasuverse, by Colorman" />
-                      <title>All Nasuverse works, in release order</title>
+	const baseMeta = `<meta name="title" content="Entirety of Type-Moon multiverse" />
+                      <title>All Type-Moon works, in release order</title>
                       <meta
                           name="description"
-                          content="Read, watch, play and track your progress in everything from the Nasuverse, for free"
+                          content="Read, watch, play and track your progress in everything from Type-Moon, for free"
                       />
                       <!-- Open Graph / Facebook -->
                       <meta property="og:type" content="website" />
                       <meta property="og:url" content="https://moon.colorman.me/" />
-                      <meta property="og:title" content="Entirety of Nasuverse, by Colorman" />
+                      <meta property="og:title" content="Entirety of Type-Moon multiverse" />
                       <meta
                           property="og:description"
-                          content="Read, watch, play and track your progress in everything from the Nasuverse, for free"
+                          content="Read, watch, play and track your progress in everything from Type-Moon, for free"
                       />
                       <meta property="og:image" content="https://moon.colorman.me/images/header.webp" />
                       <!-- Twitter -->
                       <meta property="twitter:card" content="summary_large_image" />
                       <meta property="twitter:url" content="https://moon.colorman.me/" />
-                      <meta property="twitter:title" content="Entirety of Nasuverse, by Colorman" />
+                      <meta property="twitter:title" content="Entirety of Type-Moon multiverse" />
                       <meta
                           property="twitter:description"
-                          content="Read, watch, play and track your progress in everything from the Nasuverse, for free"
+                          content="Read, watch, play and track your progress in everything from Type-Moon, for free"
                       />
                       <meta property="twitter:image" content="https://moon.colorman.me/images/header.webp" />`;
 
