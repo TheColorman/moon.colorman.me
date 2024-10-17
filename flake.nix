@@ -5,13 +5,15 @@
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
   };
 
-  outputs = { self, nixpkgs }: let
+  outputs = {
+    self,
+    nixpkgs,
+  }: let
     pkgs = nixpkgs.legacyPackages.x86_64-linux;
   in {
-    packages.x86_64-linux.default = pkgs.writeShellApplication {
-      name = "Start code";
-      runtimeInputs = with pkgs; [ pnpm nodejs_22 ];
-      text = ''
+    devShells.x86_64-linux.default = pkgs.mkShell {
+      packages = with pkgs; [pnpm nodejs_22];
+      shellHook = ''
         code .
       '';
     };
