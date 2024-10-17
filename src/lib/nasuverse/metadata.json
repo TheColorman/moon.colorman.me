@@ -569,6 +569,26 @@
 		"description": "A Kara no Kyoukai side story.",
 		"credit": "Preface translated by YHK of Beast's Laire.\nRest translated by <a href='https://canonrap.wordpress.com/' target='_blank' rel='noopener noreferrer'>Quality ★ Mistranslations</a>."
 	},
+	"31": {
+		"cover": "all-around-type-moon-manga.png",
+		"credit": "Translated by <a about='_blank' rel='noopener noreferrer' href='https://mangadex.org/user/6b6d3c3b-3326-4002-ae64-0b1c39dce21f/ramon2000'>Ramon2000</a> as part of an unknown group, and <a about='_blank' rel='noopener noreferrer' href='https://mangadex.org/user/833aa25c-0d4b-427f-9716-4be7b3a22db8/kah0922'>kah0922</a> as part of <a about='_blank' rel='noopener noreferrer' href='https://mangadex.org/group/560701f0-eaf7-4e07-a11d-46ac9e6ba3b3/project-bite-me-scanlations'>Project Bite Me! Scanlations</a>, <a about='_blank' rel='noopener noreferrer' href='https://mangadex.org/group/e2d8e5d2-0145-46f7-8076-d2c1bc1ddffe/beast-s-lair'>Beast's Lair</a> and <a about='_blank' rel='noopener noreferrer' href='https://mangadex.org/group/ca88336f-9a55-46fb-8548-5086243b46c5/nondescriptors'>Nondescriptors</a>.",
+		"description": "Manga adapting and extending the <a href='/24#24'>Drama CD</a>. The first chapter adapts the story from the Drama CD. The manga follows the interactions of various character from across Type-Moon as they hang out at the Ahnenerbe cafe.",
+		"download": {
+			"Read on MangaDex": "https://mangadex.org/title/b4101937-158d-496d-95c7-03c540032ed5/all-around-type-moon"
+		},
+		"external": {
+			"anilist": "https://anilist.co/manga/57327/ALL-AROUND-TYPEMOON/",
+			"myanimelist": "https://myanimelist.net/manga/27327",
+			"wiki": "https://typemoon.fandom.com/wiki/ALL_AROUND_TYPE-MOON_-_A_Day_of_Ahnenerbe"
+		},
+		"official": {
+			"Amazon (JP, Vol 1)": "https://www.amazon.co.jp/ALL-AROUND-TYPE-MOON-%E3%82%A2%E3%83%BC%E3%83%8D%E3%83%B3%E3%82%A8%E3%83%AB%E3%83%99%E3%81%AE%E6%97%A5%E5%B8%B8-%E8%A7%92%E5%B7%9D%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%A8%E3%83%BC%E3%82%B9-253-1/dp/4047153559",
+			"Amazon (JP, VOl 2)": "https://www.amazon.co.jp/ALL-AROUND-TYPE%E2%80%90MOON-%E3%82%A2%E3%83%BC%E3%83%8D%E3%83%B3%E3%82%A8%E3%83%AB%E3%83%99%E7%8B%82%E8%A9%A9%E6%9B%B2-%E3%82%AB%E3%83%89%E3%82%AB%E3%83%AF%E3%82%B3%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%A8%E3%83%BC%E3%82%B9-B%E3%81%99%E3%81%91/dp/4041203988/355-1382385-0387517?pd_rd_r=cce07cb4-4482-4b33-9cca-eaa4402d41dc&psc=1"
+		},
+		"source": {
+			"MangaDex": "https://mangadex.org"
+		}
+	},
 	"38": {
 		"official": {},
 		"download": {
@@ -893,7 +913,7 @@
 	},
 	"161": {
 		"cover": "",
-		"credit": "Translated by <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/user/d892a0b4-9ea1-4e72-b08d-40272f9b5cea/reversinator'>Reversinator</a> as part of <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/group/ca88336f-9a55-46fb-8548-5086243b46c5/nondescriptors>Nondescriptors</a> and <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/user/766cf2d3-d7a1-497e-a842-599fa6a63e55/kyo133'>kyo133</a> as part of <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/group/958beca1-f584-4a5a-926c-e7894f31d9b1/infrequent-scans'>Infrequent scans</a> on Mangadex.",
+		"credit": "Translated by <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/user/d892a0b4-9ea1-4e72-b08d-40272f9b5cea/reversinator'>Reversinator</a> as part of <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/group/ca88336f-9a55-46fb-8548-5086243b46c5/nondescriptors>Nondescriptors</a> and <a target='_blank' rel='noopener norweferrer' href='https://mangadex.org/user/766cf2d3-d7a1-497e-a842-599fa6a63e55/kyo133'>kyo133</a> as part of <a target='_blank' rel='noopener noreferrer' href='https://mangadex.org/group/958beca1-f584-4a5a-926c-e7894f31d9b1/infrequent-scans'>Infrequent scans</a> on Mangadex.",
 		"description": "One-shot manga series based on the fighting game <a href='/26#26'>Fate/tiger colosseum</a>.",
 		"download": {
 			"Read on MangaDex": "https://mangadex.org/title/7ff84257-32e6-491d-80ee-e3a57fcd2bcd/fate-tiger-colosseum"
