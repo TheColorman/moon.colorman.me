@@ -50,4 +50,7 @@
 	button.link {
 		@apply text-sky-500 hover:cursor-pointer hover:text-sky-600 hover:underline;
 	}
+	blockquote {
+		@apply bg-secondary rounded-md py-4 italic pr-6 border-l-8 border-offset-primary text-sm font-sans pl-8 dark:bg-dark-secondary dark:border-dark-offset-primary;
+	}
 </style>
