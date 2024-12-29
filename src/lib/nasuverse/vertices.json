@@ -146,7 +146,8 @@
 		"released": "2005-06",
 		"ended": "2009-01",
 		"medium": "Manga",
-		"type": "main"
+		"type": "main",
+    "notes": ["format"]
 	},
 	{
 		"id": 17,
