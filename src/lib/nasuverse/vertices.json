@@ -1272,6 +1272,14 @@
 		"type": "main"
 	},
 	{
+		"id": 139,
+		"title": "Fate/strange Fake",
+		"released": "2024-12",
+		"ended": "",
+		"medium": "Anime",
+		"type": "main"
+	},
+	{
 		"id": 136,
 		"title": "Fate/EXTRA Record",
 		"released": "TBA",
@@ -1285,14 +1293,6 @@
 		"released": "TBA",
 		"ended": "",
 		"medium": "Visual Novel",
-		"type": "main"
-	},
-	{
-		"id": 139,
-		"title": "Fate/strange Fake",
-		"released": "TBA",
-		"ended": "",
-		"medium": "Anime",
 		"type": "main"
 	},
 	{
