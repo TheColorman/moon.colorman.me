@@ -520,7 +520,7 @@
 	"29": {
 		"cover": "kara-no-kyoukai-movie-3.jpg",
 		"credit": "",
-		"description": "Movie adapting Volume 1, Part 3 of the <a href='/0#0'>Kara no Kyoukai</a> book.<br />See also the prequel, <a href='/28#28'>Kara no Kyoukai Movie 2: The First Homicide Inquiry</a>, and the sequel, <a href='#30'>Kara no Kyoukai Movie 4: A Hallow</a>.",
+		"description": "Movie adapting Volume 1, Part 3 of the <a href='/0#0'>Kara no Kyoukai</a> book.<br />See also the prequel, <a href='/28#28'>Kara no Kyoukai Movie 2: The First Homicide Inquiry</a>, and the sequel, <a href='/32#32'>Kara no Kyoukai Movie 4: A Hallow</a>.",
 		"download": {
 			"Watch on animepahe": "https://animepahe.ru/a/758"
 		},
@@ -550,6 +550,23 @@
 		},
 		"source": {
 			"nakulas' personal blog, membor of Beast's Lair": "https://nakulas.blogspot.com/"
+		}
+	},
+	"32": {
+		"cover": "kara-no-kyoukai-movie-4.png",
+		"credit": "",
+		"description": "Movie adapting Volume 2, Part 4 of the <a href='/0#0'>Kara no Kyoukai</a> book.<br />See also the prequel, <a href='/29#29'>Kara no Kyoukai Movie 3: Lingering Pain</a>, and the sequel, <a href='/36#36'>Kara no Kyoukai Movie 5: Paradox Spiral</a>.",
+		"download": {
+			"Watch on animepahe": "https://animepahe.ru/a/759"
+		},
+		"external": {
+			"anilist": "https://anilist.co/anime/4280",
+			"myanimelist": "https://myanimelist.net/anime/4280",
+			"wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai_-_The_Garden_of_sinners_Movie_4:_The_Hollow_Shrine"
+		},
+		"official": {},
+		"source": {
+			"animepahe": "https://animepahe.ru"
 		}
 	},
 	"35": {
