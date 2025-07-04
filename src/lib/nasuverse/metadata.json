@@ -608,6 +608,21 @@
     },
     "official": {}
   },
+  "34": {
+    "cover": "fate-tiger-colosseum-upper-game.jpg",
+    "credit": "Erista Group for download.",
+    "description": "Fate/tiger colosseum UPPER is the sequel to the <a href='/26#26'>Fate/tiger colosseum</a> game. It was released for the PSP, and is a 3D fighting game based on <a href='/9#9'>Fate/stay night</a>, <a href='/17#17'>Fate/hollow ataraxia</a>, <a href='/22#22'>Fate/Zero</a> among others.",
+    "download": {
+      "PSP ROM (Japan)": "https://myrient.erista.me/files/Redump/Sony%20-%20PlayStation%20Portable/Fate-Tiger%20Colosseum%20Upper%20%28Japan%29.zip"
+    },
+    "external": {
+      "wiki": "https://typemoon.fandom.com/wiki/Fate/tiger_colosseum_UPPER"
+    },
+    "source": {
+      "Myrient for ROM download": "https://myrient.erista.me/"
+    },
+    "official": {}
+  },
 	"35": {
 		"official": {
 			"Kodansha": "https://bookclub.kodansha.co.jp/product?item=0000025592"
