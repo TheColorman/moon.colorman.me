@@ -1275,8 +1275,16 @@
 		"id": 139,
 		"title": "Fate/strange Fake",
 		"released": "2024-12",
-		"ended": "",
+		"ended": "Ongoing",
 		"medium": "Anime",
+		"type": "main"
+	},
+	{
+		"id": 150,
+		"title": "Fate/hollow ataraxia REMASTERED",
+		"released": "TBA (2025)",
+		"ended": "",
+		"medium": "Visual Novel",
 		"type": "main"
 	},
 	{
@@ -1309,14 +1317,6 @@
 		"released": "TBA",
 		"ended": "",
 		"medium": "Anime",
-		"type": "main"
-	},
-	{
-		"id": 150,
-		"title": "Fate/hollow ataraxia REMASTERED",
-		"released": "TBA",
-		"ended": "",
-		"medium": "Visual Novel",
 		"type": "main"
 	}
 ]
