@@ -591,6 +591,23 @@
 			"animepahe": "https://animepahe.ru"
 		}
 	},
+  "33": {
+    "cover": "fate-unlimited-codes-game.jpg",
+    "credit": "lain32 on Nyaa",
+    "description": "Fate/unlimited codes is a 3D fighting game based on the <a href='/9#9'>Fate/stay night</a> visual novel. It was initially released for the PS2, then enhanced for the PSP, and finally removed from digital stores in 2012.",
+    "download": {
+      "PSP ROM (Japan)": "https://myrient.erista.me/files/Redump/Sony%20-%20PlayStation%20Portable/Fate-Unlimited%20Codes%20Portable%20%28Japan%29.zip",
+      "PSP ROM (English, undub)": "https://nyaa.si/view/1101081"
+    },
+    "external": {
+      "wiki": "https://typemoon.fandom.com/wiki/Fate/unlimited_codes"
+    },
+    "source": {
+      "Myrient for ROM download": "https://myrient.erista.me/",
+      "lain32 on Nyaa": "https://nyaa.si/user/lain32"
+    },
+    "official": {}
+  },
 	"35": {
 		"official": {
 			"Kodansha": "https://bookclub.kodansha.co.jp/product?item=0000025592"
