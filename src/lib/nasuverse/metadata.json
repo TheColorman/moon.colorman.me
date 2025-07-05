@@ -643,7 +643,7 @@
 	"36": {
 		"cover": "kara-no-kyoukai-movie-5.jpg",
 		"credit": "",
-		"description": "Movie adapting Volume 2, Part 5 of the <a href='/0#0'>Kara no Kyoukai</a> book.<br />See also the prequel, <a href='/32#32'>Kara no Kyoukai Movie 4: A Hallow</a>, and the sequel, <a href='#37'>Kara no Kyoukai Movie 6: Records in Oblivion</a>.",
+		"description": "Movie adapting Volume 2, Part 5 of the <a href='/0#0'>Kara no Kyoukai</a> book.<br />See also the prequel, <a href='/32#32'>Kara no Kyoukai Movie 4: A Hallow</a>, and the sequel, <a href='/37#37'>Kara no Kyoukai Movie 6: Records in Oblivion</a>.",
 		"download": {
 			"Watch on animepahe": "https://animepahe.ru/a/760"
 		},
@@ -651,6 +651,23 @@
 			"anilist": "https://anilist.co/anime/4282",
 			"myanimelist": "https://myanimelist.net/anime/4282",
 			"wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai_-_The_Garden_of_sinners_Movie_5:_Paradox_Spiral"
+		},
+		"official": {},
+		"source": {
+			"animepahe": "https://animepahe.ru"
+		}
+	},
+	"37": {
+		"cover": "kara-no-kyoukai-movie-6.png",
+		"credit": "",
+		"description": "Movie adapting Volume 3, Part 6 of the <a href='/0#0'>Kara no Kyoukai</a> book.<br />See also the prequel, <a href='/36#36'>Kara no Kyoukai Movie 5: Paradox Spiral</a>.",
+		"download": {
+			"Watch on animepahe": "https://animepahe.ru/a/761"
+		},
+		"external": {
+			"anilist": "https://anilist.co/anime/5204",
+			"myanimelist": "https://myanimelist.net/anime/5204",
+			"wiki": "https://typemoon.fandom.com/wiki/Kara_no_Kyoukai_-_The_Garden_of_sinners_Movie_6:_Oblivion_Recorder"
 		},
 		"official": {},
 		"source": {
