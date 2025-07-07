@@ -81,8 +81,8 @@ importers:
         specifier: ^10.3.0
         version: 10.3.0
       svelte-persisted-store:
-        specifier: ^0.11.0
-        version: 0.11.0(svelte@4.2.20)
+        specifier: ^0.12.0
+        version: 0.12.0(svelte@4.2.20)
       svelte-preprocess:
         specifier: ^5.1.4
         version: 5.1.4(postcss-load-config@4.0.2(postcss@8.4.47)(ts-node@10.9.2(@types/node@20.16.5)(typescript@5.8.3)))(postcss@8.4.47)(sass@1.63.4)(svelte@4.2.20)(typescript@5.8.3)
@@ -1696,11 +1696,11 @@ packages:
   svelte-multiselect@10.3.0:
     resolution: {integrity: sha512-Pyvlcn4TK3dB2WWo6hDEeNH+x2O/DP82UuUf61PQFX8KMB3cm1Cam+zTKrcrOoRRVI2SwH/8dPF8hSTfJFaMmA==}
 
-  svelte-persisted-store@0.11.0:
-    resolution: {integrity: sha512-9RgJ5DrawGyyfK22A80cfu8Jose3CV8YjEZKz9Tn94rQ0tWyEmYr+XI+wrVF6wjRbW99JMDSVcFRiM3XzVJj/w==}
+  svelte-persisted-store@0.12.0:
+    resolution: {integrity: sha512-BdBQr2SGSJ+rDWH8/aEV5GthBJDapVP0GP3fuUCA7TjYG5ctcB+O9Mj9ZC0+Jo1oJMfZUd1y9H68NFRR5MyIJA==}
     engines: {node: '>=0.14'}
     peerDependencies:
-      svelte: ^3.48.0 || ^4.0.0 || ^5.0.0-next.0
+      svelte: ^3.48.0 || ^4 || ^5
 
   svelte-preprocess@5.1.4:
     resolution: {integrity: sha512-IvnbQ6D6Ao3Gg6ftiM5tdbR6aAETwjhHV+UKGf5bHGYR69RQvF1ho0JKPcbUON4vy4R7zom13jPjgdOWCQ5hDA==}
@@ -3439,7 +3439,7 @@ snapshots:
     dependencies:
       svelte: 4.2.12
 
-  svelte-persisted-store@0.11.0(svelte@4.2.20):
+  svelte-persisted-store@0.12.0(svelte@4.2.20):
     dependencies:
       svelte: 4.2.20
 
