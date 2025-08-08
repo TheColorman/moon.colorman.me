@@ -809,7 +809,7 @@
 			"TYPE-MOON": "https://typemoon.com/products/f-sn/"
 		},
 		"download": {
-			"Steam": "https://store.steampowered.com/app/2396980/Fatestay_night_REMASTERED/"
+			"Buy on Steam": "https://store.steampowered.com/app/2396980/Fatestay_night_REMASTERED/"
 		},
 		"source": {},
 		"external": {
@@ -822,9 +822,12 @@
 	},
 	"150": {
 		"official": {
+      "Steam": "https://store.steampowered.com/app/2396990/Fate/hollow_ataraxia_REMASTERED/",
 			"TYPE-MOON (YouTube)": "https://www.youtube.com/watch?v=UCiyflcEDv8"
 		},
-		"download": {},
+		"download": {
+      "Buy on Steam": "https://store.steampowered.com/app/2396990/Fate/hollow_ataraxia_REMASTERED/"
+    },
 		"source": {},
 		"external": {
 			"wiki": "https://typemoon.fandom.com/wiki/Fate/hollow_ataraxia",
