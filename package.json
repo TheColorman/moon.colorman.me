@@ -27,7 +27,7 @@
 		"clsx": "^2.1.1",
 		"eslint": "^9.31.0",
 		"eslint-config-prettier": "^10.1.5",
-		"eslint-plugin-svelte": "^2.44.0",
+		"eslint-plugin-svelte": "^3.11.0",
 		"gh-pages": "^6.3.0",
 		"globals": "^16.3.0",
 		"postcss": "^8.5.6",
