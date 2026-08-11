@@ -727,6 +727,23 @@
 			"MangaDex": "https://mangadex.org"
 		}
 	},
+	"42": {
+		"official": {},
+		"download": {
+			"Watch on YouTube": "https://www.youtube.com/watch?v=o1PVn3l4ohY",
+			"MP3 file": "https://www.mediafire.com/file/h9d69eso2xhzabo/Melty_Blood_Drama_CD_-_Rojiura_Pyramid_Night_%255Bo1PVn3l4ohY%255D.mkv/file"
+		},
+		"source": {
+			"YouTube": "https://www.youtube.com/watch?v=o1PVn3l4ohY"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Melty_Blood_Drama_CD:_Back_Alley_Pyramid_Night",
+			"vgmdb": "https://vgmdb.net/album/15390"
+		},
+		"cover": "melty-blood-back-alley-drama-cd.jpg",
+		"description": "Drama CD included with TYPE-MOON Ace Volume 3 and based on Melty Blood. To my knowledge it has not yet been translated.",
+		"credit": "Video uploaded by Gaji Sunwoo."
+	},
 	"44": {
 		"official": {
 			"Steam": "https://store.steampowered.com/app/411370/"
