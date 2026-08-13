@@ -1202,7 +1202,7 @@
 	{
 		"id": 134,
 		"title": "Tsukihime -A piece of blue glass moon-",
-		"released": "2021",
+		"released": "2021-08",
 		"ended": "",
 		"medium": "Visual Novel",
 		"notes": ["format"],
@@ -1211,7 +1211,7 @@
 	{
 		"id": 135,
 		"title": "Melty Blood: Type Lumina",
-		"released": "2021",
+		"released": "2021-09",
 		"ended": "",
 		"medium": "Video Game",
 		"type": "main"
@@ -1291,6 +1291,22 @@
 		"type": "main"
 	},
 	{
+		"id": 146,
+		"title": "Witch on the Holy Night",
+		"released": "2026-11",
+		"ended": "",
+		"medium": "Anime Film",
+		"type": "main"
+	},
+	{
+		"id": 148,
+		"title": "Fate/kaleid liner Prisma☆Illya: FINALE",
+		"released": "2027",
+		"ended": "",
+		"medium": "Anime",
+		"type": "main"
+	},
+	{
 		"id": 136,
 		"title": "Fate/EXTRA Record",
 		"released": "TBA",
@@ -1304,22 +1320,6 @@
 		"released": "TBA",
 		"ended": "",
 		"medium": "Visual Novel",
-		"type": "main"
-	},
-	{
-		"id": 146,
-		"title": "Mahoutsukai no Yoru",
-		"released": "TBA",
-		"ended": "",
-		"medium": "Anime Film",
-		"type": "main"
-	},
-	{
-		"id": 148,
-		"title": "Fate/kaleid liner PRISMA☆ILLYA (New Anime)",
-		"released": "TBA",
-		"ended": "",
-		"medium": "Anime",
 		"type": "main"
 	}
 ]
