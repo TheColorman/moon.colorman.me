@@ -795,6 +795,23 @@
 		"description": "Drama CD included with Comp Ace October 2009 and based on Melty Blood. To my knowledge it has not yet been translated.",
 		"credit": "Video uploaded by Gaji Sunwoo."
 	},
+	"46": {
+		"official": {},
+		"download": {
+			"Watch on YouTube": "https://www.youtube.com/playlist?list=PLN-AMKX_aNtwdnVAcp-LSWP3-X00enLOP",
+			"MP3 files": "https://www.mediafire.com/folder/0525hn2rxad5f/Fate_Zero_Special_Drama_CDs"
+		},
+		"source": {
+			"YouTube": "https://www.youtube.com/playlist?list=PLN-AMKX_aNtwdnVAcp-LSWP3-X00enLOP"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/Zero_Special_Drama_CD_-_Unhesitating_People",
+			"vgmdb": "https://vgmdb.net/db/collection.php?do=view&userid=46292"
+		},
+		"cover": "fate-zero-special-drama-cd-1.jpg",
+		"description": "4 Drama CDs included with Comp Ace and Comptiq throughout 2009 and 2010 and based on Faze/Zero.<br/><br/>Note that the TYPE-MOON wiki only has individual pages for each Drama CD. The Wiki icon links to the first one, released February 2009.",
+		"credit": "Videos uploaded by Gaji Sunwoo."
+	},
 	"55": {
 		"official": {},
 		"download": {
