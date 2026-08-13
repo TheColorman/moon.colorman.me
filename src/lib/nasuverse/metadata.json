@@ -778,6 +778,23 @@
 		"description": "Fourth game in the Melty Blood series. It's included in the download for <a href='/6#6'>Melty Blood above</a>.",
 		"credit": ""
 	},
+	"45": {
+		"official": {},
+		"download": {
+			"Watch on YouTube": "https://www.youtube.com/watch?v=RUmLTmH0Rr0",
+			"MP3 file": "https://www.mediafire.com/file/s8qd4uqlsq4ylmh/Melty_Blood_Drama_CD_-_Ladies_in_the_water_%255BRUmLTmH0Rr0%255D.mp3/file"
+		},
+		"source": {
+			"YouTube": "https://www.youtube.com/watch?v=RUmLTmH0Rr0"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Melty_Blood_Drama_CD:_Ladies_in_the_water",
+			"vgmdb": "https://vgmdb.net/album/15317"
+		},
+		"cover": "melty-blood-ladies-in-the-water-drama-cd.jpg",
+		"description": "Drama CD included with Comp Ace October 2009 and based on Melty Blood. To my knowledge it has not yet been translated.",
+		"credit": "Video uploaded by Gaji Sunwoo."
+	},
 	"55": {
 		"official": {},
 		"download": {
