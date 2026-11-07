@@ -1,4 +1,4 @@
-export const format = `<span class="inline-block" style="color: #3b82f6" title="Format should be updated">
+export const format = `<span class="inline-block" style="color: #3b82f6" title="Bad format">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 -960 960 960"

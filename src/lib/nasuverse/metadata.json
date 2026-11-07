@@ -344,7 +344,7 @@
 	"19": {
 		"cover": "fate-stay-night-anime.jpg",
 		"credit": "",
-		"description": "The original anime adaptation of the <a href='/9#9'>Fate/stay night visual novel</a>. This is generally considered a bad place to start the series, as it tries to adapt all 3 of the visual novels routes at the same time, and ends up executing none of them well, butchering the story and characters in the process. If you want to start the series but don't want to read the VN, then either start at <a href='#91'>Fate/stay night: Unlimited Blade Works</a> (anime, not movie) or <a href='#62'>Fate/Zero</a>.",
+		"description": "The original anime adaptation of the <a href='/9#9'>Fate/stay night visual novel</a>. This is generally considered a bad place to start the series, as it tries to adapt all 3 of the visual novels routes at the same time, and ends up executing none of them well, butchering the story and characters in the process. If you want to start the series but don't want to read the VN, then either start at <a href='#91'>Fate/stay night: Unlimited Blade Works</a> (anime, not movie) or <a href='#62'>Fate/Zero</a>.\n\nLater re-edited into <a href='/48#48'>Fate/stay night TV reproduction</a>.",
 		"download": {
 			"Watch on AnimePahe": "https://animepahe.pw/anime/6d78369c-cd5b-ea22-ddf2-17d0673a012b"
 		},
@@ -827,6 +827,54 @@
 		"official": {},
 		"source": {
 			"animepahe": "https://animepahe.pw"
+		}
+	},
+	"48": {
+		"cover": "fate-stay-night-tv-repro.jpg",
+		"credit": "Doki Fansubs",
+		"description": "Essentially just a shortened/summarized edit of Studio Deen's original <a href='/19#19'>Fate/stay night anime adaptation</a>.",
+		"download": {
+			"Watch on animepahe": "https://animepahe.pw/anime/30e34e62-5cd7-10f1-28f1-aefc7fb94990"
+		},
+		"external": {
+			"myanimelist": "https://myanimelist.net/anime/7559",
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/stay_night_TV_reproduction"
+		},
+		"official": {
+			"Buy Blu-Ray on Amazon": "https://www.amazon.co.jp/-/en/Fate-stay-night-reproduction-Blu-ray/dp/B002X5E63C"
+		},
+		"source": {
+			"animepahe": "https://animepahe.pw"
+		}
+	},
+	"49": {
+		"cover": "fate-the-fact.webp",
+		"credit": "",
+		"description": "Booklet released as an english pre-order bonus for <a href='/50#50'>Fate/EXTRA</a>.",
+		"download": {
+			"PDF from Archive.org": "https://dn721904.ca.archive.org/0/items/fate-the-fact/Fate%20The%20Fact.pdf"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/the_Fact"
+		},
+		"official": {},
+		"source": {
+			"The Internet Archive": "https://archive.org"
+		}
+	},
+	"50": {
+		"cover": "fate-extra.jpg",
+		"credit": "Iwakura Productions",
+		"description": "JRPG set in an alternative Fate timeline, where Holy Grail Wars take place in an artificial virtual environment called the Moon Cell. Released for the PSP, with <a href='/49#49'>Fate/the Fact</a> as an english pre-order bonus. A remake called <a href='#136'>Fate/EXTRA Record</a> is slated for release on Steam in January 2027.\n\nRequires a PSP or an emulator like PPSSPP to play.",
+		"download": {
+			"Torrent on Nyaa": "https://nyaa.si/view/1753542"
+		},
+		"external": {
+			"wiki": "https://typemoon.fandom.com/wiki/Fate/EXTRA"
+		},
+		"official": {},
+		"source": {
+			"Nyaa": "https://nyaa.si"
 		}
 	},
 	"55": {

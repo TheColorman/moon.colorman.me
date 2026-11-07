@@ -38,7 +38,7 @@
 		<hr class="my-2 w-full border-slate-500 lg:w-2/3" />
 		<ul>
 			<li>
-				{@html format} - Format should be updated
+				{@html format} - Bad format (low quality, hard to read)
 			</li>
 			<li>
 				{@html translationNone} - Not translated

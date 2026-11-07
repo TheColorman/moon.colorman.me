@@ -438,7 +438,8 @@
 		"released": "2010-07",
 		"ended": "",
 		"medium": "Short Story",
-		"type": "main"
+		"type": "main",
+		"notes": ["format"]
 	},
 	{
 		"id": 50,
